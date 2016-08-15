@@ -1,0 +1,694 @@
+;Bang's RGB color names (678 colors)
+;http://www.procato.com/rgb+index/
+;Mon, 15 Aug 2016 05:24:32 +0200
+;
+;These data are FREE and distributed in the hope that
+;they will be useful, but WITHOUT ANY WARRANTY
+;
+;Permission is granted to copy, distribute
+;and/or modify the data under the terms of
+;the Creative Commons Attribution-ShareAlike 3.0.
+;
+;Copyright 2016 Per Bang
+;
+;
+;sys	r	g	b	name
+;----------------------------------------------------------------------
+Pinkish White #fff6f6
+Very Pale Pink #ffe2e2
+Pale Pink #ffc2c2
+Light Pink #ff9e9e
+Light Brilliant Red #ff6565
+Luminous Vivid Red #ff0000
+Pinkish Gray #e7dada
+Pale, Grayish Pink #e7b8b8
+Pink #e78b8b
+Brilliant Red #e75151
+Vivid Red #e70000
+Reddish Gray #a89c9c
+Grayish Red #a87d7d
+Moderate Red #a84a4a
+Strong Red #a80000
+Reddish Brownish Gray #595353
+Dark Grayish Reddish Brown #594242
+Reddish Brown #592727
+Deep Reddish Brown #590000
+Reddish Brownish Black #1d1a1a
+Very Reddish Brown #1d1111
+Very Deep Reddish Brown #1d0000
+Pale Scarlet #ffc9c2
+Very Light Scarlet #ffaa9e
+Light Brilliant Scarlet #ff7865
+Luminous Vivid Scarlet #ff2000
+Light Scarlet #e7968b
+Brilliant Scarlet #e76451
+Vivid Scarlet #e71d00
+Moderate Scarlet #a8554a
+Strong Scarlet #a81500
+Dark Scarlet #592d27
+Deep Scarlet #590b00
+Very Pale Vermilion #ffe9e2
+Pale Vermilion #ffd1c2
+Very Light Vermilion #ffb69e
+Light Brilliant Vermilion #ff8b65
+Luminous Vivid Vermilion #ff4000
+Pale, Light Grayish Vermilion #e7c4b8
+Light Vermilion #e7a28b
+Brilliant Vermilion #e77751
+Vivid Vermilion #e73a00
+Grayish Vermilion #a8887d
+Moderate Vermilion #a8614a
+Strong Vermilion #a82a00
+Dark Grayish Vermilion #594842
+Dark Vermilion #593427
+Deep Vermilion #591600
+Pale Tangelo #ffd9c2
+Very Light Tangelo #ffc29e
+Light Brilliant Tangelo #ff9f65
+Luminous Vivid Tangelo #ff6000
+Light Tangelo #e7ae8b
+Brilliant Tangelo #e78951
+Vivid Tangelo #e75700
+Moderate Tangelo #a86d4a
+Strong Tangelo #a83f00
+Dark Tangelo #593a27
+Deep Tangelo #592100
+Very Pale Orange #fff0e2
+Pale Orange #ffe0c2
+Very Light Orange #ffcf9e
+Light Brilliant Orange #ffb265
+Luminous Vivid Orange #ff8000
+Pale, Light Grayish Brown #e7d0b8
+Light Orange #e7b98b
+Brilliant Orange #e79c51
+Vivid Orange #e77400
+Grayish Brown #a8937d
+Moderate Orange #a8794a
+Strong Orange #a85400
+Dark Grayish Brown #594e42
+Brown #594027
+Deep Brown #592d00
+Very Brown #1d1711
+Very Deep Brown #1d0e00
+Pale Gamboge #ffe8c2
+Very Light Gamboge #ffdb9e
+Light Brilliant Gamboge #ffc565
+Luminous Vivid Gamboge #ff9f00
+Light Gamboge #e7c58b
+Brilliant Gamboge #e7af51
+Vivid Gamboge #e79100
+Moderate Gamboge #a8854a
+Strong Gamboge #a86900
+Dark Gamboge #594627
+Deep Gamboge #593800
+Very Pale Amber #fff8e2
+Pale Amber #fff0c2
+Very Light Amber #ffe79e
+Light Brilliant Amber #ffd865
+Luminous Vivid Amber #ffbf00
+Pale, Light Grayish Amber #e7dcb8
+Light Amber #e7d08b
+Brilliant Amber #e7c251
+Vivid Amber #e7ae00
+Grayish Amber #a89e7d
+Moderate Amber #a8914a
+Strong Amber #a87e00
+Dark Grayish Amber #595442
+Dark Amber #594d27
+Deep Amber #594300
+Pale Gold #fff7c2
+Very Light Gold #fff39e
+Light Brilliant Gold #ffec65
+Luminous Vivid Gold #ffdf00
+Light Gold #e7dc8b
+Brilliant Gold #e7d551
+Vivid Gold #e7ca00
+Moderate Gold #a89c4a
+Strong Gold #a89300
+Dark Gold #595327
+Deep Gold #594e00
+Yellowish White #fffff6
+Very Pale Yellow #ffffe2
+Pale Yellow #ffffc2
+Very Light Yellow #ffff9e
+Light Brilliant Yellow #ffff65
+Luminous Vivid Yellow #ffff00
+Light Yellowish Gray #e7e7da
+Pale, Light Grayish Olive #e7e7b8
+Light Yellow #e7e78b
+Brilliant Yellow #e7e751
+Vivid Yellow #e7e700
+Yellowish Gray #a8a89c
+Grayish Olive #a8a87d
+Moderate Olive #a8a84a
+Strong Olive #a8a800
+Dark Olivish Gray #595953
+Dark Grayish Olive #595942
+Dark Olive #595927
+Deep Olive #595900
+Yellowish Black #1d1d1a
+Very Dark Olive #1d1d11
+Very Deep Olive #1d1d00
+Pale Apple Green #f7ffc2
+Very Light Apple Green #f3ff9e
+Light Brilliant Apple Green #ecff65
+Luminous Vivid Apple Green #dfff00
+Light Apple Green #dce78b
+Brilliant Apple Green #d5e751
+Vivid Apple Green #cae700
+Moderate Apple Green #9ca84a
+Strong Apple Green #93a800
+Dark Apple Green #535927
+Deep Apple Green #4e5900
+Very Pale Lime Green #f8ffe2
+Pale Lime Green #f0ffc2
+Very Light Lime Green #e7ff9e
+Light Brilliant Lime Green #d8ff65
+Luminous Vivid Lime Green #bfff00
+Pale, Light Grayish Lime Green #dce7b8
+Light Lime Green #d0e78b
+Brilliant Lime Green #c2e751
+Vivid Lime Green #aee700
+Grayish Lime Green #9ea87d
+Moderate Lime Green #91a84a
+Strong Lime Green #7ea800
+Dark Grayish Lime Green #545942
+Dark Lime Green #4d5927
+Deep Lime Green #435900
+Pale Spring Bud #e8ffc2
+Very Light Spring Bud #dbff9e
+Light Brilliant Spring Bud #c5ff65
+Luminous Vivid Spring Bud #9fff00
+Light Spring Bud #c5e78b
+Brilliant Spring Bud #afe751
+Vivid Spring Bud #91e700
+Moderate Spring Bud #85a84a
+Strong Spring Bud #69a800
+Dark Spring Bud #465927
+Deep Spring Bud #385900
+Very Pale Chartreuse Green #f0ffe2
+Pale Chartreuse Green #e0ffc2
+Very Light Chartreuse Green #cfff9e
+Light Brilliant Chartreuse Green #b2ff65
+Luminous Vivid Chartreuse Green #80ff00
+Pale, Light Grayish Chartreuse Green #d0e7b8
+Light Chartreuse Green #b9e78b
+Brilliant Chartreuse Green #9ce751
+Vivid Chartreuse Green #74e700
+Grayish Chartreuse Green #93a87d
+Moderate Chartreuse Green #79a84a
+Strong Chartreuse Green #54a800
+Dark Grayish Chartreuse Green #4e5942
+Dark Chartreuse Green #405927
+Deep Chartreuse Green #2d5900
+Very Dark Chartreuse Green #171d11
+Very Deep Chartreuse Green #0e1d00
+Pale Pistachio #d9ffc2
+Very Light Pistachio #c2ff9e
+Light Brilliant Pistachio #9fff65
+Luminous Vivid Pistachio #60ff00
+Light Pistachio #aee78b
+Brilliant Pistachio #89e751
+Vivid Pistachio #57e700
+Moderate Pistachio #6da84a
+Strong Pistachio #3fa800
+Dark Pistachio #3a5927
+Deep Pistachio #215900
+Very Pale Harlequin #e9ffe2
+Pale Harlequin #d1ffc2
+Very Light Harlequin #b6ff9e
+Light Brilliant Harlequin #8bff65
+Luminous Vivid Harlequin #40ff00
+Pale, Light Grayish Harlequin #c4e7b8
+Light Harlequin #a2e78b
+Brilliant Harlequin #77e751
+Vivid Harlequin #3ae700
+Grayish Harlequin #88a87d
+Moderate Harlequin #61a84a
+Strong Harlequin #2aa800
+Dark Grayish Harlequin #485942
+Dark Harlequin #345927
+Deep Harlequin #165900
+Pale Sap Green #c9ffc2
+Very Light Sap Green #aaff9e
+Light Brilliant Sap Green #78ff65
+Luminous Vivid Sap Green #20ff00
+Light Sap Green #96e78b
+Brilliant Sap Green #64e751
+Vivid Sap Green #1de700
+Moderate Sap Green #55a84a
+Strong Sap Green #15a800
+Dark Sap Green #2d5927
+Deep Sap Green #0b5900
+Greenish White #f6fff6
+Very Pale Green #e2ffe2
+Pale Green #c2ffc2
+Very Light Green #9eff9e
+Light Brilliant Green #65ff65
+Luminous Vivid Green #00ff00
+Light Greenish Gray #dae7da
+Pale, Light Grayish Green #b8e7b8
+Light Green #8be78b
+Brilliant Green #51e751
+Vivid Green #00e700
+Greenish Gray #9ca89c
+Grayish Green #7da87d
+Moderate Green #4aa84a
+Strong Green #00a800
+Dark Greenish Gray #535953
+Dark Grayish Green #425942
+Dark Green #275927
+Deep Green #005900
+Greenish Black #1a1d1a
+Very Dark Green #111d11
+Very Deep Green #001d00
+Pale Emerald Green #c2ffc9
+Very Light Emerald Green #9effaa
+Light Brilliant Emerald Green #65ff78
+Luminous Vivid Emerald Green #00ff20
+Light Emerald Green #8be796
+Brilliant Emerald Green #51e764
+Vivid Emerald Green #00e71d
+Moderate Emerald Green #4aa855
+Strong Emerald Green #00a815
+Dark Emerald Green #27592d
+Deep Emerald Green #00590b
+Very Pale Malachite Green #e2ffe9
+Pale Malachite Green #c2ffd1
+Very Light Malachite Green #9effb6
+Light Brilliant Malachite Green #65ff8b
+Luminous Vivid Malachite Green #00ff40
+Pale, Light Grayish Malachite Green #b8e7c4
+Light Malachite Green #8be7a2
+Brilliant Malachite Green #51e777
+Vivid Malachite Green #00e73a
+Grayish Malachite Green #7da888
+Moderate Malachite Green #4aa861
+Strong Malachite Green #00a82a
+Dark Grayish Malachite Green #425948
+Dark Malachite Green #275934
+Deep Malachite Green #005916
+Pale Sea Green #c2ffd9
+Very Light Sea Green #9effc2
+Light Brilliant Sea Green #65ff9f
+Luminous Vivid Sea Green #00ff60
+Light Sea Green #8be7ae
+Brilliant Sea Green #51e789
+Vivid Sea Green #00e757
+Moderate Sea Green #4aa86d
+Strong Sea Green #00a83f
+Dark Sea Green #27593a
+Deep Sea Green #005921
+Very Pale Spring Green #e2fff0
+Pale Spring Green #c2ffe0
+Very Light Spring Green #9effcf
+Light Brilliant Spring Green #65ffb2
+Luminous Vivid Spring Green #00ff80
+Pale, Light Grayish Spring Green #b8e7d0
+Light Spring Green #8be7b9
+Brilliant Spring Green #51e79c
+Vivid Spring Green #00e774
+Grayish Spring Green #7da893
+Moderate Spring Green #4aa879
+Strong Spring Green #00a854
+Dark Grayish Spring Green #42594e
+Dark Spring Green #275940
+Deep Spring Green #00592d
+Very Dark Spring Green #111d17
+Very Deep Spring Green #001d0e
+Pale Aquamarine #c2ffe8
+Very Light Aquamarine #9effdb
+Light Brilliant Aquamarine #65ffc5
+Luminous Vivid Aquamarine #00ff9f
+Light Aquamarine #8be7c5
+Brilliant Aquamarine #51e7af
+Vivid Aquamarine #00e791
+Moderate Aquamarine #4aa885
+Strong Aquamarine #00a869
+Dark Aquamarine #275946
+Deep Aquamarine #005938
+Very Pale Turquoise #e2fff8
+Pale Turquoise #c2fff0
+Very Light Turquoise #9effe7
+Light Brilliant Turquoise #65ffd8
+Luminous Vivid Turquoise #00ffbf
+Pale, Light Grayish Turquoise #b8e7dc
+Light Turquoise #8be7d0
+Brilliant Turquoise #51e7c2
+Vivid Turquoise #00e7ae
+Grayish Turquoise #7da89e
+Moderate Turquoise #4aa891
+Strong Turquoise #00a87e
+Dark Grayish Turquoise #425954
+Dark Turquoise #27594d
+Deep Turquoise #005943
+Pale Opal #c2fff7
+Very Light Opal #9efff3
+Light Brilliant Opal #65ffec
+Luminous Vivid Opal #00ffdf
+Light Opal #8be7dc
+Brilliant Opal #51e7d5
+Vivid Opal #00e7ca
+Moderate Opal #4aa89c
+Strong Opal #00a893
+Dark Opal #275953
+Deep Opal #00594e
+Cyanish White #f6ffff
+Very Pale Cyan #e2ffff
+Pale Cyan #c2ffff
+Very Light Cyan #9effff
+Light Brilliant Cyan #65ffff
+Luminous Vivid Cyan #00ffff
+Light Cyanish Gray #dae7e7
+Pale, Light Grayish Cyan #b8e7e7
+Light Cyan #8be7e7
+Brilliant Cyan #51e7e7
+Vivid Cyan #00e7e7
+Cyanish Gray #9ca8a8
+Grayish Cyan #7da8a8
+Moderate Cyan #4aa8a8
+Strong Cyan #00a8a8
+Dark Cyanish Gray #535959
+Dark Grayish Cyan #425959
+Dark Cyan #275959
+Deep Cyan #005959
+Cyanish Black #1a1d1d
+Very Dark Cyan #111d1d
+Very Deep Cyan #001d1d
+Pale Arctic Blue #c2f7ff
+Very Light Arctic Blue #9ef3ff
+Light Brilliant Arctic Blue #65ecff
+Luminous Vivid Arctic Blue #00dfff
+Light Arctic Blue #8bdce7
+Brilliant Arctic Blue #51d5e7
+Vivid Arctic Blue #00cae7
+Moderate Arctic Blue #4a9ca8
+Strong Arctic Blue #0093a8
+Dark Arctic Blue #275359
+Deep Arctic Blue #004e59
+Very Pale Cerulean #e2f8ff
+Pale Cerulean #c2f0ff
+Very Light Cerulean #9ee7ff
+Light Brilliant Cerulean #65d8ff
+Luminous Vivid Cerulean #00bfff
+Pale, Light Grayish Cerulean #b8dce7
+Light Cerulean #8bd0e7
+Brilliant Cerulean #51c2e7
+Vivid Cerulean #00aee7
+Grayish Cerulean #7d9ea8
+Moderate Cerulean #4a91a8
+Strong Cerulean #007ea8
+Dark Grayish Cerulean #425459
+Dark Cerulean #274d59
+Deep Cerulean #004359
+Pale Cornflower Blue #c2e8ff
+Very Light Cornflower Blue #9edbff
+Light Brilliant Cornflower Blue #65c5ff
+Luminous Vivid Cornflower Blue #009fff
+Light Cornflower Blue #8bc5e7
+Brilliant Cornflower Blue #51afe7
+Vivid Cornflower Blue #0091e7
+Moderate Cornflower Blue #4a85a8
+Strong Cornflower Blue #0069a8
+Dark Cornflower Blue #274659
+Deep Cornflower Blue #003859
+Very Pale Azure #e2f0ff
+Pale Azure #c2e0ff
+Very Light Azure #9ecfff
+Light Brilliant Azure #65b2ff
+Luminous Vivid Azure #0080ff
+Pale, Light Grayish Azure #b8d0e7
+Light Azure #8bb9e7
+Brilliant Azure #519ce7
+Vivid Azure #0074e7
+Grayish Azure #7d93a8
+Moderate Azure #4a79a8
+Strong Azure #0054a8
+Dark Grayish Azure #424e59
+Dark Azure #274059
+Deep Azure #002d59
+Very Dark Azure #11171d
+Very Deep Azure #000e1d
+Pale Cobalt Blue #c2d9ff
+Very Light Cobalt Blue #9ec2ff
+Light Brilliant Cobalt Blue #659fff
+Luminous Vivid Cobalt Blue #0060ff
+Light Cobalt Blue #8baee7
+Brilliant Cobalt Blue #5189e7
+Vivid Cobalt Blue #0057e7
+Moderate Cobalt Blue #4a6da8
+Strong Cobalt Blue #003fa8
+Dark Cobalt Blue #273a59
+Deep Cobalt Blue #002159
+Very Pale Sapphire Blue #e2e9ff
+Pale Sapphire Blue #c2d1ff
+Very Light Sapphire Blue #9eb6ff
+Light Brilliant Sapphire Blue #658bff
+Luminous Vivid Sapphire Blue #0040ff
+Pale, Light Grayish Sapphire Blue #b8c4e7
+Light Sapphire Blue #8ba2e7
+Brilliant Sapphire Blue #5177e7
+Vivid Sapphire Blue #003ae7
+Grayish Sapphire Blue #7d88a8
+Moderate Sapphire Blue #4a61a8
+Strong Sapphire Blue #002aa8
+Dark Grayish Sapphire Blue #424859
+Dark Sapphire Blue #273459
+Deep Sapphire Blue #001659
+Pale Phthalo Blue #c2c9ff
+Very Light Phthalo Blue #9eaaff
+Light Brilliant Phthalo Blue #6578ff
+Luminous Vivid Phthalo Blue #0020ff
+Light Phthalo Blue #8b96e7
+Brilliant Phthalo Blue #5164e7
+Vivid Phthalo Blue #001de7
+Moderate Phthalo Blue #4a55a8
+Strong Phthalo Blue #0015a8
+Dark Phthalo Blue #272d59
+Deep Phthalo Blue #000b59
+Bluish White #f6f6ff
+Very Pale Blue #e2e2ff
+Pale Blue #c2c2ff
+Very Light Blue #9e9eff
+Light Brilliant Blue #6565ff
+Luminous Vivid Blue #0000ff
+Light Bluish Gray #dadae7
+Pale, Light Grayish Blue #b8b8e7
+Light Blue #8b8be7
+Brilliant Blue #5151e7
+Vivid Blue #0000e7
+Bluish Gray #9c9ca8
+Grayish Blue #7d7da8
+Moderate Blue #4a4aa8
+Strong Blue #0000a8
+Dark Bluish Gray #535359
+Dark Grayish Blue #424259
+Dark Blue #272759
+Deep Blue #000059
+Bluish Black #1a1a1d
+Very Dark Blue #11111d
+Very Deep Blue #00001d
+Pale Persian Blue #c9c2ff
+Very Light Persian Blue #aa9eff
+Light Brilliant Persian Blue #7865ff
+Luminous Vivid Persian Blue #2000ff
+Light Persian Blue #968be7
+Brilliant Persian Blue #6451e7
+Vivid Persian Blue #1d00e7
+Moderate Persian Blue #554aa8
+Strong Persian Blue #1500a8
+Dark Persian Blue #2d2759
+Deep Persian Blue #0b0059
+Very Pale Indigo #e9e2ff
+Pale Indigo #d1c2ff
+Very Light Indigo #b69eff
+Light Brilliant Indigo #8b65ff
+Luminous Vivid Indigo #4000ff
+Pale, Light Grayish Indigo #c4b8e7
+Light Indigo #a28be7
+Brilliant Indigo #7751e7
+Vivid Indigo #3a00e7
+Grayish Indigo #887da8
+Moderate Indigo #614aa8
+Strong Indigo #2a00a8
+Dark Grayish Indigo #484259
+Dark Indigo #342759
+Deep Indigo #160059
+Pale Blue Violet #d9c2ff
+Very Light Blue Violet #c29eff
+Light Brilliant Blue Violet #9f65ff
+Luminous Vivid Blue Violet #6000ff
+Light Blue Violet #ae8be7
+Brilliant Blue Violet #8951e7
+Vivid Blue Violet #5700e7
+Moderate Blue Violet #6d4aa8
+Strong Blue Violet #3f00a8
+Dark Blue Violet #3a2759
+Deep Blue Violet #210059
+Very Pale Violet #f0e2ff
+Pale Violet #e0c2ff
+Very Light Violet #cf9eff
+Light Brilliant Violet #b265ff
+Luminous Vivid Violet #8000ff
+Pale, Light Grayish Violet #d0b8e7
+Light Violet #b98be7
+Brilliant Violet #9c51e7
+Vivid Violet #7400e7
+Grayish Violet #937da8
+Moderate Violet #794aa8
+Strong Violet #5400a8
+Dark Grayish Violet #4e4259
+Dark Violet #402759
+Deep Violet #2d0059
+Very Dark Violet #17111d
+Very Deep Violet #0e001d
+Pale Purple #e8c2ff
+Very Light Purple #db9eff
+Light Brilliant Purple #c565ff
+Luminous Vivid Purple #9f00ff
+Light Purple #c58be7
+Brilliant Purple #af51e7
+Vivid Purple #9100e7
+Moderate Purple #854aa8
+Strong Purple #6900a8
+Dark Purple #462759
+Deep Purple #380059
+Very Pale Mulberry #f8e2ff
+Pale Mulberry #f0c2ff
+Very Light Mulberry #e79eff
+Light Brilliant Mulberry #d865ff
+Luminous Vivid Mulberry #bf00ff
+Pale, Light Grayish Mulberry #dcb8e7
+Light Mulberry #d08be7
+Brilliant Mulberry #c251e7
+Vivid Mulberry #ae00e7
+Grayish Mulberry #9e7da8
+Moderate Mulberry #914aa8
+Strong Mulberry #7e00a8
+Dark Grayish Mulberry #544259
+Dark Mulberry #4d2759
+Deep Mulberry #430059
+Pale Heliotrope #f7c2ff
+Very Light Heliotrope #f39eff
+Light Brilliant Heliotrope #ec65ff
+Luminous Vivid Heliotrope #df00ff
+Light Heliotrope #dc8be7
+Brilliant Heliotrope #d551e7
+Vivid Heliotrope #ca00e7
+Moderate Heliotrope #9c4aa8
+Strong Heliotrope #9300a8
+Dark Heliotrope #532759
+Deep Heliotrope #4e0059
+Magentaish White #fff6ff
+Very Pale Magenta #ffe2ff
+Pale Magenta #ffc2ff
+Very Light Magenta #ff9eff
+Light Brilliant Magenta #ff65ff
+Luminous Vivid Magenta #ff00ff
+Light Magentaish Gray #e7dae7
+Pale, Light Grayish Magenta #e7b8e7
+Light Magenta #e78be7
+Brilliant Magenta #e751e7
+Vivid Magenta #e700e7
+Magentaish Gray #a89ca8
+Grayish Magenta #a87da8
+Moderate Magenta #a84aa8
+Strong Magenta #a800a8
+Dark Magentaish Gray #595359
+Dark Grayish Magenta #594259
+Dark Magenta #592759
+Deep Magenta #590059
+Magentaish Black #1d1a1d
+Very Dark Magenta #1d111d
+Very Deep Magenta #1d001d
+Pale Orchid #ffc2f7
+Very Light Orchid #ff9ef3
+Light Brilliant Orchid #ff65ec
+Luminous Vivid Orchid #ff00df
+Light Orchid #e78bdc
+Brilliant Orchid #e751d5
+Vivid Orchid #e700ca
+Moderate Orchid #a84a9c
+Strong Orchid #a80093
+Dark Orchid #592753
+Deep Orchid #59004e
+Very Pale Fuchsia #ffe2f8
+Pale Fuchsia #ffc2f0
+Very Light Fuchsia #ff9ee7
+Light Brilliant Fuchsia #ff65d8
+Luminous Vivid Fuchsia #ff00bf
+Pale, Light Grayish Fuchsia #e7b8dc
+Light Fuchsia #e78bd0
+Brilliant Fuchsia #e751c2
+Vivid Fuchsia #e700ae
+Grayish Fuchsia #a87d9e
+Moderate Fuchsia #a84a91
+Strong Fuchsia #a8007e
+Dark Grayish Fuchsia #594254
+Dark Fuchsia #59274d
+Deep Fuchsia #590043
+Pale Cerise #ffc2e8
+Very Light Cerise #ff9edb
+Light Brilliant Cerise #ff65c5
+Luminous Vivid Cerise #ff009f
+Light Cerise #e78bc5
+Brilliant Cerise #e751af
+Vivid Cerise #e70091
+Moderate Cerise #a84a85
+Strong Cerise #a80069
+Dark Cerise #592746
+Deep Cerise #590038
+Very Pale Rose #ffe2f0
+Pale Rose #ffc2e0
+Very Light Rose #ff9ecf
+Light Brilliant Rose #ff65b2
+Luminous Vivid Rose #ff0080
+Pale, Light Grayish Rose #e7b8d0
+Light Rose #e78bb9
+Brilliant Rose #e7519c
+Vivid Rose #e70074
+Grayish Rose #a87d93
+Moderate Rose #a84a79
+Strong Rose #a80054
+Dark Grayish Rose #59424e
+Dark Rose #592740
+Deep Rose #59002d
+Very Dark Rose #1d1117
+Very Deep Rose #1d000e
+Pale Raspberry #ffc2d9
+Very Light Raspberry #ff9ec2
+Light Brilliant Raspberry #ff659f
+Luminous Vivid Raspberry #ff0060
+Light Raspberry #e78bae
+Brilliant Raspberry #e75189
+Vivid Raspberry #e70057
+Moderate Raspberry #a84a6d
+Strong Raspberry #a8003f
+Dark Raspberry #59273a
+Deep Raspberry #590021
+Very Pale Crimson #ffe2e9
+Pale Crimson #ffc2d1
+Very Light Crimson #ff9eb6
+Light Brilliant Crimson #ff658b
+Luminous Vivid Crimson #ff0040
+Pale, Light Grayish Crimson #e7b8c4
+Light Crimson #e78ba2
+Brilliant Crimson #e75177
+Vivid Crimson #e7003a
+Grayish Crimson #a87d88
+Moderate Crimson #a84a61
+Strong Crimson #a8002a
+Dark Grayish Crimson #594248
+Dark Crimson #592734
+Deep Crimson #590016
+Pale Amaranth #ffc2c9
+Very Light Amaranth #ff9eaa
+Light Brilliant Amaranth #ff6578
+Luminous Vivid Amaranth #ff0020
+Light Amaranth #e78b96
+Brilliant Amaranth #e75164
+Vivid Amaranth #e7001d
+Moderate Amaranth #a84a55
+Strong Amaranth #a80015
+Dark Amaranth #59272d
+Deep Amaranth #59000b

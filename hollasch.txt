@@ -1,0 +1,192 @@
+; A modification of http://steve.hollasch.net/cgindex/color/colors.txt
+Antique White #FAEBD7 white
+Azure #F0FFFF white
+Bisque #FFE4C4 white
+Blanched Almond #FFEBCD white
+Cornsilk #FFF8DC white
+Eggshell #FCE6C9 white
+Floral White #FFFAF0 white
+Gainsboro #DCDCDC white
+Ghost White #F8F8FF white
+Honeydew #F0FFF0 white
+Ivory #FFFFF0 white
+Lavender #E6E6FA white
+Lavender Blush #FFF0F5 white
+Lemon Chiffon #FFFACD white
+Linen #FAF0E6 white
+Mint Cream #F5FFFA white
+Misty Rose #FFE4E1 white
+Moccasin #FFE4B5 white
+Navajo White #FFDEAD white
+Old Lace #FDF5E6 white
+Papaya Whip #FFEFD5 white
+Peach Puff #FFDAB9 white
+Seashell #FFF5EE white
+Snow #FFFAFA white
+Thistle #D8BFD8 white
+Titanium White #FCFFF0 white
+Wheat #F5DEB3 white
+White #FFFFFF white
+White Smoke #F5F5F5 white
+Zinc White #FDF8FF white
+Cold Grey #808A87 grey
+Dim Grey #696969 grey
+Grey #C0C0C0 grey
+Light Grey #D3D3D3 grey
+Slate Grey #708090 grey
+Dark Slate Grey #2F4F4F grey
+Light Slate Grey #778899 grey
+Warm Grey #808069 grey
+Black #000000 black
+Ivory Black #292421 black
+Lamp Black #2E473B black
+Alizarin Crimson #E32636 red
+Brick #9C661F red
+Deep Cadmium Red #E3170D red
+Coral #FF7F50 red
+Light Coral #F08080 red
+Deep Pink #FF1493 red
+English Red #D43D1A red
+Firebrick #B22222 red
+Geranium Lake #E31230 red
+Hot Pink #FF69B4 red
+Indian Red #B0171F red
+Light Salmon #FFA07A red
+Deep Madder Lake #E32E30 red
+Maroon #B03060 red
+Pink #FFC0CB red
+Light Pink #FFB6C1 red
+Raspberry #872657 red
+Red #FF0000 red
+Rose Madder #E33638 red
+Salmon #FA8072 red
+Tomato #FF6347 red
+Venetian Red #D41A1F red
+Beige #A39480 brown
+Brown #802A2A brown
+Brown Madder #DB2929 brown
+Brown Ochre #87421F brown
+Burlywood #DEB887 brown
+Burnt Sienna #8A360F brown
+Burnt Umber #8A3324 brown
+Chocolate #D2691E brown
+Deep Ochre #733D1A brown
+Flesh #FF7D40 brown
+Flesh Ochre #FF5721 brown
+Gold Ochre #C77826 brown
+Greenish Umber #FF3D0D brown
+Khaki #F0E68C brown
+Dark Khaki #BDB76B brown
+Light Beige #F5F5DC brown
+Peru #CD853F brown
+Rosy Brown #BC8F8F brown
+Raw Sienna #C76114 brown
+Raw Umber #734A12 brown
+Sepia #5E2612 brown
+Sienna #A0522D brown
+Saddle Brown #8B4513 brown
+Sandy Brown #F4A460 brown
+Tan #D2B48C brown
+Van Dyke Brown #5E2605 brown
+Cadmium Orange #FF6103 orange
+Light Cadmium Red #FF030D orange
+Carrot #ED9121 orange
+Dark Orange #FF8C00 orange
+Mars Orange #964514 orange
+Mars Yellow #E3701A orange
+Orange #FF8000 orange
+Orange Red #FF4500 orange
+Yellow Ochre #E38217 orange
+Aureoline Yellow #FFA824  yellow
+Banana #E3CF57 yellow
+Cadmium Lemon #FFE303 yellow
+Cadmium Yellow #FF9912 yellow
+Light Cadmium Yellow #FFB00F yellow
+Gold #FFD700 yellow
+Goldenrod #DAA520 yellow
+Dark Goldenrod #B8860B yellow
+Light Goldenrod #FAFAD2 yellow
+Pale Goldenrod #EEE8AA yellow
+Light Goldenrod #EEDD82 yellow
+Melon #E3A869 yellow
+Deep Naples Yellow #FFA812 yellow
+Yellow #FFFF00 yellow
+Light Yellow #FFFFE0 yellow
+Chartreuse #7FFF00  green
+Chrome Oxide Green #668014 green
+Cinnabar Green #61B329 green
+Cobalt Green #3D9140 green
+Emerald Green #00C957 green
+Forest Green #228B22 green
+Green #00FF00 green
+Dark Green #006400 green
+Pale Green #98FB98 green
+Green Yellow #ADFF2F green
+Lawn Green #7CFC00 green
+Lime Green #32CD32 green
+Mint #BDFCC9 green
+Olive #3B5E2B green
+Olive Drab #6B8E23 green
+Dark Olive Green #556B2F green
+Permanent Green #0AC92B green
+Sap Green #308014 green
+Sea Green #2E8B57 green
+Dark Sea Green #8FBC8F green
+Medium Sea Green #3CB371 green
+Light Sea Green #20B2AA green
+Spring Green #00FF7F green
+Medium Spring Green #00FA9A green
+Terre Verte #385E0F green
+Light Viridian #6EFF70 green
+Yellow Green #9ACD32 green
+Aquamarine #7FFFD4 cyan
+Medium Aquamarine #66CDAA cyan
+Cyan #00FFFF cyan
+Cyan White #E0FFFF cyan
+Turquoise #40E0D0 cyan
+Dark Turquoise #00CED1 cyan
+Medium Turquoise #48D1CC cyan
+Pale Turquoise #AFEEEE cyan
+Alice Blue #F0F8FF blue
+Blue #0000FF blue
+Light Blue #ADD8E6 blue
+Medium Blue #0000CD blue
+Cadet #5F9EA0 blue
+Cobalt #3D59AB blue
+Cornflower #6495ED blue
+Cerulean #05B8CC blue
+Dodger Blue #1E90FF blue
+Indigo #2E0854 blue
+Manganese Blue #03A89E blue
+Midnight Blue #191970 blue
+Navy #000080 blue
+Peacock #33A1C9 blue
+Powder Blue #B0E0E6 blue
+Royal Blue #4169E1 blue
+Slate Blue #6A5ACD blue
+Dark Slate Blue #483D8B blue
+Light Slate Blue #8470FF blue
+Medium Slate Blue #7B68EE blue
+Sky Blue #87CEEB blue
+Deep Sky Blue #00BFFF blue
+Light Sky Blue #87CEFA blue
+Steel Blue #4682B4 blue
+Light Steel Blue #B0C4DE blue
+Turquoise Blue #00C78C blue
+Ultramarine #120A8F blue
+Blue Violet #8A2BE2 magenta
+Deep Cobalt Violet #91219E magenta
+Magenta #FF00FF magenta
+Orchid #DA70D6 magenta
+Dark Orchid #9932CC magenta
+Medium Orchid #BA55D3 magenta
+Permanent Red Violet #DB2645 magenta
+Plum #DDA0DD magenta
+Purple #A020F0 magenta
+Medium Purple #9370DB magenta
+Ultramarine Violet #5C246E magenta
+Violet #8F5E99 magenta
+Dark Violet #9400D3 magenta
+Violet Red #D02090 magenta
+Medium Violet Red #C71585 magenta
+Pale Violet Red #DB7093 magenta
