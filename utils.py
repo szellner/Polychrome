@@ -142,7 +142,12 @@ def nbs():
 				name = ' '.join(n)
 				print name, s[1]
 
+def cpant():
+	with open("coatedPantone.txt") as f:
+		for line in f.readlines():
+			s = line.split()
+			print ' '.join(s[0:len(s)-3])
 if __name__ == "__main__":   
-	wiki()
+	cpant()
 
 	# # src: http://www.imagemagick.org/script/color.php

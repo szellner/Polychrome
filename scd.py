@@ -13,6 +13,7 @@ class Polychrome2:
 		self.ralMap = self.createMap("ral", True)
 		self.nbsIsccMap = self.createMap("nbsiscc")
 		self.wikiMap = self.createMap("wiki")
+		self.coatedPantoneMap = self.createMap("coatedpantone")
 
 	def createMap(self, mapType, extra=False):
 		colorMap = {}
@@ -21,7 +22,7 @@ class Polychrome2:
 				if extra:
 					match = re.search('([a-zA-Z ]+) (#[a-zA-Z0-9]+) ([a-zA-Z0-9 ]+)?', line)
 				else:
-					match = re.search('([a-zA-Z ]+)([0-9]+)? +(#[a-zA-Z0-9]+)', line)
+					match = re.search('([a-zA-Z0-9 ]+)([0-9]+)? +(#[a-zA-Z0-9]+)', line)
 				if match:
 					if extra:
 						name, hexVal, extra = match.groups()
@@ -92,6 +93,9 @@ class Polychrome2:
 	def getWikiName(self, requested_color):
 		return self.closestColor(requested_color, self.wikiMap)
 
+	def getCoatedPantoneName(self, requested_color):
+		return self.closestColor(requested_color, self.coatedPantoneMap)
+
 	def getSatName(self, requested_color):
 		""" The dominant color name over the three fully-saturated faces of the RGB cube. From XKCD results. """
 		r,g,b = map((lambda x: x/255.0),requested_color)
@@ -116,6 +120,7 @@ class Polychrome2:
 		suggestions["ral"] = self.getRalName(requested_color)
 		suggestions["nbsiscc"] = self.getNbsIsccName(requested_color)
 		suggestions["wiki"] = self.getWikiName(requested_color)
+		suggestions["coatedpantone"] = self.getCoatedPantoneName(requested_color)
 		suggestions["satfaces"] = self.getSatName(requested_color)
 
 		for x in suggestions.items():
@@ -125,7 +130,7 @@ class Polychrome2:
 		
 
 if __name__ == "__main__":    
-	requested_color = (21,100,21)
+	requested_color = (210,100,150)
 	poly = Polychrome2()
 	poly.suggest(requested_color)
 
