@@ -6,15 +6,15 @@ class Polychrome:
 	def __init__(self):
 		self.magickMap = self.createMap("magick")
 		self.xkcdMap = self.createMap("xkcd")
-		# self.reseneMap = self.createMap("resene")
-		# self.bangMap = self.createMap("bang")
-		# self.hollaschMap = self.createMap("hollasch", extras=True)
-		# self.ralMap = self.createMap("ral", extras=True)
+		self.reseneMap = self.createMap("resene")
+		self.bangMap = self.createMap("bang")
+		self.hollaschMap = self.createMap("hollasch", extras=True)
+		self.ralMap = self.createMap("ral", extras=True)
 		self.nbsIsccMap = self.createMap("nbsiscc")
 		self.improvedNbsIsccMap = self.createMap("nbsiscc_improved", extras=True)
-		# self.wikiMap = self.createMap("wiki")
-		# self.coatedPantoneMap = self.createMap("coatedpantone")
-		# self.ntcMap = self.createMap("ntc")
+		self.wikiMap = self.createMap("wiki")
+		self.coatedPantoneMap = self.createMap("coatedpantone")
+		self.ntcMap = self.createMap("ntc")
 
 	def createMap(self, mapType, extras=False):
 		colorMap = {}
@@ -93,7 +93,7 @@ class Polychrome:
 				webColorMap = webcolors.css3_hex_to_names.items()
 	 		colorName = self.closestColor(requested_color, webColorMap)
 	 		return colorName
-
+		
 	def getMagickName(self, requested_color):
 		return self.closestColor(requested_color, self.magickMap)
 
@@ -150,17 +150,17 @@ class Polychrome:
 		suggestions["broadweb"] = self.getWebName(requested_color, "broad")
 		suggestions["specweb"] = self.getWebName(requested_color, "specific")
 		suggestions["magick"] = self.getMagickName(requested_color)
-		# suggestions["xkcd"] = self.getXkcdName(requested_color)
-		# suggestions["resene"] = self.getReseneName(requested_color)
-		# suggestions["bang"] = self.getBangName(requested_color)
-		# suggestions["hollasch"] = self.getHollaschName(requested_color)
-		# suggestions["ral"] = self.getRalName(requested_color)
-		# suggestions["nbsiscc"] = self.getNbsIsccName(requested_color)
-		# suggestions["nbsiscc_improved"] = self.getImprovedNbsIsccName(requested_color)
-		# suggestions["wiki"] = self.getWikiName(requested_color)
-		# suggestions["coatedpantone"] = self.getCoatedPantoneName(requested_color)
-		# suggestions["ntc"] = self.getNtcName(requested_color)
-		# suggestions["satfaces"] = self.getSatName(requested_color)
+		suggestions["xkcd"] = self.getXkcdName(requested_color)
+		suggestions["resene"] = self.getReseneName(requested_color)
+		suggestions["bang"] = self.getBangName(requested_color)
+		suggestions["hollasch"] = self.getHollaschName(requested_color)
+		suggestions["ral"] = self.getRalName(requested_color)
+		suggestions["nbsiscc"] = self.getNbsIsccName(requested_color)
+		suggestions["nbsiscc_improved"] = self.getImprovedNbsIsccName(requested_color)
+		suggestions["wiki"] = self.getWikiName(requested_color)
+		suggestions["coatedpantone"] = self.getCoatedPantoneName(requested_color)
+		suggestions["ntc"] = self.getNtcName(requested_color)
+		suggestions["satfaces"] = self.getSatName(requested_color)
 		for x in suggestions.items():
 			if x[1]:
 				print x
@@ -169,6 +169,6 @@ class Polychrome:
 
 if __name__ == "__main__":    
 	requested_color = (255,185,97)
-	poly = Polychrome2()
+	poly = Polychrome()
 	poly.suggest(requested_color)
 
