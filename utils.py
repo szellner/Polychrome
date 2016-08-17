@@ -147,7 +147,57 @@ def cpant():
 		for line in f.readlines():
 			s = line.split()
 			print ' '.join(s[0:len(s)-3])
+
+
+def ntc(): 
+	with open("ntc.txt") as f: 
+		for line in f.readlines():
+			s = line.split()
+			h, n = s[0], s[1:]
+			print ' '.join(n), '#'+h
+
+def ntclvl3():
+	with open("temp.txt") as f:
+		for line in f.readlines():
+			match = re.search('([a-z \.\-]+) \(([a-zA-Z \.]+)\)', line)
+			if match:
+				m = match.groups()[0].split()
+				mj = ''.join([x.title() for x in m[1:]])
+				# m = ''.join([x.title for x in match.groups()[0].split()[1:]])
+				# print m
+				print "def ", m[0]+mj, ":\n"
+				print "    return ", match.groups()[0] ,",", match.groups()[1]
+
+def camelCase(name):
+	n = name.split()
+	if len(n) == 1:
+		return n[0]
+	else:
+		nUp = ''.join([x.title() for x in n[1:]])
+		return n[0]+nUp
+
+def ntclvl12():
+	with open("temp.txt") as f:
+		for line in f.readlines():
+			match = re.search('([a-z ]+) \(([a-zA-Z]+)\)', line)
+			if match:
+				m = camelCase(match.groups()[0])
+				print "def %s:\nif %s in name:\nreturn \"%s\"\n" % (m,match.groups()[1],match.groups()[0])
+
+
+def nbs():
+	with open("nbs.txt") as f:
+		group = None
+		for line in f.readlines():
+			if not line.startswith(';'):
+				if "GO TO TOP" in line:
+					group = line.split("GO TO TOP")[0].strip()
+				match = re.search('[a-zA-Z0-9 \-\.] [0-9]+ ([a-zA-Z ]+).+(\#[0-9A-Za-z]+).+(\#[0-9A-Za-z]+)', line)
+				if match:
+					print match.groups()[0], match.groups()[1], match.groups()[2], group
+
+			
 if __name__ == "__main__":   
-	cpant()
+	nbs()
 
 	# # src: http://www.imagemagick.org/script/color.php

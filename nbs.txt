@@ -1,0 +1,326 @@
+;NBS/ISCC Color System
+;
+;Original and Improved 267 Color Centroids
+; 
+;Here is the complete set of color terms. Note that the force of tradition argued for using "pink" and "brown" instead of the more-logical "pale red" and "dark orange". 
+;
+;Language of colors with color dictionary: http://www.anthus.com/Colors/NBS.html 
+;
+;original by David A. Mundie Munsell converted to CIE XYZ and then converted to Mac QuickDraw RGB: http://www.anthus.com/Colors/Cent.html The Macintosh results appear to have colors red-shifted. "Web safe" colors do not do that. 
+;
+;John Foster reconverted supplied Munsell values via Munsell software downloaded from www.gretagmacbeth.com directly to RGB, and tried to resolve some duplicates Some of these don't even look right, because some of the bright colors are on the dark fringes with less chroma and are not centered and high up on the hue curves. Many of the original Munsell values (noted) are outside the RGB gamut, and have been adjusted to the closest brightest RGB value by changing chroma until 0 or 255 is reached in one out of bounds RGB component. Guesses were made in a few cases (noted) where the color was still illogical compared to the name. 
+;
+;The Munsell colour model was initially proposed by Albert H. Munsell in 1898 [Birren, 1969]. Munsell values themselves were described in 1905 (sphere), published as a color atlas in 1915 (slices of a bulging sphere), and redefined in 1929 as the Munsell Book of Color. It was later revised by the Optical Society of America in 1943 to more closely approximate Munsell’s desire for a functional and perceptually balanced colour system. It was further renotated in the 1970s. This set of colors may be more divergent than originally intended in 1955-1976; blue and purple even more so, since the date of the original Munsell centroid values is unknown. 
+;
+;I don't know whether the NBS-ISCC Munsell chart was made before or after the 1970s change, or whether it makes any difference. Since many of David Mundie's 267 centroids were out of the RGB gamut I had to wonder whether using "old" values with the "new" Munsell program would be correct. If the 267 centroids were for paint or ink, then it would be valid to have some extremely dark or bright colors. 
+;
+;13 Level one colors: Red, Orange, Yellow, Yellow-green, Green, Blue, Purple, White, Gray, Black, Pink, Brown, and Olive. 
+;
+;29 (31?) Level two colors: Add Reddish orange, Orange-yellow, yellowish pink, brownish pink, reddish brown, brownish orange, yellowish brown, olive-brown, greenish yellow, Olive-green, yellowish green, bluish green, greenish blue, purplish blue, violet, reddish purple, purplish pink, purplish red. 
+;267 Universal Color Language Level 3 colors 
+;Level 4 is the Munsell Book of Color 
+;Level 5 is interpolated Munsell color chips 
+;Universal Color Language Level 6 up to 5,000,000 CIE colors with no name.
+;
+;Abbreviation, number, color	Munsell (chart span) centroid	Mundie
+;RGB	Mundie
+;Swatch	convert
+;from
+;Munsell	Foster
+;Swatch	notes
+Pink	GO TO TOP
+v.Pk 1 Vivid Pink	(9RP-1R,1-4R) 1R8/13 OUT	#FF7E93	 	#FFB5BA	 	1R8/6.65
+s.Pk 2 Strong Pink	(9RP-1R,1-4R) 1.2R6.9/8.2	#FD7B7C	 	#EA9399	 
+deep Pk 3 Deep Pink	(9RP-1R,1-6R) 2.1R6/11.1	#F3545E	 	#E4717A	 
+l.Pk 4 Light Pink	(9RP-1R,1-6R) 2.6R8.5/4	#FFBCAD	 	#F9CCCA	 
+m.Pk 5 Moderate Pink	(9RP-1R,1-6R) 2.8R7.2/5.3	#EE9086	 	#DEA5A4	 
+d.Pk 6 Dark Pink	(9RP-1R,1-6R) 2.7R5.9/6.1	#C76864	 	#C08081	 
+p.Pk 7 Pale Pink	(9RP-1R,1-6R) 2.0R8.7/2.1	#FFCBBB	 	#EAD8D7	 
+gy.Pk 8 Grayish Pink	(9RP-1R,1R-6R) 2.6R7.2/2.3	#CF9B8F	 	#C4AEAD	 
+pkWhite 9 Pinkish White	(1-9R,9R-1YR,1-7YR) 5.8R9/0.8	#F9DBC8	 	#EAE3E1	 
+pkGy 10 Pinkish Gray	(1-9R,9R-1YR,1-7YR) 9.8R7.4/1	#C8A696	 	#C1B6B3	 
+Red	GO TO TOP
+v.R 11 Vivid Red	(1-9R) 5R3.9/15.4 OUT	#C10020	 	#BE0032	 	5R3.9/15.3215
+s.R 12 Strong Red	(1-7R) 4R4.4/12.1	#BF2233	 	#BC3F4A	 
+deep R 13 Deep Red	(1-9R) 5.1R2.8/10.1	#7B001C	 	#841B2D	 
+v.deep R 14 Very Deep Red	(1-9R) 6.5R1.7/8.4	#4F0014	 	#5C0923	 
+m.R 15 Moderate Red	(1-7R) 3.8R4.4/9.1	#AB343A	 	#AB4E52	 
+d.R 16 Dark Red	(1-9R) 4.0R2.8/6.8	#681C23	 	#722F37	 
+v.d.R 17 Very Dark Red	(1-6R) 2R1.2/4.8	#320A18	 	#3F1728	 
+l.gy.R 18 Light Grayish Red	(1-8R) 5.3R5.9/3.5	#B17267	 	#AD8884	 
+gy.R 19 Grayish Red	(1-8R) 4R4.4/4.8	#8C4743	 	#905D5D	 
+d.gy.R 20 Dark Grayish Red	(1-6R) 2.9R2.7/2.1	#482A2A	 	#543D3F	 
+Blackish R 21 Blackish Red	(1-6R) 3.9R0.8/1.7 OUT	#1F0E11	 	#2E1D21	 	3.9R1/1.7
+rGy 22 Reddish Gray	(1-9R,9R-1YR,1-2YR) 7R5.4/1.3	#8B6C62	 	#8F817F	 
+d.rGy 23 Dark Reddish Gray	(1-9R,9R-1YR) 6R3.4/1	#523C36	 	#5C504F	 
+rBlack 24 Reddish Black	(1-9R,9R-1YR) 2R0.9/0.9 OUT	#1E1112	 	#282022	 	2R1/0.9
+Yellowish Pink	GO TO TOP
+v.yPk 25 Vivid Yellowish Pink	(4-9R,9R-1YR,1-2YR) 8R8/13 OUT	#FF845C	 	#FFB7A5	 	8R8/6.21
+s.yPk 26 Strong Yellowish Pink	(4-9R,9R-1YR,1-2YR) 8.4R7/9.5	#FF7A5C	 	#F99379	 
+deep yPk 27 Deep Yellowish Pink	(4-7R) 5.5R5.8/12.1	#F64A46	 	#E66761	 	my error: not #E66721
+l.yPk 28 Light Yellowish Pink	(6-9R,9R-1YR,1-7YR) 1.9YR8.2/4.6	#FFB28B	 	#F4C2C2	 
+m.yPk 29 Moderate Yellowish Pink	(6-9R,9R-1YR,1-7YR) 0.7YR7.2/4.9	#EE9374	 	#D9A6A9	 
+d.yPk 30 Dark Yellowish Pink	(6-8R) 7R6/6.1	#CC6C5C	 	#C48379	 
+p.yPk 31 Pale Yellowish Pink	(6-9R,9R-1YR,1-8YR) 4.2YR8.6/2.2	#FFC8A8	 	#ECD5C5	 
+gy.yPk 32 Grayish Yellowish Pink	(6-9R,9R-1YR,1-5YR) 1.3YR7.2/2.4	#D39B85	 	#C7ADA3	 
+Brownish Pink	GO TO TOP
+brPk 33 Brownish Pink	(5-8YR) 7YR7.1/2.3	#CD9A7B	 	#C2AC99	 
+Reddish Orange	GO TO TOP
+v.rO 34 Vivid Reddish Orange	(7-9R,9R-1YR,1-2YR) 9.8R5.4/14.5	#F13A13	 	#E25822	 
+s.rO 35 Strong Reddish Orange	(7-9R,9R-1YR,1-2YR) 9.3R5.4/12.2	#FFB961 see #70	 	#D9603B	 	#E54326 in color dictionary
+deep rO 36 Deep Reddish Orange	(7-9R,9R-1YR,1-2YR) 9.2R3.9/12.1	#A91D11	 	#AA381E	 
+m.rO 37 Moderate Reddish Orange	(7-9R,9R-1YR,1-2YR) 9.3R5.5/9.2	#D35339	 	#CB6D51	 
+d.rO 38 Dark Reddish Orange	(7-9R,9R-1YR,1-2YR) 9.3R4/9.1	#9B2F1F	 	#9E4732	 
+gy.rO 39 Grayish Reddish Orange	(8-9R,9R-1YR,1-3YR) 0.4YR5.4/6.2	#B85D43	 	#B4745E	 
+Reddish Brown	GO TO TOP
+s.rBr 40 Strong Reddish Brown	(9R-1YR,1-2YR) 0.3YR3.1/9.9	#7F180D	 	#882D17	 
+deep rBr 41 Deep Reddish Brown	(6-9R,9R-1YR,1-2YR) 1.6YR1.5/8.3	#490005	 	#56070C	 
+l.rBr 42 Light Reddish Brown	(8-9R,9R-1YR,1-3YR) 0.5YR5.5/4.1	#AA6651	 	#A87C6D	 
+m.rBr 43 Moderate Reddish Brown	(6-9R,9R-1YR,1-3YR) 9R3.4/5.2	#712F26	 	#79443B	 
+d.rBr 44 Dark Reddish Brown	(6-9R,9R-1YR,1-3YR) 9.6R1.3/3.6	#321011	 	#3E1D1E	 
+l.gy.rBr 45 Light Grayish Reddish Brown	(1-5YR) 2.9YR5.4/2.3	#966A57	 	#977F73	 
+gy.rBr 46 Grayish Reddish Brown	(6-9R,9R-1YR,1-3YR) 9R3.4/2.4	#5E3830	 	#674C47	 
+d.gy.rBr 47 Dark Grayish Reddish Brown	(6-9R,9R-1YR,1-3YR) 9R2/2	#371F1C	 	#43302E	 
+Orange	GO TO TOP
+v.O 48 Vivid Orange	(2-7YR) 4.1YR6.5/15 OUT	#FF6800	 	#F38400	 	4.1YR6.5/13.9295
+brill.O 49 Brilliant Orange	(2-7YR) 4YR9/12 OUT	#FFB841	 	#FD943F	 	guess 4YR7/12; 4YR9/2.9 #FFDEC9 as indicated here is very light
+s.O 50 Strong Orange	(2-7YR) 4.3YR6.5/12.2	#FF6F1A	 	#ED872D	 
+deep O 51 Deep Orange	(2-7YR) 4.1YR5.1/11.3	#C34D0A	 	#BE6516	 
+l.O 52 Light Orange	(2-7YR) 4.8YR7.8/7.2	#FFA161	 	#FAB57F	 
+m.O 53 Moderate Orange	(2-7YR) 4.6YR6.5/8.2	#E8793E	 	#D99058	 
+Brownish Orange	GO TO TOP
+brO 54 Brownish Orange	(2-7YR) 4.1YR5/8	#B15124	 	#AE6938	 
+Brown	GO TO TOP
+s.Br 55 Strong Brown	(2-8YR) 4.6YR3.5/7.6	#753313	 	#80461B	 
+deep Br 56 Deep Brown	(2-8YR) 5.6YR2.4/5.2	#4D220E	 	#593319	 
+l.Br 57 Light Brown	(3-8YR) 5.4YR5.4/4.8	#A86540	 	#A67B5B	 
+m.Br 58 Moderate Brown	(3-8YR) 5.6YR3.5/3.9	#673923	 	#6F4E37	 
+d.Br 59 Dark Brown	(3-8YR) 5.3YR1.6/3.4	#35170C	 	#422518	 
+l.gy.Br 60 Light Grayish Brown	(5-8YR) 6.4YR5.4/2.2	#946B54	 	#958070	 
+gy.Br 61 Grayish Brown	(3-8YR) 5.5YR3.5/1.8	#5A3D30	 	#635147	 
+d.gy.Br 62 Dark Grayish Brown	(3-8YR) 5.5YR2/1.5	#32221A	 	#3E322C	 
+l.brGy 63 Light Brownish Gray	(2-8YR,8YR-1Y,1-4Y) 7YR5.4/1.2	#8B6D5C	 	#8E8279	 
+brGy 64 Brownish Gray	(1-8YR,8YR-1Y,1-4Y) 5.65R3.4/0.9	#503D33	 	#5B504F	 
+brBlack 65 Brownish Black	(1-8YR,8YR-1Y,1-4Y) 7.8YR0.6/0.9 OUT	#140F0B	 	#28201C	 	7.8YR1/0.9
+Orange Yellow	GO TO TOP
+v.OY 66 Vivid Orange Yellow	(7-8YR,8YR-1Y) 8.6YR7.3/15.2 OUT	#FF8E00	 	#F6A600	 	8.6YR7.3/12.7364
+brill.OY 67 Brilliant Orange Yellow	(7-8YR,8YR-1Y) 0.1Y8.1/10.5 OUT	#FFB02E	 	#FFC14F	 	0.1Y8.1/10.08
+s.OY 68 Strong Orange Yellow	(7-8YR,8YR-1Y) 9.1YR7.1/11.6	#FF8E0D	 	#EAA221	 
+deep OY 69 Deep Orange Yellow	(7-8YR,8YR-1Y) 8.6YR6/12.1 OUT	#D76E00	 	#C98500	 	8.6YR6/11.0455
+l.OY 70 Light Orange Yellow	(7-8YR,8YR-1Y) 9.4YR8.3/6.8	#FFB961 see #35	 	#FBC97F	 
+m.OY 71 Moderate Orange Yellow	(7-8YR,8YR-1Y) 8.7YR7.2/8.3	#F7943C	 	#E3A857	 
+d.OY 72 Dark Orange Yellow	(7-8YR,8YR-1Y) 9.3YR6/7.9	#C37629	 	#BE8A3D	 
+p.OY 73 Pale Orange Yellow	(7-8YR,8YR-1Y) 9.2YR8.7/4.4	#FFCA86	 	#FAD6A5	 
+Yellowish Brown	GO TO TOP
+s.yBr 74 Strong Yellowish Brown	(7-8YR,8YR-1Y) 8.8YR4.6/8.5	#95500C	 	#996515	 
+deep yBr 75 Deep Yellowish Brown	(8YR-1Y) 8.8YR3.1/5	#593315	 	#654522	 
+l.yBr 76 Light Yellowish Brown	(7-8YR,8YR-1Y) 8.7YR6.5/5	#BB8B54	 	#C19A6B	 
+m.yBr 77 Moderate Yellowish Brown	(8YR-1Y) 9.5YR4.4/3.9	#7D512D	 	#826644	 
+d.yBr 78 Dark Yellowish Brown	(8YR-1Y) 9.4YR2.3/3.3	#3F2512	 	#4B3621	 
+l.gy.yBr 79 Light Grayish Yellowish Brown	(8YR-1Y) 9.7YR6.4/2.5	#B48764	 	#AE9B82	 
+gy.yBr 80 Grayish Yellowish Brown	(8YR-1Y) 9.5YR4.6/2.1	#785840	 	#7E6D5A	 
+d.gy.yBr 81 Dark Grayish Yellowish Brown	(8YR-1Y) 8.8YR2.5/1.6	#3D2B1F	 	#483C32	 
+Yellow	GO TO TOP
+v.Y 82 Vivid Yellow	(1-7Y) 3.3Y8/14.3 OUT	#FFB300	 	#F3C300	 	3.3Y8/11.9424
+brill.Y 83 Brilliant Yellow	(1-7Y) 4.4Y8.7/8.9	#FFCF40	 	#FADA5E	 
+s.Y 84 Strong Yellow	(1-7Y) 3.7Y7.2/9.3	#E59E1F	 	#D4AF37	 
+deep Y 85 Deep Yellow	(1-7Y) 3.7Y5.9/9.1	#B57900	 	#AF8D13	 
+l.Y 86 Light Yellow	(1-7Y) 4.3Y8.8/6.8	#FFD35F	 	#F8DE7E	 
+m.Y 87 Moderate Yellow	(1-7Y) 3.8Y7.1/6.5	#D79D41	 	#C9AE5D	 
+d.Y 88 Dark Yellow	(1-7Y) 3.9Y6/6.4	#B07D2B	 	#AB9144	 
+p.Y 89 Pale Yellow	(1-7Y) 4.7Y9/3.8	#FFDB8B	 	#F3E5AB	 
+gy.Y 90 Grayish Yellow	(1-9Y) 4.4Y7.2/3.8	#CEA262	 	#C2B280	 
+d.gy.Y 91 Dark Grayish Yellow	(1-7Y) 3.8Y5.9/4	#A47C45	 	#A18F60	 
+yWhite 92 Yellowish White	(7-8YR,8YR-1Y,1-9Y,9Y-2GY,2-4GY) 4.5Y9.2/1.2	#FFE2B7	 	#F0EAD6	 
+yGy 93 Yellowish Gray	(7-8YR,8YR-1Y,1-9Y,9Y-2GY,2-4GY) 3.8Y7.4/1.4	#CAA885	 	#BFB8A5	 
+Olive Brown	GO TO TOP
+l.OlBr 94 Light Olive Brown	(1-4Y) 2.1Y4.9/7.9	#945D0B	 	#967117	 
+m.OlBr 95 Moderate Olive Brown	(1-4Y) 2.7Y3.6/5.5	#64400F	 	#6C541E	 
+d.OlBr 96 Dark Olive Brown	(1-4Y) 2Y1.9/2.2	#302112	 	#3B3121	 
+Greenish Yellow	GO TO TOP
+v.gY 97 Vivid Greenish Yellow	(7-9Y,9Y-2GY) 9.1Y8.2/12 OUT	#F4C800	 	#DCD300	 	9.1Y8.2/11.3795
+brill.gY 98 Brilliant Greenish Yellow	(7-9Y,9Y-2GY) 9.8Y8.8/9.5	#FFDC33	 	#E9E450	 
+s.gY 99 Strong Greenish Yellow	(7-9Y,9Y-2GY) 9.2Y7.2/9.2	#CCA817	 	#BEB72E	 
+d.gY 100 Deep Greenish Yellow	(7-9Y,9Y-2GY) 9.2Y5.9/9.2 OUT	#9F8200	 	#9B9400	 	9.2Y5.9/8.7896
+l.gY 101 Light Greenish Yellow	(7-9Y,9Y-2GY) 9.8Y8.9/7	#FFDE5A	 	#EAE679	 
+m.gY 102 Moderate Greenish Yellow	(7-9Y,9Y-2GY) 9.5Y7.1/6.5	#C4A43D	 	#B9B459	 
+d.gY 103 Dark Greenish Yellow	(7-9Y,9Y-2GY) 9.4Y5.9/6.3	#9B8127	 	#98943E	 
+p.gY 104 Pale Greenish Yellow	(7-9Y,9Y-2GY) 9.5Y9/4.2	#FFDF84	 	#EBE8A4	 
+gy.gY 105 Grayish Greenish Yellow	(7-9Y,9Y-2GY) 9Y7.2/3.9	#C4A55F	 	#B9B57D	 
+Olive	GO TO TOP
+l.Ol 106 Light Olive	(4-9Y,9Y-2GY) 8.2Y5.1/5.6	#846A20	 	#867E36	 
+m.Ol 107 Moderate Olive	(4-9Y,9Y-2GY) 7.6Y3.8/5.4	#5E490F	 	#665D1E	 
+d.Ol 108 Dark Olive	(4-9Y,9Y-2GY) 8.9Y2.4/3.1	#362C12	 	#403D21	 
+l.gy.Ol 109 Light Grayish Olive	(4-9Y,9Y-2GY) 7.85Y5.5/2.5	#8B734B	 	#8C8767	 
+gy.Ol 110 Grayish Olive	(4-9Y,9Y-2GY) 8Y3.6/2	#52442C	 	#5B5842	 
+d.gyOl 111 Dark Grayish Olive	(4-9Y,9Y-2GY) 9.7Y2/1.8	#2B2517	 	#363527	 
+l.OlGy 112 Light Olive Gray	(4-9Y,9Y-2GY,2-4GY) 6.9Y5.5/1.3	#887359	 	#8A8776	 
+OlGy 113 Olive Gray	(4-9Y,9Y-2GY,2-4GY) 8.1Y3.5/0.9	#4D4234	 	#57554C	 
+OlBlack 114 Olive Black	(4-9Y,9Y-2GY,2-4GY) 9Y1.1/0.9	#121910	 	#25241D	 
+Yellow Green	GO TO TOP
+v.YG 115 Vivid Yellow Green not vivid yellowish green see #129	(2-8GY) 5.4GY6.8/11.2 OUT	#93AA00	 	#8DB600	 	5.4GY6.8/11.1473
+brill.YG 116 Brilliant Yellow Green	(2-8GY) 4.9GY8.2/9.1	#CED23A	 	#BDDA57	 
+s.YG 117 Strong Yellow Green	(2-8GY) 5.4GY6/8.7	#7F8F18	 	#7E9F2E	 
+deep YG 118 Deep Yellow Green	(2-8GY) 7.4GY4.2/7.1	#425E17	 	#467129	 
+l.YG 119 Light Yellow Green	(2-8GY) 5GY8.4/5.6	#DCD36A	 	#C9DC89	 
+m.YG 120 Moderate Yellow Green	(2-8GY) 4.8GY6/5	#8B8940	 	#8A9A5B	 
+p.YG 121 Pale Yellow Green not pale yellowish green	(9Y-2GY,2-8GY) 3.4GY8.7/2.4	#F0D698	 	#DADFB7	 
+gy.YG 122 Grayish Yellow Green not grayish yellowish green	(9Y-2GY,2-8GY) 4.4GY6/2.3	#90845B	 	#8F9779	 
+Olive Green	GO TO TOP
+s.OlG 123 Strong Olive Green	(2-8GY) 4GY3/11 OUT	#0A4500	 	#404F00	 	4GY3/6.304
+deep OlG 124 Deep Olive Green	(2-8GY) 4GY1.5/11 OUT	#142300	 	#232F00	 	4GY1.5/3.886
+m.OlG 125 Moderate Olive Green	(2-8GY) 5.7GY3.6/4.8	#434B1B	 	#4A5D23	 
+d.OlG 126 Dark Olive Green	(2-8GY) 8GY2.2/3.6	#232C16	 	#2B3D26	 
+gy.OlG 127 Grayish Olive Green	(2-8GY) 4.6GY3.5/2	#48442D	 	#515744	 
+d.gy.OlG 128 Dark Grayish Olive Green	(2-8GY) 5.4GY2/1.8	#27261A	 	#31362B	 
+Yellowish Green	GO TO TOP
+v.yG 129 Vivid Yellowish Green see #115	(8GY-3G) 1.1G5.9/11.2	#379931	 	#27A64C	 
+brill.yG 130 Brilliant Yellowish Green	(8GY-3G) 0.3G7.7/8.6	#8CCB5E	 	#83D37D	 
+s.yG 131 Strong Yellowish Green	(8GY-3G) 0.4G5.4/8.7	#478430	 	#44944A	 
+deep yG 132 Deep Yellowish Green	(8GY-3G) 0.9G3.5/9 OUT	#00541F	 	#00622D	 	0.9G3.5/8.0245
+v.deep yG 133 Very Deep Yellowish Green	(8GY-3G) 10GY1.5/11 OUT	#002800	 	#003118	 	10GY1.5/4.649
+v.l.yG 134 Very Light Yellowish Green	(8GY-3G) 0.2G8.6/4.6	#C6DF90	 	#B6E5AF	 
+l.yG 135 Light Yellowish Green	(8GY-3G) 0.7G7.4/5.2	#007BA7 see #167 #170	 	#93C592	 	conversion better; #9AB973 in color dictionary
+m.yG 136 Moderate Yellowish Green	(8GY-3G) 0.5G5.5/4.8	#657F4B	 	#679267	 
+d.yG 137 Dark Yellowish Green	(8GY-3G) 0.6G3.5/5	#304B26	 	#355E3B	 
+v.d.yG 138 Very Dark Yellowish Green	(8GY-3G) 0.3G1.8/4.3	#132712	 	#173620	 
+Green	GO TO TOP
+v.G 139 Vivid Green	(3-9G) 3.2G4.9/11.1 OUT	#007D34	 	#008856	 	3.2G4.9/8.546
+brill.G 140 Brilliant Green	(3-9G) 6.2G6.5/8.3	#47A76A	 	#3EB489	 
+s.G 141 Strong Green	(3-9G) 5.8G4.4/8.7 OUT	#006B3C	 	#007959	 	5.8G4.4/7.0657
+deep G 142 Deep Green	(3-9G) 5.1G3/8.1 OUT	#004524	 	#00543D	 	5.1G3/5.7915
+v.l.G 143 Very Light Green	(3-9G) 6.5G7.8/4.9	#98C793	 	#8ED1B2	 
+l.G 144 Light Green	(3-9G) 6G6.4/5.1	#719B6E	 	#6AAB8E	 
+m.G 145 Moderate Green	(3-9G) 6.3G4.5/5.1	#386646	 	#3B7861	 
+d.G 146 Dark Green	(3-9G) 6.6G2.8/4.6	#203A27	 	#1B4D3E	 
+v.d.G 147 Very Dark Green	(3-9G) 8G1.8/3	#16251C	 	#1C352D	 
+v.p.G 148 Very Pale Green	(8GY-3G,3-9G) 7.3G8.8/1.9	#D8DEBA	 	#C7E6D7	 
+p.G 149 Pale Green	(8GY-3G,3-9G,9G-10BG) 7.6G6.4/1.7	#8D917A	 	#8DA399	 
+gy.G 150 Grayish Green	(8GY-3G,3-9G,9G-10BG) 8.8G4.5/1.8	#575E4E	 	#5E716A	 
+d.gy.G 151 Dark Grayish Green not dark greenish yellowish green or dark grayish yellowish green	(8GY-3G,3-9G,9G-10BG) 1BG2.9/1.8	#313830	 	#3A4B47	 
+blackish G 152 Blackish Green	(8GY-3G,3-9G,9G-10BG) 10G1/1.4	#141613	 	#1A2421	 
+gWhite 153 Greenish White	(4GY-8GY,8GY-3G,3G-9G,9G-10BG) 10G9.2/0.8	#F5E6CB	 	#DFEDE8	 	better
+l.gGy 154 Light Greenish Gray	(4GY-8GY,8GY-3G,3G-9G,9G-10BG) 3G7.5/0.9	#BAAF96	 	#B2BEB5	 
+gGy 155 Greenish Gray	(4GY-8GY,8GY-3G,3G-9G,9G-10BG) 7.5G5.5/1	#7A7666	 	#7D8984	 
+d.gGy 156 Dark Greenish Gray	(4GY-8GY,8GY-3G,3G-9G,9G-10BG) 1.5BG3.5/0.9	#45433B	 	#4E5755	 
+gBlack 157 Greenish Black	(4GY-8GY,8GY-3G,3G-9G,9G-10BG) 8.7G1/0.7	#181513	 	#1E2321	 
+Bluish Green	GO TO TOP
+v.bG 158 Vivid Bluish Green	(9G-10BG) 5BG5/13 OUT	#00836E	 	#008882	 	5BG5/6.8
+brill.bG 159 Brilliant Bluish Green	(9G-10BG) 2.9BG6/9.6 OUT	#009B76	 	#00A693	 	2.9BG6/7.9673
+s.bG 160 Strong Bluish Green	(9G-10BG) 4.6BG4.5/8.5 OUT	#006D5B	 	#007A74	 	4.6B4.5/6.1853
+deep bG 161 Deep Bluish Green	(9G-10BG) 2.8BG2.4/8.3 OUT	#00382B	 	#00443F	 	2.8BG2.4/4.478
+v.l.bG 162 Very Light Bluish Green	(9G-10BG) 4.4BG8.3/4.6	#A0D6B4	 	#96DED1	 
+l.bG 163 Light Bluish Green	(9G-10BG) 4.6BG6.5/4.9	#669E85	 	#66ADA4	 
+m.bG 164 Moderate Bluish Green	(9G-10BG) 4.6BG4.5/5	#2F6556	 	#317873	 
+d.bG 165 Dark Bluish Green	(9G-10BG) 4.9BG2.7/5 OUT	#013A33	 	#004B49	 	4.9BG2.7/4.4886
+v.d.bG 166 Very Dark Bluish Green	(9G-10BG) 3.6BG1.2/4 OUT	#001D18	 	#002A29	 	3.6BG1.2/3.033
+Greenish Blue	GO TO TOP
+v.gB 167 Vivid Greenish Blue	(10BG-9B) 5B5/13 OUT see #170 #176	#007BA7 see #135 #170	 	#0085A1	 	5B5/7.29; #00A77B transposed, but too green
+brill.gB 168 Brilliant Greenish Blue	(10BG-9B) 4.6B5.9/7.7	#2A8D9C	 	#239EBA	 
+s.gB 169 Strong Greenish Blue	(10BG-9B) 4.9B4.5/8.4 OUT	#00677E	 	#007791	 	4.9B4.5/6.6453
+deep gB 170 Deep Greenish Blue	(10BG-9B) 5B5/13 OUT see #167 #176 same as #167; guess 5B2/9	#007BA7 see #135 #167	 	#2E8495	 	guess 2.8B5/6
+v.l.gB 171 Very Light Greenish Blue	(10BG-9B) 4B8/4	#A3C6C0	 	#9CD1DC	 
+l.gB 172 Light Greenish Blue	(10BG-9B) 4.5B6.5/5.4	#649A9E	 	#66AABC	 
+m.gB 173 Moderate Greenish Blue	(10BG-9B) 4.7B4.5/5.2	#30626B	 	#367588	 
+d.gB 174 Dark Greenish Blue	(10BG-9B) 3.7B2.7/5 OUT	#003841	 	#004958	 	3.7B2.7/4.4696
+v.d.gB 175 Very Dark Greenish Blue	(10BG-9B) 5B1.5/3.6 OUT	#022027	 	#002E3B	 	5B1.5/3.453
+Blue	GO TO TOP
+v.B 176 Vivid Blue, ultramarine	(9B-5PB,5-7PB) 5B5/14 OUT see #167 #170	#007CAD	 	#00A1C2	 	guess 5B6/8.291 0,161,194
+brill.B 177 Brilliant Blue, celestial blue	(9B-5PB,5-7PB) 1.6PB5.9/9.4	#4285B4	 	#4997D0	 
+s.B 178 Strong Blue, bright blue	(9B-5PB,5-7PB) 2.9PB4.1/10.4 OUT	#00538A	 	#0067A5	 	2.9PB4.1/9.935
+deep B 179 Deep Blue, royal blue	(9B-5PB,5-7PB) 2.8PB2.5/7.9 OUT	#002F55	 	#00416A	 	2.8PB2.5/6.817
+v.l.B 180 Very Light Blue, baby blue	(9B-5PB,5-7PB) 2.7PB7.9/6	#A6BDD7	 	#A1CAF1	 
+l.B 181 Light Blue, sky blue	(9B-5PB,5-7PB) 1.6PB6.4/6.9	#6C92AF	 	#70A3CC	 
+m.B 182 Moderate Blue, cerulean blue	(9B-5PB,5-7PB) 3PB4.3/6.8	#395778	 	#436B95	 
+d.B 183 Dark Blue, navy blue	(9B-5PB,5-7PB) 2.2PB1.7/5.5 OUT	#002137	 	#00304E	 	2.2PB1.7/5.353
+v.p.B 184 Very Pale Blue, cloud blue	(10BG-9B,9B-5PB,5-9PB) 1.5PB8.3/3.3	#C1CACA	 	#BCD4E6	 
+p.B 185 Pale Blue, alice blue	(10BG-9B,9B-5PB,5-9PB) 0.6PB6.5/2.6	#919192	 	#91A3B0	 
+gy.B 186 Grayish Blue, slate blue	(10BG-9B,9B-5PB,5-9PB) 0.2PB4.2/3	#4A545C	 	#536878	 
+d.gy.B 187 Dark Grayish Blue	(10BG-9B,9B-5PB,5-9PB) 9.2B2.7/2	#2C3337	 	#36454F	 
+blackish B 188 Blackish Blue	(10BG-9B,9B-5PB,5-9PB) 9.8B1.3/1.5	#161A1E	 	#202830	 
+bWhite 189 Bluish White	(10BG-9B,9B-5PB,5-9PB) 9.2B9.1/1.2	#F9DFCF	 	#E9E9ED	 	conversion better; #CFDFF9 transposed but too dark
+l.bGy 190 Light Bluish Gray	(10BG-9B,9B-5PB,5-9PB) 8.2B7.5/1	#BEADA1	 	#B4BCC0	 
+bGy 191 Bluish Gray	(10BG-9B,9B-5PB,5-9PB) 8.9B5.5/0.9	#7D746D	 	#81878B	 
+d.bGy 192 Dark Bluish Gray	(10BG-9B,9B-5PB,5-9PB) 0.3PB3.6/1.1	#464544	 	#51585E	 
+bBlack 193 Bluish Black	(10BG-9B,9B-5PB,5-9PB) 9.6B1.1/0.8	#151719	 	#202428	 
+Purplish Blue	GO TO TOP
+v.pB 194 Vivid Purplish Blue not very purplish blue	(7-9PB) 7.8PB2/12.5	#20155E	 	#30267A	 
+brill.pB 195 Brilliant Purplish Blue	(7-9PB) 7.3PB5.1/9	#62639B	 	#6C79B8	 
+s.pB 196 Strong Purplish Blue	(7-9PB) 8PB4/10.9	#474389	 	#545AA7	 
+deep pB 197 Deep Purplish Blue	(7-9PB) 7.8PB1.5/8	#1A153F	 	#272458	 
+v.l.pB 198 Very Light Purplish Blue	(7-9PB) 7.4PB7.6/5.2	#BAACC7	 	#B3BCE2	 
+l.pB 199 Light Purplish Blue	(7-9PB) 7.3PB6/6.5	#837DA2	 	#8791BF	 
+m.pB 200 Moderate Purplish Blue	(7-9PB) 7.9PB3.5/6.5	#423C63	 	#4E5180	 
+d.pB 201 Dark Purplish Blue	(7-9PB) 8PB1.3/4.3	#1A162A	 	#252440	 
+v.p.pB 202 Very Pale Purplish Blue	(5-9PB) 7PB8/3.7	#CBBAC5	 	#C0C8E1	 
+p.pB 203 Pale Purplish Blue	(5-9PB) 7PB6/3.9	#8A7F8E	 	#8C92AC	 
+gy.pB 204 Grayish Purplish Blue	(5-9PB) 6.9PB3.4/3.8	#413D51	 	#4C516D	 
+Violet	GO TO TOP
+v.V 205 Vivid Violet	(9PB-3P) 2P5/14	#884BAE	 	#9065CA	 
+brill.V 206 Brilliant Violet	(9PB-3P) 9.9PB5.1/9.4	#755D9A	 	#7E73B8	 
+s.V 207 Strong Violet	(9PB-3P) 0.2P3.7/10.1	#53377A	 	#604E97	 
+deep V 208 Deep Violet	(9PB-3P) 1.1P1.2/8.6	#240935	 	#32174D	 
+v.l.V 209 Very Light Violet	(9PB-3P) 2P8.5/7 OUT	#EEBEF1	 	#DCD0FF	 	2P8.5/5.9
+l.V 210 Light Violet	(9PB-3P) 0.5P5.6/7.1	#876C99	 	#8C82B6	 
+m.V 211 Moderate Violet	(9PB-3P) 1.4P3.6/7	#543964	 	#604E81	 
+d.V 212 Dark Violet	(9PB-3P) 1.4P1.3/4.9	#22132B	 	#2F2140	 
+v.p.V 213 Very Pale Violet	(9PB-3P) 9.7PB7.9/3.7	#D8B1BF	 	#C4C3DD	 
+p.V 214 Pale Violet	(9PB-3P) 1.3P6/4	#957B8D	 	#9690AB	 
+gy.V 215 Grayish Violet	(9PB-3P) 1.2P3.3/3.9	#46394B	 	#554C69	 
+Purple	GO TO TOP
+v.P 216 Vivid Purple	(3-9P) 6P4.5/14.0	#943391	 	#9A4EAE	 
+brill.P 217 Brilliant Purple	(3-9P) 6P7/11	#DD80CC	 	#D399E6	 
+s.P 218 Strong Purple	(3-9P) 6.5P4.3/9.2	#803E75	 	#875692	 
+deep P 219 Deep Purple	(3-9P) 6.3P2.7/9.1	#531A50	 	#602F6B	 
+v.deep P 220 Very Deep Purple	(3-9P) 5P1.5/8	#320B35	 	#401A4C	 
+v.l.P 221 Very Light Purple	(3-9P) 6.5P7.8/5.1	#E3A9BE	 	#D5BADB	 
+l.P 222 Light Purple	(3-9P) 6.2P6.5/6.5	#BA7FA2	 	#B695C0	 
+m.P 223 Moderate Purple	(3-9P) 6.6P4.5/7.1	#7F4870	 	#86608E	 
+d.P 224 Dark Purple	(3-9P) 6.3P2.8/4.9	#472A3F	 	#563C5C	 
+v.d.P 225 Very Dark Purple	(3-9P) 6.9P1/4.5	#230D21	 	#301934	 
+v.p.P 226 Very Pale Purple	(9PB-3P,3-9P) 5.5P8.2/3.2	#E6BBC1	 	#D6CADD	 
+p.P 227 Pale Purple	(9PB-3P,3-9P,9P-3RP,3-9RP,9RP-1R) 7.9P6.4/3.1	#AE848B	 	#AA98A9	 
+gy.P 228 Grayish Purple	(9PB-3P,3-9P,9P-3RP,3-9RP,9RP-1R) 8.1P4.5/2.7	#72525C	 	#796878	 
+d.gy.P 229 Dark Grayish Purple	(9PB-3P,3-9P,9P-3RP,3-9RP,9RP-1R) 0.5RP2.8/2	#452D35	 	#50404D	 
+blackish P 230 Blackish Purple	(9PB-3P,3-9P,9P-3RP,3-9RP,9RP-1R) 0.8RP0.9/1.6 OUT	#1D1018	 	#291E29	 	0.8RP1/1.6
+pWhite 231 Purplish White	(9PB-3P,3-9P,9P-3RP,3-9RP) 2.5RP9/0.8	#FADBC8	 	#E8E3E5	 	better
+l.pGy 232 Light Purplish Gray	(9PB-3P,3-9P,9P-3RP,3-9RP) 0.3RP7.5/1.1	#C8A99E	 	#BFB9BD	 
+pGy 233 Purplish Gray	(9PB-3P,3-9P,9P-3RP,3-9RP,9RP-1R) 1RP5.5/0.9	#88706B	 	#8B8589	 
+d.pGy 234 Dark Purplish Gray	(9PB-3P,3-9P,9P-3RP,3-9RP,9RP-1R) 1RP3.6/1	#564042	 	#5D555B	 
+pBlack 235 Purplish Black	(9PB-3P,3-9P,9P-3RP,3-9RP,9RP-1R) 9.54P0.9/0.6 OUT	#1B1116	 	#242124	 	9.54P1/0.6
+Reddish Purple	GO TO TOP
+v.rP 236 Vivid Reddish Purple	(9P-3RP) 1RP3/14 OUT	#7E0059	 	#870074	 	1RP3/13.823
+s.rP 237 Strong Reddish Purple	(9P-3RP) 1.3RP4.4/10.2	#9A366B	 	#9E4F88	 
+deep rP 238 Deep Reddish Purple	(9P-3RP) 1RP2.8/9.5	#641349	 	#702963	 
+v.deep rP 239 Very Deep Reddish Purple	(9P-3RP) 0.9RP1.9/8.9	#470736	 	#54194E	 
+l.rP 240 Light Reddish Purple	(9P-3RP) 0.7RP6/6.9	#BB6C8A	 	#B784A7	 
+m.rP 241 Moderate Reddish Purple	(9P-3RP) 0.8RP4.5/7	#8C4566	 	#915C83	 
+d.rP 242 Dark Reddish Purple	(9P-3RP) 1.3RP2.8/4.8	#4F273A	 	#5D3954	 
+v.d.rP 243 Very Dark Reddish Purple	(9P-3RP) 1.5RP1/4.8	#270A1F	 	#341731	 
+p.rP 244 Pale Reddish Purple	(9P-3RP) 1.3RP6/4.2	#AC7580	 	#AA8A9E	 
+gy.rP 245 Grayish Reddish Purple	(9P-3RP) 1RP4.5/4.2	#7D4D5D	 	#836479	 
+Purplish Pink	GO TO TOP
+brill.pPk 246 Brilliant Purplish Pink	(9P-3RP,3-9RP) 6RP8.5/11 OUT	#FF97BB	 	#FFC8D6	 	6RP8.5/5.3
+s.pPk 247 Strong Purplish Pink	(9P-3RP,3-9RP) 5.6RP6.8/9	#F6768E	 	#E68FAC	 
+deep pPk 248 Deep Purplish Pink	(9P-3RP,3-9RP) 4.4RP6/12.2	#EB5284	 	#DE6FA1	 
+l.pPk 249 Light Purplish Pink	(9P-3RP,3-9RP) 4.6RP8/5.5	#FFA8AF	 	#EFBBCC	 
+m.pPk 250 Moderate Purplish Pink	(9P-3RP,3-9RP) 4.6RP6.8/6.7	#E28090	 	#D597AE	 
+d.pPk 251 Dark Purplish Pink	(3-9RP) 6.4RP5.9/7	#C76574	 	#C17E91	 
+p.pPk 252 Pale Purplish Pink	(9P-3RP,3-9RP) 3.7RP8.4/3.3	#FDBDBA	 	#E8CCD7	 
+gy.pPk 253 Grayish Purplish Pink	(9P-3RP,3-9RP) 3.7RP7/3.5	#CC9293	 	#C3A6B1	 
+Purplish Red	GO TO TOP
+v.pR 254 Vivid Purplish Red	(3-9RP,9RP-1R) 7.6RP4.9/13.6	#D5265B	 	#CE4676	 
+s.pR 255 Strong Purplish Red	(3-9RP,9RP-1R) 7.3RP4.4/11.4	#B32851	 	#B3446C	 
+deep pR 256 Deep Purplish Red	(3-9RP,9RP-1R) 7.3RP2.6/10.1	#6F0035	 	#78184A	 
+v.deep pR 257 Very Deep Purplish Red	(3-9RP,9RP-1R) 6.8RP1.7/8	#470027	 	#54133B	 
+m.pR 258 Moderate Purplish Red	(3-9RP,9RP-1R) 7.1RP4.5/9	#A73853	 	#A8516E	 
+d.pR 259 Dark Purplish Red	(3-9RP,9RP-1R) 7.1RP2.7/6	#5B1E31	 	#673147	 
+v.d.pR 260 Very Dark Purplish Red	(3-9RP,9RP-1R) 6.6RP0.9/4.8 OUT	#28071A	 	#38152C	 	6.6RP1/4.8
+l.gy.pR 261 Light Grayish Purplish Red	(3-9RP,9RP-1R) 7.8RP5.9/4.2	#B27070	 	#AF868E	 
+gy.pR 262 Grayish Purplish Red	(3-9RP,9RP-1R) 7RP4.5/5.1	#8C4852	 	#915F6D	 
+Neutral	GO TO TOP
+White 263 White	(all) 2.5PB9.5/0.2	#FFC9D7	 	#F2F3F4	 	better
+l.Gy 264 Light Gray	(all) 6.7Y7.4/0.2	#C2A894	 	#B9B8B5	 
+med.Gy 265 Medium Gray	(all) 3.3GY5.4/0.1	#817066	 	#848482	 
+d.Gy 266 Dark Gray	(all) 2.5PB3.5/0	#49423D	 	#555555	 
+Black 267 Black	(all) 2.5PB0.8/0 OUT	#131313	 	#222222	 	2.5PB1/0

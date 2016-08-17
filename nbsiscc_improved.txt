@@ -1,0 +1,267 @@
+Vivid Pink #FF7E93 #FFB5BA Pink *OUT
+Strong Pink #FD7B7C #EA9399 Pink
+Deep Pink #F3545E #E4717A Pink
+Light Pink #FFBCAD #F9CCCA Pink
+Moderate Pink #EE9086 #DEA5A4 Pink
+Dark Pink #C76864 #C08081 Pink
+Pale Pink #FFCBBB #EAD8D7 Pink
+Grayish Pink #CF9B8F #C4AEAD Pink
+Pinkish White #F9DBC8 #EAE3E1 Pink
+Pinkish Gray #C8A696 #C1B6B3 Pink
+Vivid Red #C10020 #BE0032 Red *OUT
+Strong Red #BF2233 #BC3F4A Red
+Deep Red #7B001C #841B2D Red
+Very Deep Red #4F0014 #5C0923 Red
+Moderate Red #AB343A #AB4E52 Red
+Dark Red #681C23 #722F37 Red
+Very Dark Red #320A18 #3F1728 Red
+Light Grayish Red #B17267 #AD8884 Red
+Grayish Red #8C4743 #905D5D Red
+Dark Grayish Red #482A2A #543D3F Red
+Blackish Red #1F0E11 #2E1D21 Red *OUT
+Reddish Gray #8B6C62 #8F817F Red
+Dark Reddish Gray #523C36 #5C504F Red
+Reddish Black #1E1112 #282022 Red *OUT
+Vivid Yellowish Pink #FF845C #FFB7A5 Yellowish Pink *OUT
+Strong Yellowish Pink #FF7A5C #F99379 Yellowish Pink
+Deep Yellowish Pink #E66761 #E66721 Yellowish Pink
+Light Yellowish Pink #FFB28B #F4C2C2 Yellowish Pink
+Moderate Yellowish Pink #EE9374 #D9A6A9 Yellowish Pink
+Dark Yellowish Pink #CC6C5C #C48379 Yellowish Pink
+Pale Yellowish Pink #FFC8A8 #ECD5C5 Yellowish Pink
+Grayish Yellowish Pink #D39B85 #C7ADA3 Yellowish Pink
+Brownish Pink #CD9A7B #C2AC99 Brownish Pink
+Vivid Reddish Orange #F13A13 #E25822 Reddish Orange
+Strong Reddish Orange #FFB961 #D9603B Reddish Orange *IGNORE0 *#E54326 in color dictionary
+Deep Reddish Orange #A91D11 #AA381E Reddish Orange
+Moderate Reddish Orange #D35339 #CB6D51 Reddish Orange
+Dark Reddish Orange #9B2F1F #9E4732 Reddish Orange
+Grayish Reddish Orange #B85D43 #B4745E Reddish Orange
+Strong Reddish Brown #7F180D #882D17 Reddish Brown
+Deep Reddish Brown #490005 #56070C Reddish Brown
+Light Reddish Brown #AA6651 #A87C6D Reddish Brown
+Moderate Reddish Brown #712F26 #79443B Reddish Brown
+Dark Reddish Brown #321011 #3E1D1E Reddish Brown
+Light Grayish Reddish Brown #966A57 #977F73 Reddish Brown
+Grayish Reddish Brown #5E3830 #674C47 Reddish Brown
+Dark Grayish Reddish Brown #371F1C #43302E Reddish Brown
+Vivid Orange #FF6800 #F38400 Orange *OUT
+Brilliant Orange #FFB841 #FD943F Orange *OUT
+Strong Orange #FF6F1A #ED872D Orange
+Deep Orange #C34D0A #BE6516 Orange
+Light Orange #FFA161 #FAB57F Orange
+Moderate Orange #E8793E #D99058 Orange
+Brownish Orange #B15124 #AE6938 Brownish Orange
+Strong Brown #753313 #80461B Brown
+Deep Brown #4D220E #593319 Brown
+Light Brown #A86540 #A67B5B Brown
+Moderate Brown #673923 #6F4E37 Brown
+Dark Brown #35170C #422518 Brown
+Light Grayish Brown #946B54 #958070 Brown
+Grayish Brown #5A3D30 #635147 Brown
+Dark Grayish Brown #32221A #3E322C Brown
+Light Brownish Gray #8B6D5C #8E8279 Brown
+Brownish Gray #503D33 #5B504F Brown
+Brownish Black #140F0B #28201C Brown *OUT
+Vivid Orange Yellow #FF8E00 #F6A600 Orange Yellow *OUT
+Brilliant Orange Yellow #FFB02E #FFC14F Orange Yellow *OUT
+Strong Orange Yellow #FF8E0D #EAA221 Orange Yellow
+Deep Orange Yellow #D76E00 #C98500 Orange Yellow *OUT
+Light Orange Yellow #FFB961 #FBC97F Orange Yellow
+Moderate Orange Yellow #F7943C #E3A857 Orange Yellow
+Dark Orange Yellow #C37629 #BE8A3D Orange Yellow
+Pale Orange Yellow #FFCA86 #FAD6A5 Orange Yellow
+Strong Yellowish Brown #95500C #996515 Yellowish Brown
+Deep Yellowish Brown #593315 #654522 Yellowish Brown
+Light Yellowish Brown #BB8B54 #C19A6B Yellowish Brown
+Moderate Yellowish Brown #7D512D #826644 Yellowish Brown
+Dark Yellowish Brown #3F2512 #4B3621 Yellowish Brown
+Light Grayish Yellowish Brown #B48764 #AE9B82 Yellowish Brown
+Grayish Yellowish Brown #785840 #7E6D5A Yellowish Brown
+Dark Grayish Yellowish Brown #3D2B1F #483C32 Yellowish Brown
+Vivid Yellow #FFB300 #F3C300 Yellow *OUT
+Brilliant Yellow #FFCF40 #FADA5E Yellow
+Strong Yellow #E59E1F #D4AF37 Yellow
+Deep Yellow #B57900 #AF8D13 Yellow
+Light Yellow #FFD35F #F8DE7E Yellow
+Moderate Yellow #D79D41 #C9AE5D Yellow
+Dark Yellow #B07D2B #AB9144 Yellow
+Pale Yellow #FFDB8B #F3E5AB Yellow
+Grayish Yellow #CEA262 #C2B280 Yellow
+Dark Grayish Yellow #A47C45 #A18F60 Yellow
+Yellowish White #FFE2B7 #F0EAD6 Yellow
+Yellowish Gray #CAA885 #BFB8A5 Yellow
+Light Olive Brown #945D0B #967117 Olive Brown
+Moderate Olive Brown #64400F #6C541E Olive Brown
+Dark Olive Brown #302112 #3B3121 Olive Brown
+Vivid Greenish Yellow #F4C800 #DCD300 Greenish Yellow *OUT
+Brilliant Greenish Yellow #FFDC33 #E9E450 Greenish Yellow
+Strong Greenish Yellow #CCA817 #BEB72E Greenish Yellow
+Deep Greenish Yellow #9F8200 #9B9400 Greenish Yellow *OUT
+Light Greenish Yellow #FFDE5A #EAE679 Greenish Yellow
+Moderate Greenish Yellow #C4A43D #B9B459 Greenish Yellow
+Dark Greenish Yellow #9B8127 #98943E Greenish Yellow
+Pale Greenish Yellow #FFDF84 #EBE8A4 Greenish Yellow
+Grayish Greenish Yellow #C4A55F #B9B57D Greenish Yellow
+Light Olive #846A20 #867E36 Olive
+Moderate Olive #5E490F #665D1E Olive
+Dark Olive #362C12 #403D21 Olive
+Light Grayish Olive #8B734B #8C8767 Olive
+Grayish Olive #52442C #5B5842 Olive
+Dark Grayish Olive #2B2517 #363527 Olive
+Light Olive Gray #887359 #8A8776 Olive
+Olive Gray #4D4234 #57554C Olive
+Olive Black #121910 #25241D Olive
+Vivid Yellow Green #93AA00 #8DB600 Yellow Green *OUT
+Brilliant Yellow Green #CED23A #BDDA57 Yellow Green
+Strong Yellow Green #7F8F18 #7E9F2E Yellow Green
+Deep Yellow Green #425E17 #467129 Yellow Green
+Light Yellow Green #DCD36A #C9DC89 Yellow Green
+Moderate Yellow Green #8B8940 #8A9A5B Yellow Green
+Pale Yellow Green #F0D698 #DADFB7 Yellow Green
+Grayish Yellow Green #90845B #8F9779 Yellow Green
+Strong Olive Green #0A4500 #404F00 Olive Green *OUT
+Deep Olive Green #142300 #232F00 Olive Green *OUT
+Moderate Olive Green #434B1B #4A5D23 Olive Green
+Dark Olive Green #232C16 #2B3D26 Olive Green
+Grayish Olive Green #48442D #515744 Olive Green
+Dark Grayish Olive Green #27261A #31362B Olive Green
+Vivid Yellowish Green see  #379931 #27A64C Yellowish Green
+Brilliant Yellowish Green #8CCB5E #83D37D Yellowish Green
+Strong Yellowish Green #478430 #44944A Yellowish Green
+Deep Yellowish Green #00541F #00622D Yellowish Green *OUT
+Very Deep Yellowish Green #002800 #003118 Yellowish Green *OUT
+Very Light Yellowish Green #C6DF90 #B6E5AF Yellowish Green
+Light Yellowish Green #007BA7 #93C592 Yellowish Green *IGNORE0 *#9AB973 in color dictionary
+Moderate Yellowish Green #657F4B #679267 Yellowish Green
+Dark Yellowish Green #304B26 #355E3B Yellowish Green
+Very Dark Yellowish Green #132712 #173620 Yellowish Green
+Vivid Green #007D34 #008856 Green *OUT
+Brilliant Green #47A76A #3EB489 Green 
+Strong Green #006B3C #007959 Green *OUT
+Deep Green #004524 #00543D Green *OUT
+Very Light Green #98C793 #8ED1B2 Green
+Light Green #719B6E #6AAB8E Green
+Moderate Green #386646 #3B7861 Green
+Dark Green #203A27 #1B4D3E Green
+Very Dark Green #16251C #1C352D Green
+Very Pale Green #D8DEBA #C7E6D7 Green
+Pale Green #8D917A #8DA399 Green
+Grayish Green #575E4E #5E716A Green
+Dark Grayish Green #313830 #3A4B47 Green
+Blackish Green #141613 #1A2421 Green
+Greenish White #F5E6CB #DFEDE8 Green *IGNORE0
+Light Greenish Gray #BAAF96 #B2BEB5 Green
+Greenish Gray #7A7666 #7D8984 Green
+Dark Greenish Gray #45433B #4E5755 Green
+Greenish Black #181513 #1E2321 Green
+Vivid Bluish Green #00836E #008882 Bluish Green *OUT
+Brilliant Bluish Green #009B76 #00A693 Bluish Green *OUT
+Strong Bluish Green #006D5B #007A74 Bluish Green *OUT
+Deep Bluish Green #00382B #00443F Bluish Green *OUT
+Very Light Bluish Green #A0D6B4 #96DED1 Bluish Green
+Light Bluish Green #669E85 #66ADA4 Bluish Green
+Moderate Bluish Green #2F6556 #317873 Bluish Green
+Dark Bluish Green #013A33 #004B49 Bluish Green *OUT
+Very Dark Bluish Green #001D18 #002A29 Bluish Green *OUT
+Vivid Greenish Blue #0085A1 #00A77B Greenish Blue *OUT
+Brilliant Greenish Blue #2A8D9C #239EBA Greenish Blue
+Strong Greenish Blue #00677E #007791 Greenish Blue *OUT
+Deep Greenish Blue #167 #2E8495 Greenish Blue *OUT
+Very Light Greenish Blue #A3C6C0 #9CD1DC Greenish Blue
+Light Greenish Blue #649A9E #66AABC Greenish Blue
+Moderate Greenish Blue #30626B #367588 Greenish Blue
+Dark Greenish Blue #003841 #004958 Greenish Blue *OUT
+Very Dark Greenish Blue #022027 #002E3B Greenish Blue *OUT
+Vivid Blue (Ultramarine) #007CAD #00A1C2 Blue *OUT
+Brilliant Blue (Celestial Blue) #4285B4 #4997D0 Blue
+Strong Blue (Bright Blue) #00538A #0067A5 Blue *OUT
+Deep Blue (Royal Blue) #002F55 #00416A Blue *OUT
+Very Light Blue (Baby Blue) #A6BDD7 #A1CAF1 Blue
+Light Blue (Sky Blue) #6C92AF #70A3CC Blue
+Moderate Blue (Cerulean Blue) #395778 #436B95 Blue
+Dark Blue (Navy Blue) #002137 #00304E Blue *OUT
+Very Pale Blue (Cloud Blue) #C1CACA #BCD4E6 Blue
+Pale Blue (Alice Blue) #919192 #91A3B0 Blue
+Grayish Blue (Slate Blue) #4A545C #536878 Blue
+Dark Grayish Blue #2C3337 #36454F Blue
+Blackish Blue #161A1E #202830 Blue
+Bluish White #F9DFCF #CFDFF9 Blue *IGNORE0 *#CFDFF9 transposed but too dark
+Light Bluish Gray #BEADA1 #B4BCC0 Blue
+Bluish Gray #7D746D #81878B Blue
+Dark Bluish Gray #464544 #51585E Blue
+Bluish Black #151719 #202428 Blue
+Vivid Purplish Blue #20155E #30267A Purplish Blue
+Brilliant Purplish Blue #62639B #6C79B8 Purplish Blue
+Strong Purplish Blue #474389 #545AA7 Purplish Blue
+Deep Purplish Blue #1A153F #272458 Purplish Blue
+Very Light Purplish Blue #BAACC7 #B3BCE2 Purplish Blue
+Light Purplish Blue #837DA2 #8791BF Purplish Blue
+Moderate Purplish Blue #423C63 #4E5180 Purplish Blue
+Dark Purplish Blue #1A162A #252440 Purplish Blue
+Very Pale Purplish Blue #CBBAC5 #C0C8E1 Purplish Blue
+Pale Purplish Blue #8A7F8E #8C92AC Purplish Blue
+Grayish Purplish Blue #413D51 #4C516D Purplish Blue
+Vivid Violet #884BAE #9065CA Violet
+Brilliant Violet #755D9A #7E73B8 Violet
+Strong Violet #53377A #604E97 Violet
+Deep Violet #240935 #32174D Violet
+Very Light Violet #EEBEF1 #DCD0FF Violet *OUT
+Light Violet #876C99 #8C82B6 Violet
+Moderate Violet #543964 #604E81 Violet
+Dark Violet #22132B #2F2140 Violet
+Very Pale Violet #D8B1BF #C4C3DD Violet
+Pale Violet #957B8D #9690AB Violet
+Grayish Violet #46394B #554C69 Violet
+Vivid Purple #943391 #9A4EAE Purple
+Brilliant Purple #DD80CC #D399E6 Purple
+Strong Purple #803E75 #875692 Purple
+Deep Purple #531A50 #602F6B Purple
+Very Deep Purple #320B35 #401A4C Purple
+Very Light Purple #E3A9BE #D5BADB Purple
+Light Purple #BA7FA2 #B695C0 Purple
+Moderate Purple #7F4870 #86608E Purple
+Dark Purple #472A3F #563C5C Purple
+Very Dark Purple #230D21 #301934 Purple
+Very Pale Purple #E6BBC1 #D6CADD Purple
+Pale Purple #AE848B #AA98A9 Purple
+Grayish Purple #72525C #796878 Purple
+Dark Grayish Purple #452D35 #50404D Purple
+Blackish Purple #1D1018 #291E29 Purple *OUT
+Purplish White #FADBC8 #E8E3E5 Purple *IGNORE0
+Light Purplish Gray #C8A99E #BFB9BD Purple
+Purplish Gray #88706B #8B8589 Purple
+Dark Purplish Gray #564042 #5D555B Purple
+Purplish Black #1B1116 #242124 Purple *OUT
+Vivid Reddish Purple #7E0059 #870074 Reddish Purple *OUT
+Strong Reddish Purple #9A366B #9E4F88 Reddish Purple
+Deep Reddish Purple #641349 #702963 Reddish Purple
+Very Deep Reddish Purple #470736 #54194E Reddish Purple
+Light Reddish Purple #BB6C8A #B784A7 Reddish Purple
+Moderate Reddish Purple #8C4566 #915C83 Reddish Purple
+Dark Reddish Purple #4F273A #5D3954 Reddish Purple
+Very Dark Reddish Purple #270A1F #341731 Reddish Purple
+Pale Reddish Purple #AC7580 #AA8A9E Reddish Purple
+Grayish Reddish Purple #7D4D5D #836479 Reddish Purple
+Brilliant Purplish Pink #FF97BB #FFC8D6 Purplish Pink *OUT
+Strong Purplish Pink #F6768E #E68FAC Purplish Pink
+Deep Purplish Pink #EB5284 #DE6FA1 Purplish Pink
+Light Purplish Pink #FFA8AF #EFBBCC Purplish Pink
+Moderate Purplish Pink #E28090 #D597AE Purplish Pink
+Dark Purplish Pink #C76574 #C17E91 Purplish Pink
+Pale Purplish Pink #FDBDBA #E8CCD7 Purplish Pink
+Grayish Purplish Pink #CC9293 #C3A6B1 Purplish Pink
+Vivid Purplish Red #D5265B #CE4676 Purplish Red
+Strong Purplish Red #B32851 #B3446C Purplish Red
+Deep Purplish Red #6F0035 #78184A Purplish Red
+Very Deep Purplish Red #470027 #54133B Purplish Red
+Moderate Purplish Red #A73853 #A8516E Purplish Red
+Dark Purplish Red #5B1E31 #673147 Purplish Red
+Very Dark Purplish Red #28071A #38152C Purplish Red *OUT
+Light Grayish Purplish Red #B27070 #AF868E Purplish Red
+Grayish Purplish Red #8C4852 #915F6D Purplish Red
+White #FFC9D7 #F2F3F4 Neutral *IGNORE0
+Light Gray #C2A894 #B9B8B5 Neutral
+Medium Gray #817066 #848482 Neutral
+Dark Gray #49423D #555555 Neutral
+Black #131313 #222222 Neutral *OUT
