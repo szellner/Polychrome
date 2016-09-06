@@ -196,6 +196,11 @@ def nbs():
 				if match:
 					print match.groups()[0], match.groups()[1], match.groups()[2], group
 
+def weight(graph, node0, node1):
+    	if not graph.has_edge(node0, node1):
+            graph.add_edge(node0, node1, {"weight": 1})
+        else:
+            graph[node0][node1]["weight"] += 1
 			
 if __name__ == "__main__":   
 	nbs()
