@@ -31,11 +31,6 @@ class PolychromeEval():
         self.nbs_correlate = []
         self.total = 0
 
-    def hex2rgb(self, hexVal):
-        if hexVal.startswith('#'):
-            hexVal = hexVal[1:]
-        return tuple([int(hexVal[i:i + 2], 16) for i in xrange(0, len(hexVal), 2)])
-
     def specWebAndMagickEquivalence(self, test_color, graph):
         magick = self.polychrome.getMagickName(test_color)
         print "MAGICK: ", magick
@@ -43,8 +38,8 @@ class PolychromeEval():
         specweb = self.polychrome.getWebName(test_color, "specific")
         print "SPECWEB: ", specweb
         # s = specweb[0].lower()
-        mColor = self.hex2rgb(magick[1])
-        sColor = self.hex2rgb(specweb[1])
+        mColor = utils.hex2rgb(magick[1])
+        sColor = utils.hex2rgb(specweb[1])
 
         # Add the nodes with their respective rgb triplets as the node color
         graph.add_node(magick, {"node_color": mColor})

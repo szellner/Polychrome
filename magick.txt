@@ -1,5 +1,3 @@
-# src: http://www.imagemagick.org/script/color.php
-
 Snow #FFFAFA
 Snow 1 #FFFAFA
 Snow 2 #EEE9E9

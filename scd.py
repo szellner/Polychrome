@@ -1,6 +1,9 @@
 import re
 import webcolors
 import colorsys
+import utils
+import numpy as np
+from colormap import ColorMap
 # http://rgb.to/pantone
 # Pantone Solid Coated
 # 1761 colors
@@ -13,53 +16,18 @@ import colorsys
 
 class Polychrome:
     def __init__(self):
-        self.magickMap = self.createMap("magick")
-        self.xkcdMap = self.createMap("xkcd")
-        self.reseneMap = self.createMap("resene")
-        self.bangMap = self.createMap("bang")
-        self.hollaschMap = self.createMap("hollasch", extras=True)
-        self.ralMap = self.createMap("ral", extras=True)
-        self.nbsIsccMap = self.createMap("nbsiscc")
-        self.improvedNbsIsccMap = self.createMap(
+        self.magickMap = ColorMap("magick")
+        self.xkcdMap = ColorMap("xkcd")
+        self.reseneMap = ColorMap("resene")
+        self.bangMap = ColorMap("bang")
+        self.hollaschMap = ColorMap("hollasch", extras=True)
+        self.ralMap = ColorMap("ral", extras=True)
+        self.nbsIsccMap = ColorMap("nbsiscc")
+        self.improvedNbsIsccMap = ColorMap(
             "nbsiscc_improved", extras=True)
-        self.wikiMap = self.createMap("wiki")
-        self.coatedPantoneMap = self.createMap("coatedpantone")
-        self.ntcMap = self.createMap("ntc")
-
-    def createMap(self, mapType, extras=False):
-        colorMap = {}
-        with open(mapType + ".txt") as f:
-            for line in f.readlines():
-                simpleMatch = re.search(
-                    '([a-zA-Z0-9 \(\)\[\]]+)([0-9]+)? +(#[a-zA-Z0-9]+)', line)
-                extrasMatch = re.search(
-                    '([a-zA-Z \(\)]+) (#[a-zA-Z0-9]+) ([a-zA-Z0-9 \*\#]+)?', line)
-                nbsMatch = re.search(
-                    '([a-zA-Z ]+) (\#[0-9A-Z]+) (\#[0-9A-Z]+) ([A-Za-z ]+) ?(\*OUT)? ?(\*IGNORE0)? ?(\*\#[0-9A-Z]+.+)?', line)
-
-                if simpleMatch:
-                    name, num, hexVal = simpleMatch.groups()
-                    if num:
-                        colorMap[hexVal] = name + num
-                    else:
-                        colorMap[hexVal] = name.strip()
-                elif extrasMatch:
-                    name, hexVal, extra = extrasMatch.groups()
-                    colorMap[hexVal] = (name, extra)
-                elif nbsMatch:
-                    if "OUT" not in nbsMatch.groups():
-                        name, mundieHex, fosterHex, group = nbsMatch.groups()
-                    else:
-                        name, mundieHex, fosterHex, group, gamutException = nbsMatch.groups()
-                    if "IGNORE0" not in nbsMatch.groups():
-                        colorMap[mundieHex] = name
-                    colorMap[fosterHex] = name
-                    name, mundieHex, fosterHex, group, inGamut, = nbsMatch.groups()
-                else:
-                    if not line.startswith(';'):
-                        print "X ", line
-
-        return colorMap.items()
+        self.wikiMap = ColorMap("wiki")
+        self.coatedPantoneMap = ColorMap("coatedpantone")
+        self.ntcMap = ColorMap("ntc")
 
     def euclid(self, requested_color, key, name, store):
         r_c, g_c, b_c = webcolors.hex_to_rgb(key)
@@ -72,7 +40,7 @@ class Polychrome:
 
     def closestColor(self, requested_color, requested_map, compare="euclid", extras=False):
         min_colors = {}
-        for key, name in requested_map:
+        for key, name in requested_map.colors:
             self.euclid(requested_color, key, name, min_colors)
             # if compare == "euclid":
             # 	self.euclid(requested_color, key, name, min_colors)
@@ -171,8 +139,7 @@ class Polychrome:
         return clean
 
     def suggest(self, requested_color):
-        suggestions = dict.fromkeys(["broadweb", "specweb", "magick", "xkcd", "resene",
-                                     "bang", "nbsiscc" "pantone", "ral", "satfaces", "chromaticity", "munsell", "wiki"])
+        suggestions = dict.fromkeys(["broadweb", "specweb", "magick", "xkcd", "resene", "bang", "nbsiscc" "pantone", "ral", "satfaces", "chromaticity", "munsell", "wiki"])
         suggestions["broadweb"] = self.getWebName(requested_color, "broad")
         suggestions["specweb"] = self.getWebName(requested_color, "specific")
         suggestions["magick"] = self.getMagickName(requested_color)
@@ -189,13 +156,18 @@ class Polychrome:
             requested_color)
         suggestions["ntc"] = self.getNtcName(requested_color)
         suggestions["satfaces"] = self.getSatName(requested_color)
+        utils.display_colors(suggestions.items())
         for x in suggestions.items():
+
             if x[1]:
                 print x
 
+    def test(self):
+    	# print self.magickMap.name("#000000")
+    	print self.magickMap.colors
 
 if __name__ == "__main__":
-    requested_color = (1,11,11)
+    requested_color = (1, 11, 11)
     poly = Polychrome()
-    poly.suggest(requested_color)
-    
+    poly.test()
+    # poly.suggest(requested_color)

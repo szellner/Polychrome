@@ -1,5 +1,35 @@
 import re
-import webcolors
+import cv2
+import numpy as np
+
+def display_colors(colors):
+	"""Displays the suggested colors"""
+	# initialize the bar chart representing the relative frequency
+	# of each of the colors
+	h = 50
+	w = 400
+	bar = np.zeros((h, w, 3), dtype = "uint8")
+	startX = 0
+	# loop over each color
+	percent = len(colors)/100.0
+	for color in colors:
+		endX = startX + (percent * w)
+		print color[1][1]
+		col = color.astype("uint8").tolist()
+		cv2.rectangle(bar, (int(startX), 0), (int(endX), h), col, -1)
+		startX = endX
+		colors.append(col)
+	# return the bar chart
+	print "BAR: ", bar
+	print colors
+	return bar, colors
+
+def hex2rgb(self, hexVal):
+    if hexVal.startswith('#'):
+        hexVal = hexVal[1:]
+    return tuple([int(hexVal[i:i + 2], 16) for i in xrange(0, len(hexVal), 2)])
+
+
 def manip():
 	c= {}
 	with open("xkcd.txt") as f:
