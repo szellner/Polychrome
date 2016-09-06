@@ -45,9 +45,11 @@ class ColorMap:
     def displayMap(self):
         print "display"
 
-    def name(self, colorName):
+    def isMapType(self, requestedMapType):
+    	return self.mapType == requestedMapType
+    	
+    def name(self, hexVal):
         try:
-            hexName = webcolors.normalize_hex(colorName)
-            print self.colorMap[colorName][1]
+        	return self.colors[hexVal]
         except KeyError:
-            print "This color doesn't exist in the %s map. Try again!" % self.mapType
+        	print "This color doesn't exist in the %s map. Try again!" % self.mapType

@@ -162,12 +162,19 @@ class Polychrome:
             if x[1]:
                 print x
 
+    def name(self, mapType, requested_color):
+    	mapDict = self.__dict__
+    	colormap = mapDict[mapType+"Map"].colors
+    	return colormap[requested_color]
+
     def test(self):
-    	# print self.magickMap.name("#000000")
-    	print self.magickMap.colors
+    	print self.magickMap.name("#EE8262")
 
 if __name__ == "__main__":
     requested_color = (1, 11, 11)
     poly = Polychrome()
-    poly.test()
+    print poly.name("magick", "#EE8262")
+    # print poly.magickMap.colors
+    # poly.test()
+    # poly.name(requested_color, "magick")
     # poly.suggest(requested_color)
