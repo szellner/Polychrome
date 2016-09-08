@@ -3,6 +3,7 @@ from scd import Polychrome
 
 poly = Polychrome()
 
+
 class TestPolychrome:
     # Naming hex values
     def test_valid_hex_in_magick(self):
@@ -22,7 +23,7 @@ class TestPolychrome:
     def test_valid_rgb_notin_magick(self):
         assert not poly.name("magick", (40, 40, 40))
 
-	# Testing that the correct maps are supported
+        # Testing that the correct maps are supported
     def test_valid_supported_map(self):
         assert poly.isSupportedMap("magick")
 

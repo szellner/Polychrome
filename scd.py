@@ -27,7 +27,6 @@ class Polychrome:
         self.ntcMap = ColorMap("ntc")
         self.broadwebMap = ColorMap("broadweb")
         self.specwebMap = ColorMap("broadweb")
-        self.mapDict = self.__dict__
 
     def euclid(self, requested_color, key, name, store):
         r_c, g_c, b_c = webcolors.hex_to_rgb(key)
@@ -39,12 +38,12 @@ class Polychrome:
     def isSupportedMap(self, mapType):
         # Look whether the map type is supported
         name = mapType + "Map"
-        return name in list(colormap[0] for colormap in self.mapDict.items())
+        return name in list(colormap[0] for colormap in self.__dict__.items())
 
     def getMap(self, mapType):
         name = mapType + "Map"
         try:
-            return self.mapDict[name]
+            return self.__dict__[name]
         except KeyError:
             print "The map %s isn't supported." % mapType
 
@@ -77,7 +76,7 @@ class Polychrome:
     def getSatName(self, requested_color):
         """ The dominant color name over the three fully-saturated faces of the RGB cube. From XKCD results. """
         if utils.validHex(requested_color):
-        	requested_color = utils.hex2rgb(requested_color)
+            requested_color = utils.hex2rgb(requested_color)
         r, g, b = map((lambda x: x / 255.0), requested_color)
         (h, s, v) = colorsys.rgb_to_hsv(r, g, b)
         (r, g, b) = colorsys.hsv_to_rgb(h, 1, v)
@@ -90,18 +89,22 @@ class Polychrome:
         return clean
 
     def suggest(self, requested_color):
-        suggestions = dict.fromkeys(["magick", "xkcd", "coatedpantone", "wiki", "nbsiscc1", "nbsiscc2", "resene", "bang", "broadweb", "specweb"])
+        # Get the types of the valid maps
+        validMaps = list(key[:len(key) - 3] for key in self.__dict__.keys())
+        suggestions = dict.fromkeys(validMaps)
         for key in suggestions.keys():
-            suggestions[key] = self.closestColor(requested_color, self.getMap(key))
-        print "REQUESTED COLOR: ", requested_color
+            suggestions[key] = self.closestColor(
+                requested_color, self.getMap(key))
         suggestions["satfaces"] = self.getSatName(requested_color)
+        print "REQUESTED COLOR: ", requested_color
         for s in suggestions.items():
             print s
         print
-# "broadweb", "specweb", "satfaces"
+        return suggestions
 
     def name(self, mapType, requested_color):
         colorMap = self.getMap(mapType)
+        # For hex values
         if type(requested_color) == str:
             try:
                 return colorMap.colors[utils.validHex(requested_color)]
@@ -110,7 +113,7 @@ class Polychrome:
                 pass
             except TypeError:
                 pass
-
+        # For RGB values
         elif type(requested_color) == tuple:
             try:
                 rgbMap = colorMap.toRGB()
@@ -121,9 +124,17 @@ class Polychrome:
             except TypeError:
                 pass
 
+    def display(self, suggestions):
+        print suggestions.values()
+        print len(suggestions.values())
+        suggestedColors = [
+            val for val in suggestions.values() if type(val) == tuple]
+        utils.display_colors(suggestedColors)
+
 if __name__ == "__main__":
     requested_color = (205, 200, 177)
     requested_color2 = "#EE8262"
     poly = Polychrome()
-    poly.suggest(requested_color)
-    poly.suggest(requested_color2)
+    a = poly.suggest(requested_color)
+    b = poly.suggest(requested_color2)
+    poly.display(a)
