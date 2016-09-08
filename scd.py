@@ -1,8 +1,6 @@
-import re
 import webcolors
 import colorsys
 import utils
-import numpy as np
 from colormap import ColorMap
 # http://rgb.to/pantone
 # Pantone Solid Coated
@@ -22,12 +20,13 @@ class Polychrome:
         self.bangMap = ColorMap("bang")
         self.hollaschMap = ColorMap("hollasch", extras=True)
         self.ralMap = ColorMap("ral", extras=True)
-        self.nbsIsccMap = ColorMap("nbsiscc")
-        self.improvedNbsIsccMap = ColorMap(
-            "nbsiscc_improved", extras=True)
+        self.nbsiscc1Map = ColorMap("nbsiscc1")
+        self.nbsiscc2Map = ColorMap("nbsiscc2", extras=True)
         self.wikiMap = ColorMap("wiki")
-        self.coatedPantoneMap = ColorMap("coatedpantone")
+        self.coatedpantoneMap = ColorMap("coatedpantone")
         self.ntcMap = ColorMap("ntc")
+
+        self.mapDict = self.__dict__
 
     def euclid(self, requested_color, key, name, store):
         r_c, g_c, b_c = webcolors.hex_to_rgb(key)
@@ -36,37 +35,45 @@ class Polychrome:
         bd = (b_c - requested_color[2]) ** 2
         store[(rd + gd + bd)] = name
 
-    # def deltaE(self, )
+    def isSupportedMap(self, mapType):
+        # Look whether the map type is supported
+        name = mapType + "Map"
+        return name in list(colormap[0] for colormap in self.mapDict.items())
+
+    def getMap(self, mapType):
+        name = mapType + "Map"
+        try:
+            return self.mapDict[name]
+        except KeyError:
+            print "The map %s isn't supported." % mapType
 
     def closestColor(self, requested_color, requested_map, compare="euclid", extras=False):
         min_colors = {}
-        for key, name in requested_map.colors:
-            self.euclid(requested_color, key, name, min_colors)
+        # If the requested color is in hex, change it to RGB
+        if utils.validHex(str(requested_color)):
+            requested_color = webcolors.hex_to_rgb(requested_color)
+        # else:
+        # 	print "OI", utils.validRGB(requested_color)
+        if utils.validRGB(requested_color):
+            for key, name in requested_map.colors.items():
+                self.euclid(requested_color, key, name, min_colors)
+                closest = min_colors[min(min_colors.keys())]
             # if compare == "euclid":
             # 	self.euclid(requested_color, key, name, min_colors)
             # 	closest = min_colors[min(min_colors.keys())]
             # elif compare == "deltaE":
             # 	self.deltaE()
-        closest = min_colors[min(min_colors.keys())]
-        # Maps with simple extras
-        if requested_map in ["hollaschMap", "ralMap"]:
-            return str(closest[0]), str(webcolors.normalize_hex(key)), str(closest[1])
-        # Maps with complex extras
-        elif requested_map in ["improvedNbsIsccMap"]:
-            print "IS IMPR"
 
-        else:
-            return str(closest.title()), str(webcolors.normalize_hex(key))
+            # print "RGB"
+            # Maps with simple extras
 
-    # def getBroadWebName(self, requested_color, flag):
-    #     try:
-    #         colorName = webcolors.rgb_to_name(
-    #             requested_color, spec="css21")
-    #         hexVal = str(webcolors.css21_names_to_hex[colorName])
-    #     except:
-    #         webColorMap = webcolors.css21_hex_to_names.items()
-    #         colorName = self.closestColor(requested_color, webColorMap)
-    #         return colorName
+     #    if requested_map in ["hollaschMap", "ralMap"]:
+        return closest, str(webcolors.normalize_hex(key))
+     #    # Maps with complex extras
+        # elif requested_map in ["inbsiscc_improvedMap"]:
+     #            print "IS IMPR"
+     #    else:
+     #        return str(closest.title()), str(webcolors.normalize_hex(key))
 
     def getWebName(self, requested_color, flag):
         try:
@@ -86,45 +93,6 @@ class Polychrome:
             colorName = self.closestColor(requested_color, webColorMap)
             return colorName
 
-    def getMagickName(self, requested_color):
-        return self.closestColor(requested_color, self.magickMap)
-
-    def getXkcdName(self, requested_color):
-        return self.closestColor(requested_color, self.xkcdMap)
-
-    def getReseneName(self, requested_color):
-        return self.closestColor(requested_color, self.reseneMap)
-
-    def getBangName(self, requested_color):
-        return self.closestColor(requested_color, self.bangMap)
-
-    def getHollaschName(self, requested_color):
-        return self.closestColor(requested_color, self.hollaschMap)
-
-    def getRalName(self, requested_color):
-        return self.closestColor(requested_color, self.ralMap)
-
-    def getNbsIsccName(self, requested_color):
-        return self.closestColor(requested_color, self.nbsIsccMap)
-
-    def getImprovedNbsIsccName(self, requested_color):
-        return self.closestColor(requested_color, self.improvedNbsIsccMap)
-
-    def getMunsellFosterName(self, requested_color):
-        return self.closestColor(requested_color, self.nbsIsccMap)
-
-    def getMunsellMundieName(self, requested_color):
-        return self.closestColor(requested_color, self.nbsIsccMap)
-
-    def getWikiName(self, requested_color):
-        return self.closestColor(requested_color, self.wikiMap)
-
-    def getCoatedPantoneName(self, requested_color):
-        return self.closestColor(requested_color, self.coatedPantoneMap)
-
-    def getNtcName(self, requested_color):
-        return self.closestColor(requested_color, self.ntcMap)
-
     def getSatName(self, requested_color):
         """ The dominant color name over the three fully-saturated faces of the RGB cube. From XKCD results. """
         r, g, b = map((lambda x: x / 255.0), requested_color)
@@ -139,42 +107,48 @@ class Polychrome:
         return clean
 
     def suggest(self, requested_color):
-        suggestions = dict.fromkeys(["broadweb", "specweb", "magick", "xkcd", "resene", "bang", "nbsiscc" "pantone", "ral", "satfaces", "chromaticity", "munsell", "wiki"])
-        suggestions["broadweb"] = self.getWebName(requested_color, "broad")
-        suggestions["specweb"] = self.getWebName(requested_color, "specific")
-        suggestions["magick"] = self.getMagickName(requested_color)
-        suggestions["xkcd"] = self.getXkcdName(requested_color)
-        suggestions["resene"] = self.getReseneName(requested_color)
-        suggestions["bang"] = self.getBangName(requested_color)
-        suggestions["hollasch"] = self.getHollaschName(requested_color)
-        suggestions["ral"] = self.getRalName(requested_color)
-        suggestions["nbsiscc"] = self.getNbsIsccName(requested_color)
-        suggestions["nbsiscc_improved"] = self.getImprovedNbsIsccName(
-            requested_color)
-        suggestions["wiki"] = self.getWikiName(requested_color)
-        suggestions["coatedpantone"] = self.getCoatedPantoneName(
-            requested_color)
-        suggestions["ntc"] = self.getNtcName(requested_color)
-        suggestions["satfaces"] = self.getSatName(requested_color)
-        utils.display_colors(suggestions.items())
-        for x in suggestions.items():
-
-            if x[1]:
-                print x
+        # suggestions = dict.fromkeys(["magick", "xkcd", "resene", "bang",
+                                     # "nbsiscc1", "nbsiscc2", "coatedpantone", "ral", "wiki"])
+        suggestions = dict.fromkeys(["magick"])
+        for key in suggestions.keys():
+            suggestions[key] = self.closestColor(
+                requested_color, self.getMap(key))
+        print "REQUESTED COLOR: ", requested_color
+        for s in suggestions.items():
+            print s
+        print
+# "broadweb", "specweb", "satfaces"
 
     def name(self, mapType, requested_color):
-    	mapDict = self.__dict__
-    	colormap = mapDict[mapType+"Map"].colors
-    	return colormap[requested_color]
+        colorMap = self.getMap(mapType)
+        if type(requested_color) == str:
+            try:
+                return colorMap.colors[utils.validHex(requested_color)]
+            except KeyError:
+                print "The hex value %s is not in the %s map." % (requested_color, mapType)
+                pass
+            except TypeError:
+                pass
 
-    def test(self):
-    	print self.magickMap.name("#EE8262")
+        elif type(requested_color) == tuple:
+            try:
+                rgbMap = colorMap.toRGB()
+                return rgbMap.colors[utils.validRGB(requested_color)]
+            except KeyError:
+                print "The RGB triplet %s is not in the %s map." % (requested_color, mapType)
+                pass
+            except TypeError:
+                pass
 
 if __name__ == "__main__":
-    requested_color = (1, 11, 11)
+    requested_color = (205, 200, 177)
+    requested_color2 = "#EE8262"
     poly = Polychrome()
-    print poly.name("magick", "#EE8262")
-    # print poly.magickMap.colors
-    # poly.test()
-    # poly.name(requested_color, "magick")
+    # poly.name("magick", requested_color)
+    # print poly.isSupportedMap("mgik")
+    # print poly.isSupportedMap("magick")
+    print poly.name("magick", requested_color2)
+    print poly.name("magick", (205,201,201))
+    print poly.name("magick", (40, 40, 40))
     # poly.suggest(requested_color)
+    # poly.suggest(requested_color2)

@@ -1,5 +1,6 @@
 import re
 import webcolors
+import utils
 
 
 class ColorMap:
@@ -37,19 +38,24 @@ class ColorMap:
                 else:
                     if not line.startswith(';'):
                         print "X ", line
-    # def toRGB(self):
-    # 	for x in colors:
-    # 		print "X: ", x
-            # print utils.hex2rgb()
 
-    def displayMap(self):
-        print "display"
+    def toRGB(self):
+        newColors = {}
+        for key, val in self.colors.items():
+            if utils.validHex(key):
+            	key = utils.hex2rgb(key)
+            newColors[key] = val
+        self.colors = newColors
+        return self
+
+    # def displayMap(self):
+    #     print "display"
 
     def isMapType(self, requestedMapType):
-    	return self.mapType == requestedMapType
-    	
-    def name(self, hexVal):
+        return self.mapType == requestedMapType
+
+    def name(self, key):
         try:
-        	return self.colors[hexVal]
+            return self.colors[key]
         except KeyError:
-        	print "This color doesn't exist in the %s map. Try again!" % self.mapType
+            print "%s doesn't exist in the %s map. Try again!" % (str(key),self.mapType)

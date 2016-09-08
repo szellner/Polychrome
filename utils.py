@@ -1,6 +1,8 @@
 import re
+import string
 import cv2
 import numpy as np
+import webcolors
 
 def display_colors(colors):
 	"""Displays the suggested colors"""
@@ -24,11 +26,33 @@ def display_colors(colors):
 	print colors
 	return bar, colors
 
-def hex2rgb(self, hexVal):
+def hex2rgb(hexVal):
     if hexVal.startswith('#'):
         hexVal = hexVal[1:]
     return tuple([int(hexVal[i:i + 2], 16) for i in xrange(0, len(hexVal), 2)])
 
+def map2rgb(requested_map):
+    	rgb = {}
+    	for key, val in requested_map.items():
+    		newKey = hex2rgb(key)
+    		rgb[newKey] = val
+        return rgb
+
+def validHex(val):
+	hexMatch = re.search('(\#)?([a-fA-F0-9]{6})', val)
+	try:
+		return '#' + hexMatch.groups()[1]
+	except (AttributeError, TypeError):
+		# print "%s is not a hex value." % val
+		pass
+
+def validRGB(val):
+	try:
+		len(val)==3 and val[0] in range(0,256) and val[1] in range(0,256) and val[2] in range(0,256)
+		return val
+	except AttributeError:
+		# print "%s is not an RGB triplet." % str(val)
+		pass
 
 def manip():
 	c= {}
