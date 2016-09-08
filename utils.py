@@ -39,7 +39,7 @@ def map2rgb(requested_map):
         return rgb
 
 def validHex(val):
-	hexMatch = re.search('(\#)?([a-fA-F0-9]{6})', val)
+	hexMatch = re.search('(\#)?([a-fA-F0-9]{6})', str(val))
 	try:
 		return '#' + hexMatch.groups()[1]
 	except (AttributeError, TypeError):

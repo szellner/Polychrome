@@ -25,7 +25,8 @@ class Polychrome:
         self.wikiMap = ColorMap("wiki")
         self.coatedpantoneMap = ColorMap("coatedpantone")
         self.ntcMap = ColorMap("ntc")
-
+        self.broadwebMap = ColorMap("broadweb")
+        self.specwebMap = ColorMap("broadweb")
         self.mapDict = self.__dict__
 
     def euclid(self, requested_color, key, name, store):
@@ -63,8 +64,6 @@ class Polychrome:
             # 	closest = min_colors[min(min_colors.keys())]
             # elif compare == "deltaE":
             # 	self.deltaE()
-
-            # print "RGB"
             # Maps with simple extras
 
      #    if requested_map in ["hollaschMap", "ralMap"]:
@@ -75,26 +74,10 @@ class Polychrome:
      #    else:
      #        return str(closest.title()), str(webcolors.normalize_hex(key))
 
-    def getWebName(self, requested_color, flag):
-        try:
-            if flag == "broad":
-                colorName = webcolors.rgb_to_name(
-                    requested_color, spec="css21")
-                hexVal = str(webcolors.css21_names_to_hex[colorName])
-            elif flag == "specific":
-                colorName = webcolors.rgb_to_name(requested_color, spec="css3")
-                hexVal = str(webcolors.css3_names_to_hex[colorName])
-            return str(colorName).title(), hexVal
-        except ValueError:
-            if flag == "broad":
-                webColorMap = webcolors.css21_hex_to_names.items()
-            elif flag == "specific":
-                webColorMap = webcolors.css3_hex_to_names.items()
-            colorName = self.closestColor(requested_color, webColorMap)
-            return colorName
-
     def getSatName(self, requested_color):
         """ The dominant color name over the three fully-saturated faces of the RGB cube. From XKCD results. """
+        if utils.validHex(requested_color):
+        	requested_color = utils.hex2rgb(requested_color)
         r, g, b = map((lambda x: x / 255.0), requested_color)
         (h, s, v) = colorsys.rgb_to_hsv(r, g, b)
         (r, g, b) = colorsys.hsv_to_rgb(h, 1, v)
@@ -107,13 +90,11 @@ class Polychrome:
         return clean
 
     def suggest(self, requested_color):
-        # suggestions = dict.fromkeys(["magick", "xkcd", "resene", "bang",
-                                     # "nbsiscc1", "nbsiscc2", "coatedpantone", "ral", "wiki"])
-        suggestions = dict.fromkeys(["magick"])
+        suggestions = dict.fromkeys(["magick", "xkcd", "coatedpantone", "wiki", "nbsiscc1", "nbsiscc2", "resene", "bang", "broadweb", "specweb"])
         for key in suggestions.keys():
-            suggestions[key] = self.closestColor(
-                requested_color, self.getMap(key))
+            suggestions[key] = self.closestColor(requested_color, self.getMap(key))
         print "REQUESTED COLOR: ", requested_color
+        suggestions["satfaces"] = self.getSatName(requested_color)
         for s in suggestions.items():
             print s
         print
@@ -144,11 +125,5 @@ if __name__ == "__main__":
     requested_color = (205, 200, 177)
     requested_color2 = "#EE8262"
     poly = Polychrome()
-    # poly.name("magick", requested_color)
-    # print poly.isSupportedMap("mgik")
-    # print poly.isSupportedMap("magick")
-    print poly.name("magick", requested_color2)
-    print poly.name("magick", (205,201,201))
-    print poly.name("magick", (40, 40, 40))
-    # poly.suggest(requested_color)
-    # poly.suggest(requested_color2)
+    poly.suggest(requested_color)
+    poly.suggest(requested_color2)

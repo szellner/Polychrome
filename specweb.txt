@@ -1,0 +1,138 @@
+Lawn Green #7cfc00
+Grey #808080
+Dark Blue #00008b
+Moccasin #ffe4b5
+Ivory #fffff0
+Dark Violet #9400d3
+Dark Goldenrod #b8860b
+Floral White #fffaf0
+Dark Magenta #8b008b
+Seashell #fff5ee
+Dark Orange #ff8c00
+Cadet Blue #5f9ea0
+Dark Slate Gray #2f4f4f
+Pale Turquoise #afeeee
+Light Blue #add8e6
+Snow #fffafa
+Dodger Blue #1e90ff
+Black #000000
+Dark Sea Green #8fbc8f
+Aquamarine #7fffd4
+Misty Rose #ffe4e1
+Maroon #800000
+Cornflower Blue #6495ed
+Royal Blue #4169e1
+Turquoise #40e0d0
+White #ffffff
+Dark Turquoise #00ced1
+Dark Red #8b0000
+Violet #ee82ee
+Green Yellow #adff2f
+Powder Blue #b0e0e6
+Medium Slate Blue #7b68ee
+Magenta #ff00ff
+Steel Blue #4682b4
+Tomato #ff6347
+Spring Green #00ff7f
+Papaya Whip #ffefd5
+Gold #ffd700
+Mint Cream #f5fffa
+Plum #dda0dd
+Indian Red #cd5c5c
+Light Salmon #ffa07a
+Medium Spring Green #00fa9a
+Ghost White #f8f8ff
+Green #008000
+Antique White #faebd7
+Honeydew #f0fff0
+Silver #c0c0c0
+Forest Green #228b22
+Chartreuse #7fff00
+Medium Purple #9370db
+Light Goldenrod Yellow #fafad2
+Cornsilk #fff8dc
+Sandy Brown #f4a460
+Olive Drab #6b8e23
+Dark Orchid #9932cc
+Old Lace #fdf5e6
+Medium Sea Green #3cb371
+Thistle #d8bfd8
+Olive #808000
+Dark Gray #a9a9a9
+Beige #f5f5dc
+Wheat #f5deb3
+Orange #ffa500
+Lime #00ff00
+Light Green #90ee90
+Sienna #a0522d
+Saddle Brown #8b4513
+Aqua #00ffff
+Indigo #4b0082
+Medium Aquamarine #66cdaa
+Firebrick #b22222
+Tan #d2b48c
+Blanched Almond #ffebcd
+Blue #0000ff
+Orchid #da70d6
+Lemon Chiffon #fffacd
+Coral #ff7f50
+White Smoke #f5f5f5
+Pink #ffc0cb
+Khaki #f0e68c
+Light Yellow #ffffe0
+Azure #f0ffff
+Alice Blue #f0f8ff
+Goldenrod #daa520
+Medium Violet Red #c71585
+Light Steel Blue #b0c4de
+Salmon #fa8072
+Slate Gray #708090
+Deep Pink #ff1493
+Slate Blue #6a5acd
+Sea Green #2e8b57
+Dark Salmon #e9967a
+Light Slate Grey #778899
+Medium Orchid #ba55d3
+Orange Red #ff4500
+Brown #a52a2a
+Dim Grey #696969
+Midnight Blue #191970
+Crimson #dc143c
+Dark Khaki #bdb76b
+Yellow #ffff00
+Dark Olive Green #556b2f
+Pale Goldenrod #eee8aa
+Peru #cd853f
+Linen #faf0e6
+Peach Puff #ffdab9
+Chocolate #d2691e
+Teal #008080
+Pale Green #98fb98
+Hot Pink #ff69b4
+Light Cyan #e0ffff
+Light Sky Blue #87cefa
+Navajo White #ffdead
+Dark Slate Blue #483d8b
+Lime Green #32cd32
+Lavender #e6e6fa
+Purple #800080
+Light Gray #d3d3d3
+Dark Green #006400
+Medium Blue #0000cd
+Deep Sky Blue #00bfff
+Bisque #ffe4c4
+Medium Turquoise #48d1cc
+Dark Cyan #008b8b
+Yellow Green #9acd32
+Light Coral #f08080
+Red #ff0000
+Rosy Brown #bc8f8f
+Pale Violet Red #db7093
+Light Pink #ffb6c1
+Light Sea Green #20b2aa
+Sky Blue #87ceeb
+Lavender Blush #fff0f5
+Blue Violet #8a2be2
+Navy #000080
+Gainsboro #dcdcdc
+Burlywood #deb887

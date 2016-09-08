@@ -1,9 +1,7 @@
 import pytest
 from scd import Polychrome
 
-
 poly = Polychrome()
-
 
 class TestPolychrome:
     # Naming hex values
@@ -19,13 +17,14 @@ class TestPolychrome:
 
     # Naming RGB values
     def test_valid_rgb_in_magick(self):
-    	assert poly.name("magick", (205,201,201))
+        assert poly.name("magick", (205, 201, 201))
 
     def test_valid_rgb_notin_magick(self):
-    	assert not poly.name("magick", (40,40,40))
+        assert not poly.name("magick", (40, 40, 40))
 
-	# Testing that the correct maps are supported 
+	# Testing that the correct maps are supported
     def test_valid_supported_map(self):
-    	assert poly.isSupportedMap("magick") == True
+        assert poly.isSupportedMap("magick")
+
     def test_invalid_supported_map(self):
-    	assert poly.isSupportedMap("mgik") == False
+        assert not poly.isSupportedMap("mgik")

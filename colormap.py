@@ -1,5 +1,4 @@
 import re
-import webcolors
 import utils
 
 
@@ -53,9 +52,3 @@ class ColorMap:
 
     def isMapType(self, requestedMapType):
         return self.mapType == requestedMapType
-
-    def name(self, key):
-        try:
-            return self.colors[key]
-        except KeyError:
-            print "%s doesn't exist in the %s map. Try again!" % (str(key),self.mapType)
