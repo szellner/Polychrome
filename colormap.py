@@ -22,18 +22,18 @@ class ColorMap:
                         self.colors[hexVal] = name + num
                     else:
                         self.colors[hexVal] = name.strip()
-                elif extras == True and extrasMatch:
-                    name, hexVal, extra = extrasMatch.groups()
-                    self.colors[hexVal] = (name, extra)
-                elif extras == True and nbsMatch:
-                    if "OUT" not in nbsMatch.groups():
-                        name, mundieHex, fosterHex, group = nbsMatch.groups()
-                    else:
-                        name, mundieHex, fosterHex, group, gamutException = nbsMatch.groups()
-                    if "IGNORE0" not in nbsMatch.groups():
-                        self.colors[mundieHex] = name
-                    self.colors[fosterHex] = name
-                    name, mundieHex, fosterHex, group, inGamut, = nbsMatch.groups()
+                # elif extras and extrasMatch:
+                #     name, hexVal, extra = extrasMatch.groups()
+                #     self.colors[hexVal] = (name, extra)
+                # elif extras and nbsMatch:
+                #     if "OUT" not in nbsMatch.groups():
+                #         name, mundieHex, fosterHex, group = nbsMatch.groups()
+                #     else:
+                #         name, mundieHex, fosterHex, group, gamutException = nbsMatch.groups()
+                #     if "IGNORE0" not in nbsMatch.groups():
+                #         self.colors[mundieHex] = name
+                #     self.colors[fosterHex] = name
+                #     name, mundieHex, fosterHex, group, inGamut, = nbsMatch.groups()
                 else:
                     if not line.startswith(';'):
                         print "X ", line
@@ -42,7 +42,7 @@ class ColorMap:
         newColors = {}
         for key, val in self.colors.items():
             if utils.validHex(key):
-            	key = utils.hex2rgb(key)
+                key = utils.hex2rgb(key)
             newColors[key] = val
         self.colors = newColors
         return self

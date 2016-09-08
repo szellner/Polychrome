@@ -26,14 +26,14 @@ class Polychrome:
         self.coatedpantoneMap = ColorMap("coatedpantone")
         self.ntcMap = ColorMap("ntc")
         self.broadwebMap = ColorMap("broadweb")
-        self.specwebMap = ColorMap("broadweb")
+        self.specwebMap = ColorMap("specweb")
 
     def euclid(self, requested_color, key, name, store):
         r_c, g_c, b_c = webcolors.hex_to_rgb(key)
         rd = (r_c - requested_color[0]) ** 2
         gd = (g_c - requested_color[1]) ** 2
         bd = (b_c - requested_color[2]) ** 2
-        store[(rd + gd + bd)] = name
+        store[(rd + gd + bd), key] = name
 
     def isSupportedMap(self, mapType):
         # Look whether the map type is supported
@@ -52,26 +52,25 @@ class Polychrome:
         # If the requested color is in hex, change it to RGB
         if utils.validHex(str(requested_color)):
             requested_color = webcolors.hex_to_rgb(requested_color)
-        # else:
-        # 	print "OI", utils.validRGB(requested_color)
         if utils.validRGB(requested_color):
             for key, name in requested_map.colors.items():
                 self.euclid(requested_color, key, name, min_colors)
-                closest = min_colors[min(min_colors.keys())]
-            # if compare == "euclid":
-            # 	self.euclid(requested_color, key, name, min_colors)
-            # 	closest = min_colors[min(min_colors.keys())]
-            # elif compare == "deltaE":
-            # 	self.deltaE()
-            # Maps with simple extras
+        closestKey = min(min_colors.keys())
+        closestName = min_colors[closestKey]
+
+        # if compare == "euclid":
+        #   self.euclid(requested_color, key, name, min_colors)
+        #   closest = min_colors[min(min_colors.keys())]
+        # elif compare == "deltaE":
+        #   self.deltaE()
+        # Maps with simple extras
 
      #    if requested_map in ["hollaschMap", "ralMap"]:
-        return closest, str(webcolors.normalize_hex(key))
+
+        return closestKey[0], str(webcolors.normalize_hex(closestKey[1])), closestName
      #    # Maps with complex extras
         # elif requested_map in ["inbsiscc_improvedMap"]:
      #            print "IS IMPR"
-     #    else:
-     #        return str(closest.title()), str(webcolors.normalize_hex(key))
 
     def getSatName(self, requested_color):
         """ The dominant color name over the three fully-saturated faces of the RGB cube. From XKCD results. """
@@ -124,17 +123,17 @@ class Polychrome:
             except TypeError:
                 pass
 
-    def display(self, suggestions):
-        print suggestions.values()
-        print len(suggestions.values())
+    def display(self, requested_color, suggestions):
         suggestedColors = [
             val for val in suggestions.values() if type(val) == tuple]
-        utils.display_colors(suggestedColors)
+        for x in suggestedColors:
+            print x[0], utils.hex2rgb(x[1])
+        utils.display_colors(requested_color, suggestedColors)
 
 if __name__ == "__main__":
-    requested_color = (205, 200, 177)
+    # requested_color = (205, 200, 177)
     requested_color2 = "#EE8262"
     poly = Polychrome()
-    a = poly.suggest(requested_color)
+    # a = poly.suggest(requested_color)
     b = poly.suggest(requested_color2)
-    poly.display(a)
+    poly.display(requested_color2, b)

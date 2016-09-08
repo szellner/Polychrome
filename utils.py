@@ -7,37 +7,50 @@ import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 
 
-def display_colors(colors):
+def display_colors(requested_color, suggestions):
     """Displays the suggested colors"""
-    # initialize the bar chart representing the relative frequency
-    # of each of the colors
-    l = len(colors)
-    h = 50
+    # Order named colors from the closest to the furthest away
+    suggestions = sorted(suggestions)
+    # Set up basic variables to use
+    l = len(suggestions)
     w = l * 100
-
-    bar = np.zeros((h, w, 3), dtype="uint8")
-    startX = 0
-    # loop over each color
+    h = w / l
     percent = l / 100.0
-    for color in colors:
-        endX = startX + 100
-        array = np.array(utils.hex2rgb(color[1]))
-        cv2.rectangle(bar, (int(startX), 0), (int(endX), h), array, -1)
-        print startX, endX
-        startX = endX
-    gs = gridspec.GridSpec(1, 1)
-    plt.figure(figsize=(20, 2))
+    # Manages the subplots
+    gs = gridspec.GridSpec(2, l)
+    gridspec.GridSpec
+    plt.figure(figsize=(20, 4))
     gs.update(left=0.02, right=0.98)
-    ax = plt.subplot(gs[:5, :])
-    plt.axis('off')
-    ax.imshow(bar)
+    # The suggested colors
+    for i in range(l):
+        bar = np.zeros((h, l + 100, 3), dtype="uint8")
+        sugg = plt.subplot(gs[1, i])
+        # r,g,b = utils.hex2rgb(suggestions[i][1])
+        array = np.array(utils.hex2rgb(suggestions[i][1]))
+        cv2.rectangle(bar, (0, 0), (l + 100, l + 100), array, -1)
+        sugg.axis('off')
+        sugg.imshow(bar)
+    # The requested color
+    reqbar = np.zeros((h, l + 100, 3), dtype="uint8")
+    req = plt.subplot(gs[0, :])
+    array = np.array(utils.hex2rgb(requested_color))
+    cv2.rectangle(reqbar, (0, 0), (l + 100, l + 100), array, -1)
+    req.axis('off')
+    # plt.axis('off')
+    req.imshow(reqbar)
+    # for color in suggestions:
+    #     endX = startX + 100
+    #     array = np.array(utils.hex2rgb(color[1]))
+    #     cv2.rectangle(bar, (int(startX), 0), (int(endX), h), array, -1)
+    #     print startX, endX
+    #     startX = endX
+
     plt.show()
 
 
 def hex2rgb(hexVal):
     """Converts a hex value to an RGB value."""
-    if hexVal.startswith('#'):
-        hexVal = hexVal[1:]
+    hexVal = utils.validHex(hexVal)[1:]
     return tuple([int(hexVal[i:i + 2], 16) for i in xrange(0, len(hexVal), 2)])
 
 
