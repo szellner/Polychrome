@@ -1,7 +1,6 @@
 import re
 import utils
 
-
 class ColorMap:
     def __init__(self, mapType, extras=False):
         self.mapType = mapType

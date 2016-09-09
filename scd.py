@@ -1,7 +1,12 @@
-import webcolors
 import colorsys
 import utils
 from colormap import ColorMap
+import matplotlib as mpl 
+mpl.use('TkAgg')
+import matplotlib.pyplot as plt
+import matplotlib.gridspec as gridspec
+import cv2
+import numpy as np
 # http://rgb.to/pantone
 # Pantone Solid Coated
 # 1761 colors
@@ -29,11 +34,17 @@ class Polychrome:
         self.specwebMap = ColorMap("specweb")
 
     def euclid(self, requested_color, key, name, store):
-        r_c, g_c, b_c = webcolors.hex_to_rgb(key)
-        rd = (r_c - requested_color[0]) ** 2
-        gd = (g_c - requested_color[1]) ** 2
-        bd = (b_c - requested_color[2]) ** 2
-        store[(rd + gd + bd), key] = name
+        try:
+            if utils.validHex(key):
+                r_c, g_c, b_c = utils.hex2rgb(key)
+            elif utils.validRGB(key):
+                r_c, g_c, b_c = key
+            rd = (r_c - requested_color[0]) ** 2
+            gd = (g_c - requested_color[1]) ** 2
+            bd = (b_c - requested_color[2]) ** 2
+            store[(rd + gd + bd), key] = name
+        except ValueError:
+            pass
 
     def isSupportedMap(self, mapType):
         # Look whether the map type is supported
@@ -50,14 +61,13 @@ class Polychrome:
     def closestColor(self, requested_color, requested_map, compare="euclid", extras=False):
         min_colors = {}
         # If the requested color is in hex, change it to RGB
-        if utils.validHex(str(requested_color)):
-            requested_color = webcolors.hex_to_rgb(requested_color)
+        if utils.validHex(requested_color):
+            requested_color = utils.hex2rgb(requested_color)
         if utils.validRGB(requested_color):
             for key, name in requested_map.colors.items():
                 self.euclid(requested_color, key, name, min_colors)
         closestKey = min(min_colors.keys())
         closestName = min_colors[closestKey]
-
         # if compare == "euclid":
         #   self.euclid(requested_color, key, name, min_colors)
         #   closest = min_colors[min(min_colors.keys())]
@@ -66,8 +76,7 @@ class Polychrome:
         # Maps with simple extras
 
      #    if requested_map in ["hollaschMap", "ralMap"]:
-
-        return closestKey[0], str(webcolors.normalize_hex(closestKey[1])), closestName
+        return closestKey[0], utils.validHex(closestKey[1]), closestName
      #    # Maps with complex extras
         # elif requested_map in ["inbsiscc_improvedMap"]:
      #            print "IS IMPR"
@@ -95,9 +104,10 @@ class Polychrome:
             suggestions[key] = self.closestColor(
                 requested_color, self.getMap(key))
         suggestions["satfaces"] = self.getSatName(requested_color)
+        sortedKeys = sorted(suggestions, key=suggestions.__getitem__)
         print "REQUESTED COLOR: ", requested_color
-        for s in suggestions.items():
-            print s
+        for s in range(len(suggestions)):
+            print sortedKeys[s], suggestions[sortedKeys[s]]
         print
         return suggestions
 
@@ -124,15 +134,59 @@ class Polychrome:
                 pass
 
     def display(self, requested_color, suggestions):
-        suggestedColors = [
-            val for val in suggestions.values() if type(val) == tuple]
-        for x in suggestedColors:
-            print x[0], utils.hex2rgb(x[1])
-        utils.display_colors(requested_color, suggestedColors)
+        """Displays the suggested colors"""
+        # Order named colors from the closest to the furthest away
+        sortedKeys = sorted(suggestions, key=suggestions.__getitem__)
+        # Set up basic variables to use
+        l = len(suggestions)
+        w = l * 100
+        h = w / l
+        percent = l / 100.0
+        # Manages the subplots
+        gs = gridspec.GridSpec(2, l)
+        gridspec.GridSpec
+        plt.figure(figsize=(20, 4))
+        gs.update(left=0.02, right=0.98)
+        # The suggested colors
+        for i in range(1, l):
+            bar = np.zeros((h, l + 100, 3), dtype="uint8")
+            sugg = plt.subplot(gs[1, i])
+            sortedSuggestions = suggestions[sortedKeys[i]]
+            sugg.set_title(sortedKeys[i])
+            array = np.array(utils.hex2rgb(sortedSuggestions[1]))
+            cv2.rectangle(bar, (0, 0), (l + 100, l + 100), array, -1)
+            sugg.axis('off')
+            sugg.imshow(bar)
+            # The text
+            plt.text(0, h + 20, sortedSuggestions[2], wrap=True)
+            plt.text(0, h + 40, "dist: %d" %
+                     sortedSuggestions[0], wrap=True)
+
+        # The requested color
+        reqbar = np.zeros((h, l + 100, 3), dtype="uint8")
+        req = plt.subplot(gs[0, :])
+        req.set_title("REQUESTED")
+        if utils.validHex(requested_color):
+            array = np.array(utils.hex2rgb(requested_color))
+        else:
+            array = np.array(requested_color)
+        cv2.rectangle(reqbar, (0, 0), (l + 100, l + 100), array, -1)
+        req.axis('off')
+        # plt.axis('off')
+        req.imshow(reqbar)
+        # for color in suggestions:
+        #     endX = startX + 100
+        #     array = np.array(utils.hex2rgb(color[1]))
+        #     cv2.rectangle(bar, (int(startX), 0), (int(endX), h), array, -1)
+        #     print startX, endX
+        #     startX = endX
+
+        plt.show()
+
 
 if __name__ == "__main__":
-    # requested_color = (205, 200, 177)
-    requested_color2 = "#EE8262"
+    requested_color = (205, 200, 177)
+    requested_color2 = "#003153"
     poly = Polychrome()
     # a = poly.suggest(requested_color)
     b = poly.suggest(requested_color2)

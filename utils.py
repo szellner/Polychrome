@@ -1,58 +1,14 @@
 import re
-import string
-import cv2
-import numpy as np
-import utils
-import matplotlib.pyplot as plt
-import matplotlib.gridspec as gridspec
-
-
-def display_colors(requested_color, suggestions):
-    """Displays the suggested colors"""
-    # Order named colors from the closest to the furthest away
-    suggestions = sorted(suggestions)
-    # Set up basic variables to use
-    l = len(suggestions)
-    w = l * 100
-    h = w / l
-    percent = l / 100.0
-    # Manages the subplots
-    gs = gridspec.GridSpec(2, l)
-    gridspec.GridSpec
-    plt.figure(figsize=(20, 4))
-    gs.update(left=0.02, right=0.98)
-    # The suggested colors
-    for i in range(l):
-        bar = np.zeros((h, l + 100, 3), dtype="uint8")
-        sugg = plt.subplot(gs[1, i])
-        # r,g,b = utils.hex2rgb(suggestions[i][1])
-        array = np.array(utils.hex2rgb(suggestions[i][1]))
-        cv2.rectangle(bar, (0, 0), (l + 100, l + 100), array, -1)
-        sugg.axis('off')
-        sugg.imshow(bar)
-    # The requested color
-    reqbar = np.zeros((h, l + 100, 3), dtype="uint8")
-    req = plt.subplot(gs[0, :])
-    array = np.array(utils.hex2rgb(requested_color))
-    cv2.rectangle(reqbar, (0, 0), (l + 100, l + 100), array, -1)
-    req.axis('off')
-    # plt.axis('off')
-    req.imshow(reqbar)
-    # for color in suggestions:
-    #     endX = startX + 100
-    #     array = np.array(utils.hex2rgb(color[1]))
-    #     cv2.rectangle(bar, (int(startX), 0), (int(endX), h), array, -1)
-    #     print startX, endX
-    #     startX = endX
-
-    plt.show()
-
 
 def hex2rgb(hexVal):
     """Converts a hex value to an RGB value."""
-    hexVal = utils.validHex(hexVal)[1:]
+    hexVal = validHex(hexVal)[1:]
     return tuple([int(hexVal[i:i + 2], 16) for i in xrange(0, len(hexVal), 2)])
 
+def rgb2hex(rgbVal):
+    """Converts an RGB value to a hex value."""
+    rgbVal = validRGB(rgbVal)
+    return '#%02x%02x%02x' % rgbVal
 
 def map2rgb(requested_map):
     """Converts a dictionary/map of hex colors to a dictionary/map of RGB colors."""
