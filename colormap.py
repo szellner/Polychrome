@@ -9,7 +9,7 @@ class Colormap:
             for line in f.readlines():
                 # self.count +=1
                 simpleMatch = re.search(
-                    '([a-zA-Z0-9 \(\)\[\]]+)([0-9]+)? +(\#[a-zA-Z0-9]{6})', line)
+                    '([a-zA-Z0-9 \'\-\(\)\[\]]+)([0-9]+)? +(\#[a-zA-Z0-9]{6})', line)
                 extrasMatch = re.search(
                     '([a-zA-Z \(\)]+) (\#[a-zA-Z0-9]{6}) ([a-zA-Z0-9 \*\#]+)?', line)
                 nbsMatch = re.search(

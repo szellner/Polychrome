@@ -25,7 +25,7 @@ Amber (SAE/ECE) #FF7E00
 American Rose #FF033E
 Amethyst #9966CC
 Android Green #A4C639
-Anti #F2F3F4
+Anti-flash White #F2F3F4
 Antique Brass #CD9575
 Antique Bronze #665D1E
 Antique Fuchsia #915C83
@@ -72,8 +72,8 @@ Beau Blue #BCD4E6
 Beaver #9F8170
 Begonia #FA6E79
 Beige #F5F5DC
-B #2E5894
-Big Dip O #9C2542
+B'dazzled Blue #2E5894
+Big Dip O'ruby #9C2542
 Big Foot Feet #E88E5A
 Bisque #FFE4C4
 Bistre #3D2B1F
@@ -89,7 +89,7 @@ Black Leather Jacket #253529
 Black Olive #3B3C36
 Black Shadows #BFAFB2
 Blanched Almond #FFEBCD
-Blast #A57164
+Blast-Off Bronze #A57164
 Bleu De France #318CE7
 Blizzard Blue #ACE5EE
 Blond #FAF0BE
@@ -102,13 +102,13 @@ Blue (Pigment) #333399
 Blue (RYB) #0247FE
 Blue Bell #A2A2D0
 Blue Bolt #00B9FB
-Blue #6699CC
-Blue #0D98BA
+Blue-Gray #6699CC
+Blue-Green #0D98BA
 Blue Jeans #5DADEC
 Blue Lagoon #ACE5EE
-Blue #553592
+Blue-Magenta Violet #553592
 Blue Sapphire #126180
-Blue #8A2BE2
+Blue-Violet #8A2BE2
 Blue Yonder #5072A7
 Blueberry #4F86F7
 Bluebonnet #1C1CF0
@@ -142,7 +142,7 @@ Bronze #CD7F32
 Bronze Yellow #737000
 Brown (Traditional) #964B00
 Brown (Web) #A52A2A
-Brown #6B4423
+Brown-Nose #6B4423
 Brown Sugar #AF6E4D
 Brown Yellow #cc9966
 Brunswick Green #1B4D3E
@@ -182,7 +182,7 @@ Caput Mortuum #592720
 Cardinal #C41E3A
 Caribbean Green #00CC99
 Carmine #960018
-Carmine (M #D70040
+Carmine (M&P) #D70040
 Carmine Pink #EB4C42
 Carmine Red #FF0038
 Carnation Pink #FFA6C9
@@ -267,7 +267,7 @@ Crimson Red #990000
 Cultured #F5F5F5
 Cyan #00FFFF
 Cyan Azure #4E82B4
-Cyan #4682BF
+Cyan-Blue Azure #4682BF
 Cyan Cobalt Blue #28589C
 Cyan Cornflower Blue #188BC2
 Cyan (Process) #00B7EB
@@ -277,9 +277,9 @@ Cyclamen #F56FA1
 Daffodil #FFFF31
 Dandelion #F0E130
 Dark Blue #00008B
-Dark Blue #666699
+Dark Blue-Gray #666699
 Dark Brown #654321
-Dark Brown #88654E
+Dark Brown-Tangelo #88654E
 Dark Byzantium #5D3954
 Dark Candy Apple Red #A40000
 Dark Cerulean #08457E
@@ -346,7 +346,7 @@ Deep Chestnut #B94E48
 Deep Coffee #704241
 Deep Fuchsia #C154C1
 Deep Green #056608
-Deep Green #0E7C61
+Deep Green-Cyan Turquoise #0E7C61
 Deep Jungle Green #004B49
 Deep Koamaru #333366
 Deep Lemon #F5C71A
@@ -471,7 +471,7 @@ Gamboge Orange (Brown) #996600
 Gargoyle Gas #FFDF46
 Generic Viridian #007F66
 Ghost White #F8F8FF
-Giant #B05C52
+Giant's Club #B05C52
 Giants Orange #FE5A1D
 Ginger #B06500
 Glaucous #6082B6
@@ -491,8 +491,8 @@ Grape #6F2DA8
 Gray #808080
 Gray (HTML/CSS Gray) #808080
 Gray (X11 Gray) #BEBEBE
-Gray #465945
-Gray #8C92AC
+Gray-Asparagus #465945
+Gray-Blue #8C92AC
 Green (Color Wheel) (X11 Green) #00FF00
 Green (Crayola) #1CAC78
 Green (HTML/CSS Color) #008000
@@ -501,11 +501,11 @@ Green (NCS) #009F6B
 Green (Pantone) #00AD43
 Green (Pigment) #00A550
 Green (RYB) #66B032
-Green #1164B4
-Green #009966
+Green-Blue #1164B4
+Green-Cyan #009966
 Green Lizard #A7F432
 Green Sheen #6EAEA1
-Green #ADFF2F
+Green-Yellow #ADFF2F
 Grizzly #885818
 Grullo #A99A86
 Guppie Green #00FF7F
@@ -527,7 +527,7 @@ Heliotrope Magenta #AA00BB
 Hollywood Cerise #F400A1
 Honeydew #F0FFF0
 Honolulu Blue #006DB0
-Hooker #49796B
+Hooker's Green #49796B
 Hot Magenta #FF1DCE
 Hot Pink #FF69B4
 Hunter Green #355E3B
@@ -768,7 +768,7 @@ Mountbatten Pink #997A8D
 MSU Green #18453B
 Mughal Green #306030
 Mulberry #C54B8C
-Mummy #828E84
+Mummy's Tomb #828E84
 Mustard #FFDB58
 Myrtle Green #317873
 Mystic #D65282
@@ -785,7 +785,7 @@ Neon Green #39FF14
 New Car #214FC6
 New York Pink #D7837F
 Nickel #727472
-Non #A4DDED
+Non-Photo Blue #A4DDED
 North Texas Green #059033
 Nyanza #E9FFDB
 Ocean Blue #4F42B5
@@ -804,8 +804,8 @@ Old Moss Green #867E36
 Old Rose #C08081
 Old Silver #848482
 Olive #808000
-Olive Drab ( #6B8E23
-Olive Drab  #3C341F
+Olive Drab (#3) #6B8E23
+Olive Drab (#7) #3C341F
 Olivine #9AB973
 Onyx #353839
 Opera Mauve #B784A7
@@ -815,9 +815,9 @@ Orange (Pantone) #FF5800
 Orange (RYB) #FB9902
 Orange (Web) #FFA500
 Orange Peel #FF9F00
-Orange #FF4500
+Orange-Red #FF4500
 Orange Soda #FA5B3D
-Orange #F8D568
+Orange-Yellow #F8D568
 Orchid #DA70D6
 Orchid Pink #F2BDCD
 Orioles Orange #FB4F14
@@ -844,17 +844,17 @@ Pale Goldenrod #EEE8AA
 Pale Green #98FB98
 Pale Lavender #DCD0FF
 Pale Magenta #F984E5
-Pale Magenta #FF99CC
+Pale Magenta-Pink #FF99CC
 Pale Pink #FADADD
 Pale Plum #DDA0DD
-Pale Red #DB7093
+Pale Red-Violet #DB7093
 Pale Robin Egg Blue #96DED1
 Pale Silver #C9C0BB
 Pale Spring Bud #ECEBBD
 Pale Taupe #BC987E
 Pale Turquoise #AFEEEE
 Pale Violet #CC99FF
-Pale Violet #DB7093
+Pale Violet-Red #DB7093
 Palm Leaf #6F9940
 Pansy Purple #78184A
 Paolo Veronese Green #009B7D
@@ -877,9 +877,9 @@ Patriarch #800080
 Payne #536878
 Peach #FFE5B4
 Peach #FFCBA4
-Peach #FFCC99
+Peach-Orange #FFCC99
 Peach Puff #FFDAB9
-Peach #FADFAD
+Peach-Yellow #FADFAD
 Pear #D1E231
 Pearl #EAE0C8
 Pearl Aqua #88D8C0
@@ -911,7 +911,7 @@ Pink (Pantone) #D74894
 Pink Flamingo #FC74FD
 Pink Lace #FFDDF4
 Pink Lavender #D8B2D1
-Pink #FF9966
+Pink-Orange #FF9966
 Pink Pearl #E7ACCF
 Pink Raspberry #980036
 Pink Sherbet #F78FA7
@@ -972,12 +972,12 @@ Red (NCS) #C40233
 Red (Pantone) #ED2939
 Red (Pigment) #ED1C24
 Red (RYB) #FE2712
-Red #A52A2A
+Red-Brown #A52A2A
 Red Devil #860111
-Red #FF5349
-Red #E40078
+Red-Orange #FF5349
+Red-Purple #E40078
 Red Salsa #FD3A4A
-Red #C71585
+Red-Violet #C71585
 Redwood #A45A52
 Regalia #522D80
 Registration Black #000000
@@ -1037,7 +1037,7 @@ Safety Orange (Blaze Orange) #FF6700
 Safety Yellow #EED202
 Saffron #F4C430
 Sage #BCB88A
-St #23297A
+St. Patrick's Blue #23297A
 Salmon #FA8072
 Salmon Pink #FF91A4
 Sand #C2B280
@@ -1056,7 +1056,7 @@ Scarlet #FF2400
 Scarlet #FD0E35
 Schauss Pink #FF91AF
 School Bus Yellow #FFD800
-Screamin #66FF66
+Screamin' Green #66FF66
 Sea Blue #006994
 Sea Foam Green #9FE2BF
 Sea Green #2E8B57
@@ -1159,7 +1159,7 @@ Thistle #D8BFD8
 Thulian Pink #DE6FA1
 Tickle Me Pink #FC89AC
 Tiffany Blue #0ABAB5
-Tiger #E08D3C
+Tiger's Eye #E08D3C
 Timberwolf #DBD7D2
 Titanium Yellow #EEE600
 Tomato #FF6347
@@ -1229,8 +1229,8 @@ Violet #8F00FF
 Violet (Color Wheel) #7F00FF
 Violet (RYB) #8601AF
 Violet (Web) #EE82EE
-Violet #324AB2
-Violet #F75394
+Violet-Blue #324AB2
+Violet-Red #F75394
 Viridian #40826D
 Viridian Green #009698
 Vista Blue #7C9ED9
@@ -1249,7 +1249,7 @@ Vivid Orange Peel #FFA000
 Vivid Orchid #CC00FF
 Vivid Raspberry #FF006C
 Vivid Red #F70D1A
-Vivid Red #DF6124
+Vivid Red-Tangelo #DF6124
 Vivid Sky Blue #00CCFF
 Vivid Tangelo #F07427
 Vivid Tangerine #FFA089
@@ -1288,7 +1288,7 @@ Yellow (NCS) #FFD300
 Yellow (Pantone) #FEDF00
 Yellow (Process) #FFEF00
 Yellow (RYB) #FEFE33
-Yellow #9ACD32
+Yellow-Green #9ACD32
 Yellow Orange #FFAE42
 Yellow Rose #FFF000
 Yellow Sunshine #FFF700

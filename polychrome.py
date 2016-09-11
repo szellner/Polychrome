@@ -176,7 +176,7 @@ class Polychrome:
 
 if __name__ == "__main__":
     requested_color = (200, 200, 177)
-    requested_color2="#003153"
+    requested_color2="#F75394"
     poly = Polychrome()
     # poly.isInMap((205, 200, 177), "wiki")
     # poly.suggest(requested_color)
