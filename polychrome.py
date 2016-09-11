@@ -5,6 +5,7 @@ from matplotlib import pyplot as plt
 from matplotlib import gridspec
 from colormap import Colormap
 import utils
+import textutils
 from textwrap import wrap
 
 # http://rgb.to/pantone
@@ -42,14 +43,6 @@ class Polychrome:
             colormap = self.__dict__[key]
             colormap.toRGB()
 
-    def euclid(self, requested_color, key, name, store):
-        """Calculates the Euclidean distance between a requested color and a key color. Records the results in a given list store."""
-        r_c, g_c, b_c = key
-        rd = (r_c - requested_color[0]) ** 2
-        gd = (g_c - requested_color[1]) ** 2
-        bd = (b_c - requested_color[2]) ** 2
-        store[(rd + gd + bd), (key,utils.rgb2hex(key))] = name
-
     def isSupportedMap(self, mapType):
         """Checks the existing colormaps to see if the map type is supported."""
         name = mapType + "Map"
@@ -66,13 +59,12 @@ class Polychrome:
 
     def closestColor(self, requested_color, requested_map, compare="euclid", extras=False):
         min_colors = {}
-        for key, name in requested_map.colors.items():
-            self.euclid(requested_color, key, name, min_colors)
-        closestKey = min(min_colors.keys())
-        closestName = min_colors[closestKey]
-        # if compare == "euclid":
-        #   self.euclid(requested_color, key, name, min_colors)
-        #   closest = min_colors[min(min_colors.keys())]
+        if compare == "euclid":
+            for key, name in requested_map.colors.items():
+                utils.euclid(requested_color, key, name, min_colors)
+            closestKey = min(min_colors.keys())
+            closestName = min_colors[closestKey]
+
         # elif compare == "deltaE":
         #   self.deltaE()
         # Maps with simple extras
@@ -96,6 +88,16 @@ class Polychrome:
                 clean = line.split("] ")[1].strip()
         return clean
 
+    def isInMap(self, requested_color, mapType):
+        """Checks if a color is in a specific colormap."""
+        try:
+            colorMap = self.getMap(mapType)
+            requested_color = utils.validColor(requested_color)
+            return colorMap.colors[requested_color]
+        except KeyError:
+            print "The requested color {0} is not in the {1} map.".format(requested_color, mapType)
+            pass
+
     def suggest(self, requested_color):
         """Suggests the closest named colors to the requested color. Gives one result for each valid colormap."""
         # Double check the requested color's validity
@@ -115,24 +117,15 @@ class Polychrome:
             colormap = sortedKeys[key]
             color = suggestions[colormap]
             sortedSuggestions[colormap] = color
-            print "{0} {1} {2} {3} {4}".format(colormap, color[0], color[2], color[1][0], color[1][1])
+            print "{0} {1} {2} {3} {4}".format(colormap, color[0], ', '.join(color[2]), color[1][0], color[1][1])
         print
         return suggestions, sortedKeys
-
-    def isInMap(self, requested_color, mapType):
-        """Checks if a color is in a specific colormap."""
-        try:
-            colorMap = self.getMap(mapType)
-            requested_color = utils.validColor(requested_color)
-            return colorMap.colors[requested_color]
-        except KeyError:
-            print "The requested color {0} is not in the {1} map.".format(requested_color, mapType)
-            pass
 
     def display(self, requested_color):
         suggestions, sortedKeys = poly.suggest(requested_color)
         l = len(sortedKeys) - 1
         w = l * 1.8
+        suggw = (w / l) * 10
         fig = plt.figure(figsize=(w, 4))
 
         gsfig = gridspec.GridSpec(2, 1)
@@ -155,8 +148,9 @@ class Polychrome:
         for i in range(1, l + 1):
             color = suggestions[sortedKeys[i]]
             scaledSuggRGB = list(x / 255.0 for x in color[1][0])
-            name = '\n'.join(wrap(color[2], 20))
-            info = "{0}\n{1}\n{2}\n{3}".format(name, str(color[1][0]), color[1][
+            name = ', '.join(color[2])
+            wrappedName = '\n'.join(wrap(name, suggw))
+            info = "{0}\n{1}\n{2}\n{3}".format(wrappedName, str(color[1][0]), color[1][
                                                1], "dist: {0}".format(color[0]))
             suggax = plt.subplot(gssugg[0, i - 1], axisbg=scaledSuggRGB)
             suggax.set_title(sortedKeys[i], fontsize="small")
@@ -173,11 +167,19 @@ class Polychrome:
         plt.tight_layout()
         plt.show()
 
+    # def test_hsvSort(self,mapType):
+
+    # def test_hilbertSort(self,mapType):
+# def display2(self, requested_color):
+#     suggestions, sortedKeys = poly.suggest(requested_color)
+
 
 if __name__ == "__main__":
-    requested_color = (200, 200, 177)
-    requested_color2="#F75394"
+
+    requested_color = (100, 200, 177)
+#     requested_color2="#F75394"
     poly = Polychrome()
-    # poly.isInMap((205, 200, 177), "wiki")
-    # poly.suggest(requested_color)
-    poly.display(requested_color2)
+
+#     # poly.isInMap((205, 200, 177), "wiki")
+#     # poly.suggest(requested_color)
+    poly.display(requested_color)

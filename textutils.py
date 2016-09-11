@@ -1,3 +1,41 @@
+import re
+
+def wikishades():
+	shades = {}
+	with open("colormaps/wikishades.txt") as f:
+		for line in f.readlines():
+			if "\n" != line:
+				s = line.split(':')
+				names = list(str(x) for x in s[1].strip().split(','))
+				shades[s[0]] = names
+	
+	with open("colormaps/wiki.txt") as f2:
+		with open("colormaps/wikiwiki.txt",'w') as f3:
+			text = ""
+			for line in f2.readlines():
+				hexSplit = line.split('#')
+				for key in shades.keys():
+					for i in shades[key]:
+						if hexSplit[0].strip()==i.strip():
+							text+="{0} {1} {2}".format(hexSplit[0],"#"+hexSplit[1].strip(),key+'\n')
+			f3.write(text)
+				
+
+def wikiwikicheck():
+	with open("colormaps/wikiwiki.txt") as f:
+		check = {}
+		for line in f.readlines():
+			match = re.search('([a-zA-Z ]+).(#[A-Z0-9]+)', line)
+			if match:
+				if match.groups()[1] in check.keys():
+					print "FAIL", match.groups(0)
+				else:
+					check[match.groups()[1]] = 0
+# in wiki, aqua = cyan #00FFFF, camel=fallow=lion #C19A6B, fuschia = magenta #FF00FF, sand = ecru #C2B280
+# some of the shade classifications are different even though it's the same hex value. add those in?
+			
+		
+
 def manip():
 	c= {}
 	with open("xkcd.txt") as f:
@@ -167,12 +205,12 @@ def ntclvl3():
 				print "    return ", match.groups()[0] ,",", match.groups()[1]
 
 def camelCase(name):
-	n = name.split()
-	if len(n) == 1:
-		return n[0]
-	else:
-		nUp = ''.join([x.title() for x in n[1:]])
-		return n[0]+nUp
+    n = name.split()
+    if len(n) == 1:
+        return n[0]
+    else:
+        nUp = ''.join([x.title() for x in n[1:]])
+        return n[0] + nUp
 
 def ntclvl12():
 	with open("temp.txt") as f:

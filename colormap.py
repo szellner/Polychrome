@@ -1,6 +1,7 @@
 import re
 import utils
 
+
 class Colormap:
     def __init__(self, mapType, extras=False):
         self.mapType = mapType
@@ -18,9 +19,14 @@ class Colormap:
                 if simpleMatch:
                     name, num, hexVal = simpleMatch.groups()
                     if num:
-                        self.colors[hexVal] = name + num
+                        name = name + num
+                    # If there are colors with the same hex but a different
+                    # name, combine their dictionary values instead of
+                    # replacing them
+                    if hexVal in self.colors.keys():
+                        self.colors[hexVal].append(name)
                     else:
-                        self.colors[hexVal] = name.strip()
+                        self.colors[hexVal] = [name.strip()]
                 # # elif extras and extrasMatch:
                 # #     name, hexVal, extra = extrasMatch.groups()
                 # #     self.colors[hexVal] = (name, extra)
