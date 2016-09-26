@@ -25,1386 +25,1386 @@
 ;Resene Paints Ltd.
 ;
 ;*Modified to be hexidecimal format 
-Resene Abbey    #4c4f56
-Resene Acadia    #1b1404
-Resene Acapulco    #7cb0a1
-Resene Acorn    #6a5d1b
-Resene Aero Blue    #c9ffe5
-Resene Affair    #714693
-Resene Afghan Tan    #86560a
-Resene Akaroa    #d4c4a8
-Resene Alabaster    #ffffff
-Resene Albescent White    #f5e9d3
-Resene Alert Tan    #9b4703
-Resene Allports    #0076a3
-Resene Almond Frost    #907b71
-Resene Alpine    #af8f2c
-Resene Alto    #dbdbdb
-Resene Aluminium    #a9acb6
-Resene Amazon    #3b7a57
-Resene Americano    #87756e
-Resene Amethyst Smoke    #a397b4
-Resene Amour    #f9eaf3
-Resene Amulet    #7b9f80
-Resene Anakiwa    #9de5ff
-Resene Antique Brass    #704a07
-Resene Anzac    #e0b646
-Resene Apache    #dfbe6f
-Resene Apple    #4fa83d
-Resene Apple Blossom    #af4d43
-Resene Apple Green    #e2f3ec
-Resene Apricot    #eb9373
-Resene Apricot White    #fffeec
-Resene Aqua    #a1dad7
-Resene Aqua Haze    #edf5f5
-Resene Aqua Spring    #eaf9f5
-Resene Aqua Squeeze    #e8f5f2
-Resene Aquamarine    #014b43
-Resene Arapawa    #110c6c
-Resene Armadillo    #433e37
-Resene Arrowtown    #948771
-Resene Ash    #c6c3b5
-Resene Ash Brown    #2e1905
-Resene Asphalt    #130a06
-Resene Astra    #faeab9
-Resene Astral    #327da0
-Resene Astronaut    #283a77
-Resene Astronaut Blue    #013e62
-Resene Athens Grey    #eef0f3
-Resene Aths Special    #ecebce
-Resene Atlantis    #97cd2d
-Resene Atoll    #0a6f75
-Resene Atomic    #314459
-Resene Au Chico    #97605d
-Resene Aubergine    #3b0910
-Resene Australian Mint    #f5ffbe
-Resene Avocado    #888d65
-Resene Axolotl    #4e6649
-Resene Azalea    #f7c8da
-Resene Aztec    #0d1c19
-Resene Azure    #315ba1
-Resene Bahama Blue    #026395
-Resene Bahia    #a5cb0c
-Resene Baja White    #fff8d1
-Resene Bali Hai    #859faf
-Resene Baltic Sea    #2a2630
-Resene Bamboo    #da6304
-Resene Bandicoot    #858470
-Resene Banjul    #130a06
-Resene Barberry    #ded717
-Resene Barley Corn    #a68b5b
-Resene Barley White    #fff4ce
-Resene Barossa    #44012d
-Resene Bastille    #292130
-Resene Battleship Grey    #828f72
-Resene Bay Leaf    #7da98d
-Resene Bay of Many    #273a81
-Resene Bazaar    #98777b
-Resene Bean      #3d0c02
-Resene Beauty Bush    #eec1be
-Resene Beeswax    #fef2c7
-Resene Bermuda    #7dd8c6
-Resene Bermuda Grey    #6b8ba2
-Resene Beryl Green    #dee5c0
-Resene Bianca    #fcfbf3
-Resene Big Stone    #162a40
-Resene Bilbao    #327c14
-Resene Biloba Flower    #b2a1ea
-Resene Birch    #373021
-Resene Bird Flower    #d4cd16
-Resene Biscay    #1b3162
-Resene Bismark    #497183
-Resene Bison Hide    #c1b7a4
-Resene Bitter    #868974
-Resene Bitter Lemon    #cae00d
-Resene Bizarre    #eededa
-Resene Black Bean    #081910
-Resene Black Forest    #0b1304
-Resene Black Haze    #f6f7f7
-Resene Black Magic    #251706
-Resene Black Marlin    #3e2c1c
-Resene Black Pearl    #041322
-Resene Black Pepper    #0e0e18
-Resene Black Rock    #0d0332
-Resene Black Rose    #67032d
-Resene Black Russian    #0a001c
-Resene Black Squeeze    #f2fafa
-Resene Black White    #fffef6
-Resene Blackberry    #4d0135
-Resene Blackcurrant    #32293a
-Resene Blackwood    #261105
-Resene Blanc    #f5e9d3
-Resene Bleach White    #fef3d8
-Resene Bleached Cedar    #2c2133
-Resene Blossom    #dcb4bc
-Resene Blue Bark    #041322
-Resene Blue Bayoux    #496679
-Resene Blue Bell    #220878
-Resene Blue Chalk    #f1e9ff
-Resene Blue Charcoal    #010d1a
-Resene Blue Chill    #0c8990
-Resene Blue Diamond    #380474
-Resene Blue Dianne    #204852
-Resene Blue Gem    #2c0e8c
-Resene Blue Haze    #bfbed8
-Resene Blue Lagoon    #017987
-Resene Blue Marguerite    #7666c6
-Resene Blue Romance    #d2f6de
-Resene Blue Smoke    #748881
-Resene Blue Stone    #016162
-Resene Blue Whale    #042e4c
-Resene Blue Zodiac    #13264d
-Resene Blumine    #18587a
-Resene Blush    #b44668
-Resene Bokara Grey    #1c1208
-Resene Bombay    #afb1b8
-Resene Bon Jour    #e5e0e1
-Resene Bondi Blue    #02478e
-Resene Bone    #e4d1c0
-Resene Bordeaux    #5c0120
-Resene Bossanova    #4e2a5a
-Resene Boston Blue    #3b91b4
-Resene Botticelli    #c7dde5
-Resene Bottle Green    #093624
-Resene Boulder    #7a7a7a
-Resene Bouquet    #ae809e
-Resene Bourbon    #ba6f1e
-Resene Bracken    #4a2a04
-Resene Brandy    #dec196
-Resene Brandy Punch    #cd8429
-Resene Brandy Rose    #bb8983
-Resene Brazil    #886221
-Resene Breaker Bay    #5da19f
-Resene Bridal Heath    #fffaf4
-Resene Bridesmaid    #fef0ec
-Resene Bright Grey    #3c4151
-Resene Bright Red    #b10000
-Resene Bright Sun    #fed33c
-Resene Bronco    #aba196
-Resene Bronze    #3f2109
-Resene Bronze Olive    #4e420c
-Resene Bronzetone    #4d400f
-Resene Broom    #ffec13
-Resene Brown Bramble    #592804
-Resene Brown Derby    #492615
-Resene Brown Pod    #401801
-Resene Bubbles    #e7feff
-Resene Buccaneer    #622f30
-Resene Bud    #a8ae9c
-Resene Buddha Gold    #c1a004
-Resene Bulgarian Rose    #480607
-Resene Bull Shot    #864d1e
-Resene Bunker    #0d1117
-Resene Bunting    #151f4c
-Resene Burgundy    #770f05
-Resene Burnham    #002e20
-Resene Burning Sand    #d99376
-Resene Burnt Crimson    #65000b
-Resene Bush    #0d2e1c
-Resene Buttercup    #f3ad16
-Resene Buttered Rum    #a1750d
-Resene Butterfly Bush    #624e9a
-Resene Buttermilk    #fff1b5
-Resene Buttery White    #fffcea
-Resene Cab Sav    #4d0a18
-Resene Cabaret    #d94972
-Resene Cabbage Pont    #3f4c3a
-Resene Cactus    #587156
-Resene Cadillac    #b04c6a
-Resene Cafe Royale    #6f440c
-Resene Calico    #e0c095
-Resene California    #fe9d04
-Resene Calypso    #31728d
-Resene Camarone    #00581a
-Resene Camelot    #893456
-Resene Cameo    #d9b99b
-Resene Camouflage    #3c3910
-Resene Can Can    #d591a4
-Resene Canary    #f3fb62
-Resene Candlelight    #fcd917
-Resene Cannon Black    #251706
-Resene Cannon Pink    #894367
-Resene Canvas    #a8a589
-Resene Cape Cod    #3c4443
-Resene Cape Honey    #fee5ac
-Resene Cape Palliser    #a26645
-Resene Caper    #dcedb4
-Resene Capri    #062a78
-Resene Caramel    #ffddaf
-Resene Cararra    #eeeee8
-Resene Cardin Green    #01361c
-Resene Cardinal    #8c055e
-Resene Careys Pink    #d29eaa
-Resene Carissma    #ea88a8
-Resene Carla    #f3ffd8
-Resene Carnaby Tan    #5c2e01
-Resene Carousel Pink    #f9e0ed
-Resene Casablanca    #f8b853
-Resene Casal    #2f6168
-Resene Cascade    #8ba9a5
-Resene Cashmere    #e6bea5
-Resene Casper    #adbed1
-Resene Castro    #52001f
-Resene Catalina Blue    #062a78
-Resene Catskill White    #eef6f7
-Resene Cavern Pink    #e3bebe
-Resene Ce Soir    #9771b5
-Resene Cedar    #3e1c14
-Resene Cedar Wood Finish    #711a00
-Resene Celery    #b8c25d
-Resene Celeste    #d1d2ca
-Resene Cello    #1e385b
-Resene Celtic    #163222
-Resene Cement    #8d7662
-Resene Ceramic    #fcfff9
-Resene Chablis    #fff4f3
-Resene Chalet Green    #516e3d
-Resene Chalky    #eed794
-Resene Chambray    #354e8c
-Resene Chamois    #eddcb1
-Resene Champagne    #faeccc
-Resene Chantilly    #f8c3df
-Resene Charade    #292937
-Resene Chardon    #fff3f1
-Resene Chardonnay    #ffcd8c
-Resene Charlotte    #baeef9
-Resene Charm    #d47494
-Resene Chateau Green    #40a860
-Resene Chatelle    #bdb3c7
-Resene Chathams Blue    #175579
-Resene Chelsea Cucumber    #83aa5d
-Resene Chelsea Gem    #9e5302
-Resene Chenin    #dfcd6f
-Resene Cherokee    #fcda98
-Resene Cherry Pie    #2a0359
-Resene Cherrywood    #651a14
-Resene Cherub    #f8d9e9
-Resene Chetwode Blue    #8581d9
-Resene Chicago    #5d5c58
-Resene Chiffon    #f1ffc8
-Resene Chilean Fire    #f77703
-Resene Chilean Heath    #fffde6
-Resene China Ivory    #fcffe7
-Resene Chino    #cec7a7
-Resene Chinook    #a8e3bd
-Resene Chocolate    #370202
-Resene Christalle    #33036b
-Resene Christi    #67a712
-Resene Christine    #e7730a
-Resene Chrome White    #e8f1d4
-Resene Cigar    #773f1a
-Resene Cinder    #0e0e18
-Resene Cinderella    #fde1dc
-Resene Cinnamon    #7b3f00
-Resene Cioccolato    #55280c
-Resene Citrine White    #faf7d6
-Resene Citron    #9ea91f
-Resene Citrus    #a1c50a
-Resene Clairvoyant    #480656
-Resene Clam Shell    #d4b6af
-Resene Claret    #7f1734
-Resene Classic Rose    #fbcce7
-Resene Clay Creek    #8a8360
-Resene Clear Day    #e9fffd
-Resene Clementine    #e96e00
-Resene Clinker    #371d09
-Resene Cloud    #c7c4bf
-Resene Cloud Burst    #202e54
-Resene Cloudy    #aca59f
-Resene Clover    #384910
-Resene Cobalt    #062a78
-Resene Cocoa Bean    #481c1c
-Resene Cocoa Brown    #301f1e
-Resene Coconut Cream    #f8f7dc
-Resene Cod Grey    #0b0b0b
-Resene Coffee    #706555
-Resene Coffee Bean    #2a140e
-Resene Cognac    #9f381d
-Resene Cola    #3f2500
-Resene Cold Purple    #aba0d9
-Resene Cold Turkey    #cebaba
-Resene Colonial White    #ffedbc
-Resene Comet    #5c5d75
-Resene Como    #517c66
-Resene Conch    #c9d9d2
-Resene Concord    #7c7b7a
-Resene Concrete    #f2f2f2
-Resene Confetti    #e9d75a
-Resene Congo Brown    #593737
-Resene Conifer    #acdd4d
-Resene Contessa    #c6726b
-Resene Copper Canyon    #7e3a15
-Resene Copper Rust    #944747
-Resene Coral    #c7bca2
-Resene Coral Candy    #ffdcd6
-Resene Coral Tree    #a86b6b
-Resene Corduroy    #606e68
-Resene Coriander    #c4d0b0
-Resene Cork    #40291d
-Resene Corn    #e7bf05
-Resene Corn Field    #f8facd
-Resene Corn Harvest    #8b6b0b
-Resene Cornflower    #ffb0ac
-Resene Corvette    #fad3a2
-Resene Cosmic    #76395d
-Resene Cosmos    #ffd8d9
-Resene Costa Del Sol    #615d30
-Resene Cotton Seed    #c2bdb6
-Resene County Green    #01371a
-Resene Cove Grey    #051657
-Resene Cowboy    #4d282d
-Resene Crab Apple    #a02712
-Resene Crail    #b95140
-Resene Cranberry    #b6316c
-Resene Crater Brown    #462425
-Resene Cream Brulee    #ffe5a0
-Resene Cream Can    #f5c85c
-Resene Creme De Banane    #fffc99
-Resene Creole    #1e0f04
-Resene Crete    #737829
-Resene Crocodile    #736d58
-Resene Crown of Thorns    #771f1f
-Resene Crowshead    #1c1208
-Resene Cruise    #b5ecdf
-Resene Crusoe    #004816
-Resene Crusta    #fd7b33
-Resene Cuban Tan    #2a140e
-Resene Cumin    #924321
-Resene Cumulus    #fdffd5
-Resene Cupid    #fbbeda
-Resene Curious Blue    #2596d1
-Resene Cutty Sark    #507672
-Resene Cyprus    #003e40
-Resene Daintree    #012731
-Resene Dairy Cream    #f9e4bc
-Resene Daisy Bush    #4f2398
-Resene Dallas    #6e4b26
-Resene Danube    #6093d1
-Resene Dark Ebony    #3c2005
-Resene Dark Oak    #612718
-Resene Dark Rimu    #5f3d26
-Resene Dark Rum    #412010
-Resene Dark Slate    #394851
-Resene Dark Tan    #661010
-Resene Dawn    #a6a29a
-Resene Dawn Pink    #f3e9e5
-Resene De York    #7ac488
-Resene Deco    #d2da97
-Resene Deep Blush    #e47698
-Resene Deep Bronze    #4a3004
-Resene Deep Cove    #051040
-Resene Deep Fir    #002900
-Resene Deep Koamaru    #1b127b
-Resene Deep Oak    #412010
-Resene Deep Sea    #01826b
-Resene Deep Teal    #003532
-Resene Del Rio    #b09a95
-Resene Dell    #396413
-Resene Delta    #a4a49d
-Resene Deluge    #7563a8
-Resene Derby    #ffeed8
-Resene Desert    #ae6020
-Resene Desert Storm    #f8f8f7
-Resene Dew    #eafffe
-Resene Di Serria    #db995e
-Resene Diesel    #130000
-Resene Dingley    #5d7747
-Resene Disco    #871550
-Resene Dixie    #e29418
-Resene Dolly    #f9ff8b
-Resene Dolphin    #646077
-Resene Domino    #8e775e
-Resene Don Juan    #5d4c51
-Resene Donkey Brown    #a69279
-Resene Dorado    #6b5755
-Resene Double Colonial White    #eee3ad
-Resene Double Pearl Lusta    #fcf4d0
-Resene Double Spanish White    #e6d7b9
-Resene Dove Grey    #6d6c6c
-Resene Downriver    #092256
-Resene Downy    #6fd0c5
-Resene Driftwood    #af8751
-Resene Drover    #fdf7ad
-Resene Dune    #383533
-Resene Dust Storm    #e5ccc9
-Resene Dusty Grey    #a8989b
-Resene Dutch White    #fff8d1
-Resene Eagle    #b6baa4
-Resene Earls Green    #c9b93b
-Resene Early Dawn    #fff9e6
-Resene East Bay    #414c7d
-Resene East Side    #ac91ce
-Resene Eastern Blue    #1e9ab0
-Resene Ebb    #e9e3e3
-Resene Ebony    #0c0b1d
-Resene Ebony Clay    #26283b
-Resene Echo Blue    #afbdd9
-Resene Eclipse    #311c17
-Resene Ecru White    #f5f3e5
-Resene Ecstasy    #fa7814
-Resene Eden    #105852
-Resene Edgewater    #c8e3d7
-Resene Edward    #a2aeab
-Resene Egg Sour    #fff4dd
-Resene Egg White    #ffefc1
-Resene El Paso    #1e1708
-Resene El Salva    #8f3e33
-Resene Elephant    #123447
-Resene Elf Green    #088370
-Resene Elm    #1c7c7d
-Resene Embers    #a02712
-Resene Eminence    #6c3082
-Resene Emperor    #514649
-Resene Empress    #817377
-Resene Endeavour    #0056a7
-Resene Energy Yellow    #f8dd5c
-Resene English Holly    #022d15
-Resene English Walnut    #3e2b23
-Resene Envy    #8ba690
-Resene Equator    #e1bc64
-Resene Espresso    #612718
-Resene Eternity    #211a0e
-Resene Eucalyptus    #278a5b
-Resene Eunry    #cfa39d
-Resene Evening Sea    #024e46
-Resene Everglade    #1c402e
-Resene Fair Pink    #ffefec
-Resene Falcon    #7f626d
-Resene Fantasy    #faf3f0
-Resene Fedora    #796a78
-Resene Feijoa    #9fdd8c
-Resene Fern    #0a480d
-Resene Fern Frond    #657220
-Resene Ferra    #704f50
-Resene Festival    #fbe96c
-Resene Feta    #f0fcea
-Resene Fiery Orange    #b35213
-Resene Fiji Green    #657220
-Resene Finch    #626649
-Resene Finlandia    #556d56
-Resene Finn    #692d54
-Resene Fiord    #405169
-Resene Fire    #aa4203
-Resene Fire Bush    #e89928
-Resene Firefly    #0e2a30
-Resene Flame Pea    #da5b38
-Resene Flame Red    #c7031e
-Resene Flamenco    #ff7d07
-Resene Flamingo    #f2552a
-Resene Flax    #7b8265
-Resene Flint    #6f6a61
-Resene Flirt    #a2006d
-Resene Foam    #d8fcfa
-Resene Fog    #d7d0ff
-Resene Foggy Grey    #cbcab6
-Resene Forest Green    #182d09
-Resene Forget Me Not    #fff1ee
-Resene Fountain Blue    #56b4be
-Resene Frangipani    #ffdeb3
-Resene French Grey    #bdbdc6
-Resene French Lilac    #ecc7ee
-Resene French Pass    #bdedfd
-Resene Friar Grey    #807e79
-Resene Fringy Flower    #b1e2c1
-Resene Froly    #f57584
-Resene Frost    #edf5dd
-Resene Frosted Mint    #dbfff8
-Resene Frostee    #e4f6e7
-Resene Fruit Salad    #4f9d5d
-Resene Fuchsia    #7a58c1
-Resene Fuego    #bede0d
-Resene Fuel Yellow    #eca927
-Resene Fun Blue    #1959a8
-Resene Fun Green    #016d39
-Resene Fuscous Grey    #54534d
-Resene Gable Green    #163531
-Resene Gallery    #efefef
-Resene Galliano    #dcb20c
-Resene Geebung    #d18f1b
-Resene Genoa    #15736b
-Resene Geraldine    #fb8989
-Resene Geyser    #d4dfe2
-Resene Ghost    #c7c9d5
-Resene Gigas    #523c94
-Resene Gimblet    #b8b56a
-Resene Gin    #e8f2eb
-Resene Gin Fizz    #fff9e2
-Resene Givry    #f8e4bf
-Resene Glacier    #80b3c4
-Resene Glade Green    #61845f
-Resene Go Ben    #726d4e
-Resene Goblin    #3d7d52
-Resene Gold Drop    #f18200
-Resene Gold Tips    #deba13
-Resene Golden Bell    #e28913
-Resene Golden Dream    #f0d52d
-Resene Golden Fizz    #f5fb3d
-Resene Golden Glow    #fde295
-Resene Golden Sand    #f0db7d
-Resene Golden Tainoi    #ffcc5c
-Resene Gondola    #261414
-Resene Gordons Green    #0b1107
-Resene Gorse    #fff14f
-Resene Gossamer    #069b81
-Resene Gossip    #d2f8b0
-Resene Gothic    #6d92a1
-Resene Governor Bay    #2f3cb3
-Resene Grain Brown    #e4d5b7
-Resene Grandis    #ffd38c
-Resene Granite Green    #8d8974
-Resene Granny Apple    #d5f6e3
-Resene Granny Smith    #84a0a0
-Resene Grape    #381a51
-Resene Graphite    #251607
-Resene Grass Hopper    #7c7631
-Resene Gravel    #4a444b
-Resene Green House    #24500f
-Resene Green Kelp    #25311c
-Resene Green Leaf    #436a0d
-Resene Green Mist    #cbd3b0
-Resene Green Pea    #1d6142
-Resene Green Smoke    #a4af6e
-Resene Green Spring    #b8c1b1
-Resene Green Vogue    #032b52
-Resene Green Waterloo    #101405
-Resene Green White    #e8ebe0
-Resene Greenstone    #003e40
-Resene Grenadier    #d54600
-Resene Grey Chateau    #a2aab3
-Resene Grey Green    #454936
-Resene Grey Nickel    #c3c3bd
-Resene Grey Nurse    #e7ece6
-Resene Grey Olive    #a9a491
-Resene Grey Suit    #c1becd
-Resene Guardsman Red    #ba0101
-Resene Gulf Blue    #051657
-Resene Gulf Stream    #80b3ae
-Resene Gull Grey    #9dacb7
-Resene Gum Leaf    #b6d3bf
-Resene Gumbo    #7ca1a6
-Resene Gun Powder    #414257
-Resene Gunmetal    #020d15
-Resene Gunsmoke    #828685
-Resene Gurkha    #9a9577
-Resene Hacienda    #98811b
-Resene Hairy Heath    #6b2a14
-Resene Haiti    #1b1035
-Resene Half and Half    #fffee1
-Resene Half Baked    #85c4cc
-Resene Half Colonial White    #fdf6d3
-Resene Half Dutch White    #fef7de
-Resene Half Pearl Lusta    #fffcea
-Resene Half Spanish White    #fef4db
-Resene Hampton    #e5d8af
-Resene Harp    #e6f2ea
-Resene Harvest Gold    #e0b974
-Resene Havana    #341515
-Resene Havelock Blue    #5590d9
-Resene Hawaiian Tan    #9d5616
-Resene Hawkes Blue    #d4e2fc
-Resene Heath    #541012
-Resene Heather    #b7c3d0
-Resene Heathered Grey    #b6b095
-Resene Heavy Metal    #2b3228
-Resene Hemlock    #5e5d3b
-Resene Hemp    #907874
-Resene Hibiscus    #b6316c
-Resene Highball    #908d39
-Resene Highland    #6f8e63
-Resene Hillary    #aca586
-Resene Himalaya    #6a5d1b
-Resene Hint of Green    #e6ffe9
-Resene Hint of Grey    #fcfff9
-Resene Hint of Red    #f9f9f9
-Resene Hint of Yellow    #fafde4
-Resene Hippie Blue    #589aaf
-Resene Hippie Green    #53824b
-Resene Hippie Pink    #ae4560
-Resene Hit Grey    #a1adb5
-Resene Hit Pink    #ffab81
-Resene Hokey Pokey    #c8a528
-Resene Hoki    #65869f
-Resene Holly    #011d13
-Resene Honey Flower    #4f1c70
-Resene Honeysuckle    #edfc84
-Resene Hopbush    #d06da1
-Resene Horizon    #5a87a0
-Resene Horses Neck    #604913
-Resene Hot Chile    #8b0723
-Resene Hot Curry    #886221
-Resene Hot Purple    #480656
-Resene Hot Toddy    #b38007
-Resene Humming Bird    #cff9f3
-Resene Hunter Green    #161d10
-Resene Hurricane    #877c7b
-Resene Husk    #b7a458
-Resene Ice Cold    #b1f4e7
-Resene Iceberg    #daf4f0
-Resene Illusion    #f6a4c9
-Resene Indian Tan    #4d1e01
-Resene Indochine    #c26b03
-Resene Irish Coffee    #5f3d26
-Resene Iroko    #433120
-Resene Iron    #d4d7d9
-Resene Ironbark    #411f10
-Resene Ironside Grey    #676662
-Resene Ironstone    #86483c
-Resene Island Spice    #fffcee
-Resene Jacaranda    #2e0329
-Resene Jacarta    #3a2a6a
-Resene Jacko Bean    #2e1905
-Resene Jacksons Purple    #20208d
-Resene Jade    #427977
-Resene Jaffa    #ef863f
-Resene Jagged Ice    #c2e8e5
-Resene Jagger    #350e57
-Resene Jaguar    #080110
-Resene Jambalaya    #5b3013
-Resene Janna    #f4ebd3
-Resene Japanese Laurel    #0a6906
-Resene Japanese Maple    #780109
-Resene Japonica    #d87c63
-Resene Jarrah    #341515
-Resene Java    #1fc2c2
-Resene Jazz    #780109
-Resene Jelly Bean    #297b9a
-Resene Jet Stream    #b5d2ce
-Resene Jewel    #126b40
-Resene Joanna    #f5f3e5
-Resene Jon    #3b1f1f
-Resene Jonquil    #eeff9a
-Resene Jordy Blue    #8ab9f1
-Resene Judge Grey    #544333
-Resene Jumbo    #7c7b82
-Resene Jungle Green    #281e15
-Resene Jungle Mist    #b4cfd3
-Resene Juniper    #6d9292
-Resene Just Right    #eccdb9
-Resene Kabul    #5e483e
-Resene Kaitoke Green    #004620
-Resene Kangaroo    #c6c8bd
-Resene Karaka    #1e1609
-Resene Karry    #ffead4
-Resene Kashmir Blue    #507096
-Resene Kelp    #454936
-Resene Kenyan Copper    #7c1c05
-Resene Keppel    #3ab09e
-Resene Kidnapper    #e1ead4
-Resene Kilamanjaro    #240c02
-Resene Killarney    #3a6a47
-Resene Kimberly    #736c9f
-Resene Kingfisher Daisy    #3e0480
-Resene Kobi    #e79fc4
-Resene Kokoda    #6e6d57
-Resene Korma    #8f4b0e
-Resene Koromiko    #ffbd5f
-Resene Kournikova    #ffe772
-Resene Kumera    #886221
-Resene La Palma    #368716
-Resene La Rioja    #b3c110
-Resene Las Palmas    #c6e610
-Resene Laser    #c8b568
-Resene Laurel    #749378
-Resene Lavender    #a899e6
-Resene Leather    #967059
-Resene Lemon    #f4d81c
-Resene Lemon Ginger    #ac9e22
-Resene Lemon Grass    #9b9e8f
-Resene Licorice    #092256
-Resene Lightning Yellow    #fcc01e
-Resene Lilac Bush    #9874d3
-Resene Lily    #c8aabf
-Resene Lily White    #e7f8ff
-Resene Lima    #76bd17
-Resene Lime    #bfc921
-Resene Limeade    #6f9d02
-Resene Limed Ash    #747d63
-Resene Limed Gum    #423921
-Resene Limed Oak    #ac8a56
-Resene Limed Spruce    #394851
-Resene Limerick    #9dc209
-Resene Linen    #e6e4d4
-Resene Link Water    #d9e4f5
-Resene Lipstick    #ab0563
-Resene Lisbon Brown    #423921
-Resene Livid Brown    #4d282e
-Resene Loafer    #eef4de
-Resene Loblolly    #bdc9ce
-Resene Lochinvar    #2c8c84
-Resene Lochmara    #007ec7
-Resene Locust    #a8af8e
-Resene Log Cabin    #242a1d
-Resene Logan    #aaa9cd
-Resene Lola    #dfcfdb
-Resene London Hue    #bea6c3
-Resene Lonestar    #6d0101
-Resene Lotus    #863c3c
-Resene Loulou    #460b41
-Resene Lucky    #af9f1c
-Resene Lucky Point    #1a1a68
-Resene Lunar Green    #3c493a
-Resene Lusty    #991b07
-Resene Luxor Gold    #a7882c
-Resene Lynch    #697e9a
-Resene Mabel    #d9f7ff
-Resene Madang    #b7f0be
-Resene Madison    #09255d
-Resene Madras    #3f3002
-Resene Magnolia    #f8f4ff
-Resene Mahogany    #4e0606
-Resene Mai Tai    #b06608
-Resene Maire    #130a06
-Resene Maize    #f5d5a0
-Resene Makara    #897d6d
-Resene Mako    #444954
-Resene Malachite Green    #888d65
-Resene Malibu    #7dc8f7
-Resene Mallard    #233418
-Resene Malta    #bdb2a1
-Resene Mamba    #8e8190
-Resene Mandalay    #ad781b
-Resene Mandy    #e25465
-Resene Mandys Pink    #f2c3b2
-Resene Manhattan    #f5c999
-Resene Mantis    #74c365
-Resene Mantle    #8b9c90
-Resene Manz    #eeef78
-Resene Mardi Gras    #350036
-Resene Marigold    #b98d28
-Resene Mariner    #286acd
-Resene Marlin    #2a140e
-Resene Maroon    #420303
-Resene Marshland    #0b0f08
-Resene Martini    #afa09e
-Resene Martinique    #363050
-Resene Marzipan    #f8db9d
-Resene Masala    #403b38
-Resene Mash    #40291d
-Resene Matisse    #1b659d
-Resene Matrix    #b05d54
-Resene Matterhorn    #4e3b41
-Resene Maverick    #d8c2d5
-Resene McKenzie    #af8751
-Resene Melanie    #e4c2d5
-Resene Melanzane    #300529
-Resene Melrose    #c7c1ff
-Resene Meranti    #5d1e0f
-Resene Mercury    #e5e5e5
-Resene Merino    #f6f0e6
-Resene Merlin    #413c37
-Resene Merlot    #831923
-Resene Metallic Bronze    #49371b
-Resene Metallic Copper    #71291d
-Resene Meteor    #d07d12
-Resene Meteorite    #3c1f76
-Resene Mexican Red    #a72525
-Resene Mid Grey    #5f5f6e
-Resene Midnight    #011635
-Resene Midnight Express    #000741
-Resene Midnight Moss    #041004
-Resene Mikado    #2d2510
-Resene Milan    #faffa4
-Resene Milano Red    #b81104
-Resene Milk Punch    #fff6d4
-Resene Milk White    #f6f0e6
-Resene Millbrook    #594433
-Resene Mimosa    #f8fdd3
-Resene Mindaro    #e3f988
-Resene Mine Shaft    #323232
-Resene Mineral Green    #3f5d53
-Resene Ming    #36747d
-Resene Minsk    #3f307f
-Resene Mint Julep    #f1eec1
-Resene Mint Tulip    #c4f4eb
-Resene Mirage    #161928
-Resene Mischka    #d1d2dd
-Resene Mist Grey    #c4c4bc
-Resene Mobster    #7f7589
-Resene Moccaccino    #6e1d14
-Resene Mocha    #782d19
-Resene Mojo    #c04737
-Resene Mona Lisa    #ffa194
-Resene Monarch    #8b0723
-Resene Mondo    #4a3c30
-Resene Mongoose    #b5a27f
-Resene Monsoon    #8a8389
-Resene Montana    #291e30
-Resene Monte Carlo    #83d0c6
-Resene Monza    #c7031e
-Resene Moody Blue    #7f76d3
-Resene Moon Glow    #fcfeda
-Resene Moon Mist    #dcddcc
-Resene Moon Raker    #d6cef6
-Resene Moon Yellow    #fcd917
-Resene Morning Glory    #9edee0
-Resene Morocco Brown    #441d00
-Resene Mortar    #504351
-Resene Mosaic    #123447
-Resene Mosque    #036a6e
-Resene Mountain Mist    #959396
-Resene Muddy Waters    #b78e5c
-Resene Muesli    #aa8b5b
-Resene Mulberry    #5c0536
-Resene Mule Fawn    #8c472f
-Resene Mulled Wine    #4e4562
-Resene Mustard    #74640d
-Resene My Pink    #d69188
-Resene My Sin    #ffb31f
-Resene Mystic    #e2ebed
-Resene Nandor    #4b5d52
-Resene Napa    #aca494
-Resene Narvik    #edf9f1
-Resene Natural    #86560a
-Resene Nebula    #cbdbd6
-Resene Negroni    #ffe2c5
-Resene Nepal    #8eabc1
-Resene Neptune    #7cb7bb
-Resene Nero    #140600
-Resene Neutral Green    #aca586
-Resene Nevada    #646e75
-Resene New Amber    #7b3801
-Resene New Orleans    #f3d69d
-Resene New York Pink    #d7837f
-Resene Niagara    #06a189
-Resene Night Rider    #1f120f
-Resene Night Shadz    #aa375a
-Resene Nightclub    #660045
-Resene Nile Blue    #193751
-Resene Nobel    #b7b1b1
-Resene Nomad    #bab1a2
-Resene Nordic    #012731
-Resene Norway    #a8bd9f
-Resene Nugget    #c59922
-Resene Nutmeg    #81422c
-Resene Nutmeg Wood Finish    #683600
-Resene Oasis    #feefce
-Resene Observatory    #02866f
-Resene Ocean Green    #41aa78
-Resene Off Green    #e6f8f3
-Resene Off Yellow    #fef9e3
-Resene Oil    #281e15
-Resene Oiled Cedar    #7c1c05
-Resene Old Brick    #901e1e
-Resene Old Copper    #724a2f
-Resene Olive Green    #242e16
-Resene Olive Haze    #8b8470
-Resene Olivetone    #716e10
-Resene Onahau    #cdf4ff
-Resene Onion    #2f270e
-Resene Opal    #a9c6c2
-Resene Opium    #8e6f70
-Resene Oracle    #377475
-Resene Orange Roughy    #c45719
-Resene Orange White    #fefced
-Resene Orchid White    #fffdf3
-Resene Oregon    #9b4703
-Resene Orient    #015e85
-Resene Oriental Pink    #c69191
-Resene Orinoco    #f3fbd4
-Resene Oslo Grey    #878d91
-Resene Ottoman    #e9f8ed
-Resene Outer Space    #051040
-Resene Oxford Blue    #384555
-Resene Oxley    #779e86
-Resene Oyster Bay    #dafaff
-Resene Oyster Pink    #e9cecd
-Resene Paarl    #a65529
-Resene Pablo    #776f61
-Resene Pacifika    #778120
-Resene Paco    #411f10
-Resene Padua    #ade6c4
-Resene Pale Leaf    #c0d3b9
-Resene Pale Oyster    #988d77
-Resene Pale Prim    #fdfeb8
-Resene Pale Rose    #ffe1f2
-Resene Pale Sky    #6e7783
-Resene Pale Slate    #c3bfc1
-Resene Palm Green    #09230f
-Resene Palm Leaf    #19330e
-Resene Pampas    #f4f2ee
-Resene Panache    #eaf6ee
-Resene Pancho    #edcdab
-Resene Panda    #423921
-Resene Paprika    #8d0226
-Resene Paradiso    #317d82
-Resene Parchment    #f1e9d2
-Resene Paris Daisy    #fff46e
-Resene Paris M    #26056a
-Resene Paris White    #cadcd4
-Resene Parsley    #134f19
-Resene Patina    #639a8f
-Resene Pattens Blue    #def5ff
-Resene Paua    #260368
-Resene Pavlova    #d7c498
-Resene Pea Soup    #cfe5d2
-Resene Peach    #fff0db
-Resene Peach Schnapps    #ffdcd6
-Resene Peanut    #782f16
-Resene Pearl Bush    #e8e0d5
-Resene Pearl Lusta    #fcf4dc
-Resene Peat    #716b56
-Resene Pelorous    #3eabbf
-Resene Peppermint    #e3f5e1
-Resene Perano    #a9bef2
-Resene Perfume    #d0bef8
-Resene Periglacial Blue    #e1e6d6
-Resene Persian Plum    #701c1c
-Resene Persian Red    #520c17
-Resene Persimmon    #ff6b53
-Resene Peru Tan    #7f3a02
-Resene Pesto    #7c7631
-Resene Petite Orchid    #db9690
-Resene Pewter    #96a8a1
-Resene Pharlap    #a3807b
-Resene Picasso    #fff39d
-Resene Pickled Aspen    #3f4c3a
-Resene Pickled Bean    #6e4826
-Resene Pickled Bluewood    #314459
-Resene Picton Blue    #45b1e8
-Resene Pigeon Post    #afbdd9
-Resene Pine Cone    #6d5e54
-Resene Pine Glade    #c7cd90
-Resene Pine Tree    #171f04
-Resene Pink Flare    #e1c0c8
-Resene Pink Lace    #ffddf4
-Resene Pink Lady    #fff1d8
-Resene Pink Swan    #beb5b7
-Resene Piper    #c96323
-Resene Pipi    #fef4cc
-Resene Pippin    #ffe1df
-Resene Pirate Gold    #ba7f03
-Resene Pistachio    #9dc209
-Resene Pixie Green    #c0d8b6
-Resene Pizazz    #ff9000
-Resene Pizza    #c99415
-Resene Plantation    #27504b
-Resene Planter    #615d30
-Resene Plum    #410056
-Resene Pohutukawa    #8f021c
-Resene Polar    #e5f9f6
-Resene Polo Blue    #8da8cc
-Resene Pompadour    #660045
-Resene Porcelain    #eff2f3
-Resene Porsche    #eaae69
-Resene Port Gore    #251f4f
-Resene Portafino    #ffffb4
-Resene Portage    #8b9fee
-Resene Portica    #f9e663
-Resene Pot Pourri    #f5e7e2
-Resene Potters Clay    #8c5738
-Resene Powder Blue    #bcc9c2
-Resene Prairie Sand    #9a3820
-Resene Prelude    #d0c0e5
-Resene Prim    #f0e2ec
-Resene Primrose    #edea99
-Resene Promenade    #fcffe7
-Resene Provincial Pink    #fef5f1
-Resene Prussian Blue    #003153
-Resene Pueblo    #7d2c14
-Resene Puerto Rico    #3fc1aa
-Resene Pumice    #c2cac4
-Resene Pumpkin    #b1610b
-Resene Punch    #dc4333
-Resene Punga    #4d3d14
-Resene Putty    #e7cd8c
-Resene Quarter Pearl Lusta    #fffdf4
-Resene Quarter Spanish White    #f7f2e1
-Resene Quicksand    #bd978e
-Resene Quill Grey    #d6d6d1
-Resene Quincy    #623f2d
-Resene Racing Green    #0c1911
-Resene Raffia    #eadab8
-Resene Rain Forest    #778120
-Resene Raincloud    #7b7c94
-Resene Rainee    #b9c8ac
-Resene Rajah    #f7b668
-Resene Rangitoto    #2e3222
-Resene Rangoon Green    #1c1e13
-Resene Raven    #727b89
-Resene Rebel    #3c1206
-Resene Red Beech    #7b3801
-Resene Red Berry    #8e0000
-Resene Red Damask    #da6a41
-Resene Red Devil    #860111
-Resene Red Oxide    #6e0902
-Resene Red Robin    #80341f
-Resene Red Stage    #d05f04
-Resene Redwood    #5d1e0f
-Resene Reef    #c9ffa2
-Resene Reef Gold    #9f821c
-Resene Regal Blue    #013f6a
-Resene Regent Grey    #86949f
-Resene Regent St Blue    #aad6e6
-Resene Remy    #feebf3
-Resene Reno Sand    #a86515
-Resene Resolution Blue    #002387
-Resene Revolver    #2c1632
-Resene Rhino    #2e3f62
-Resene Ribbon    #660045
-Resene Rice Cake    #fffef0
-Resene Rice Flower    #eeffe2
-Resene Rich Gold    #a85307
-Resene Rio Grande    #bbd009
-Resene Riptide    #8be6d8
-Resene River Bed    #434c59
-Resene Rob Roy    #eac674
-Resene Robins Egg Blue    #bdc8b3
-Resene Rock    #4d3833
-Resene Rock Blue    #9eb1cd
-Resene Rock Salt    #ffffff
-Resene Rock Spray    #ba450c
-Resene Rodeo Dust    #c9b29b
-Resene Rolling Stone    #747d83
-Resene Roman    #de6360
-Resene Roman Coffee    #795d4c
-Resene Romance    #fffefd
-Resene Romantic    #ffd2b7
-Resene Ronchi    #ecc54e
-Resene Roof Terracotta    #a62f20
-Resene Rope    #8e4d1e
-Resene Rose    #e7bcb4
-Resene Rose Bud    #fbb2a3
-Resene Rose Bud Cherry    #800b47
-Resene Rose of Sharon    #bf5500
-Resene Rose White    #fff6f5
-Resene Rosewood    #65000b
-Resene Roti    #c6a84b
-Resene Rouge    #a23b6c
-Resene Royal Heath    #ab3472
-Resene Rum    #796989
-Resene Rum Swizzle    #f9f8e4
-Resene Russett    #755a57
-Resene Rustic Red    #480404
-Resene Rusty Nail    #86560a
-Resene Saddle    #4c3024
-Resene Saddle Brown    #583401
-Resene Saffron    #f9bf58
-Resene Sage    #9ea587
-Resene Sahara    #b7a214
-Resene Sail    #b8e0f9
-Resene Salem    #097f4b
-Resene Salomie    #fedb8d
-Resene Salt Box    #685e6e
-Resene Saltpan    #f1f7f2
-Resene Sambuca    #3a2010
-Resene San Felix    #0b6207
-Resene San Juan    #304b6a
-Resene San Marino    #456cac
-Resene Sand Dune    #826f65
-Resene Sandal    #aa8d6f
-Resene Sandrift    #ab917a
-Resene Sandstone    #796d62
-Resene Sandwisp    #f5e7a2
-Resene Sandy Beach    #ffeac8
-Resene Sangria    #92000a
-Resene Sanguine Brown    #8d3d38
-Resene Santa Fe    #b16d52
-Resene Santas Grey    #9fa0b1
-Resene Sapling    #ded4a4
-Resene Sapphire    #2f519e
-Resene Saratoga    #555b10
-Resene Sauvignon    #fff5f3
-Resene Sazerac    #fff4e0
-Resene Scampi    #675fa6
-Resene Scandal    #cffaf4
-Resene Scarlet Gum    #431560
-Resene Scarlett    #950015
-Resene Scarpa Flow    #585562
-Resene Schist    #a9b497
-Resene Schooner    #8b847e
-Resene Scooter    #2ebfd4
-Resene Scorpion    #695f62
-Resene Scotch Mist    #fffbdc
-Resene Scrub    #2e3222
-Resene Sea Buckthorn    #fba129
-Resene Sea Fog    #fcfff9
-Resene Sea Green    #095859
-Resene Sea Mist    #c5dbca
-Resene Sea Nymph    #78a39c
-Resene Sea Pink    #ed989e
-Resene Seagull    #80ccea
-Resene Seance    #731e8f
-Resene Seashell    #f1f1f1
-Resene Seaweed    #1b2f11
-Resene Selago    #f0eefd
-Resene Sepia    #2b0202
-Resene Serenade    #fff4e8
-Resene Shadow Green    #9ac2b8
-Resene Shady Lady    #aaa5a9
-Resene Shakespeare    #4eabd1
-Resene Shalimar    #fbffba
-Resene Shark    #25272c
-Resene Sherpa Blue    #004950
-Resene Sherwood Green    #02402c
-Resene Shilo    #e8b9b3
-Resene Shingle Fawn    #6b4e31
-Resene Ship Cove    #788bba
-Resene Ship Grey    #3e3a44
-Resene Shiraz    #b20931
-Resene Shocking    #e292c0
-Resene Shuttle Grey    #5f6672
-Resene Siam    #646a54
-Resene Sidecar    #f3e7bb
-Resene Silk    #bdb1a8
-Resene Silver Chalice    #acacac
-Resene Silver Sand    #bfc1c2
-Resene Silver Tree    #66b58f
-Resene Sinbad    #9fd7d3
-Resene Siren    #7a013a
-Resene Sirocco    #718080
-Resene Sisal    #d3cbba
-Resene Skeptic    #cae6da
-Resene Slugger    #412010
-Resene Smalt Blue    #51808f
-Resene Smoke Tree    #da6304
-Resene Smokey Ash    #413c37
-Resene Smoky    #605b73
-Resene Snow Drift    #f7faf7
-Resene Snow Flurry    #e4ffd1
-Resene Snowy Mint    #d6ffdb
-Resene Snuff    #e2d8ed
-Resene Soapstone    #fffbf9
-Resene Soft Amber    #d1c6b4
-Resene Soft Peach    #f5edef
-Resene Solid Pink    #893843
-Resene Solitaire    #fef8e2
-Resene Solitude    #eaf6ff
-Resene Sorbus    #fd7c07
-Resene Sorrell Brown    #ceb98f
-Resene Sour Dough    #d1bea8
-Resene Soya Bean    #6a6051
-Resene Space Shuttle    #433120
-Resene Spanish Green    #819885
-Resene Spanish White    #f4ebd3
-Resene Spectra    #2f5a57
-Resene Spice    #6a442e
-Resene Spicy Mix    #885342
-Resene Spicy Pink    #816e71
-Resene Spindle    #b6d1ea
-Resene Splash    #ffefc1
-Resene Spray    #79deec
-Resene Spring Green    #578363
-Resene Spring Rain    #accbb1
-Resene Spring Sun    #f6ffdc
-Resene Spring Wood    #f8f6f1
-Resene Sprout    #c1d7b0
-Resene Spun Pearl    #aaabb7
-Resene Squirrel    #8f8176
-Resene St Tropaz    #2d569b
-Resene Stack    #8a8f8a
-Resene Star Dust    #9f9f9c
-Resene Stark White    #e5d7bd
-Resene Starship    #ecf245
-Resene Steel Grey    #262335
-Resene Stiletto    #9c3336
-Resene Stinger    #8b6b0b
-Resene Stonewall    #928573
-Resene Storm Dust    #646463
-Resene Storm Grey    #717486
-Resene Stratos    #000741
-Resene Straw    #d4bf8d
-Resene Strikemaster    #956387
-Resene Stromboli    #325d52
-Resene Studio    #714ab2
-Resene Submarine    #bac7c9
-Resene Sugar Cane    #f9fff6
-Resene Sulu    #c1f07c
-Resene Summer Green    #96bbab
-Resene Sun    #fbac13
-Resene Sundance    #c9b35b
-Resene Sundown    #ffb1b3
-Resene Sunflower    #e4d422
-Resene Sunglo    #e16865
-Resene Sunset    #dc4333
-Resene Sunshade    #ff9e2c
-Resene Supernova    #ffc901
-Resene Surf    #bbd7c1
-Resene Surf Crest    #cfe5d2
-Resene Surfie Green    #0c7a79
-Resene Sushi    #87ab39
-Resene Suva Grey    #888387
-Resene Swamp    #001b1c
-Resene Swans Down    #dcf0ea
-Resene Sweet Corn    #fbea8c
-Resene Sweet Pink    #fd9fa2
-Resene Swirl    #d3cdc5
-Resene Swiss Coffee    #ddd6d5
-Resene Sycamore    #908d39
-Resene Tabasco    #a02712
-Resene Tacao    #edb381
-Resene Tacha    #d6c562
-Resene Tahiti Gold    #e97c07
-Resene Tahuna Sands    #eef0c8
-Resene Tall Poppy    #b32d29
-Resene Tallow    #a8a589
-Resene Tamarillo    #991613
-Resene Tamarind    #341515
-Resene Tana    #d9dcc1
-Resene Tangaroa    #03163c
-Resene Tangerine    #e96e00
-Resene Tango    #ed7a1c
-Resene Tapa    #7b7874
-Resene Tapestry    #b05e81
-Resene Tara    #e1f6e8
-Resene Tarawera    #073a50
-Resene Tasman    #cfdccf
-Resene Taupe Grey    #b3af95
-Resene Tawny Port    #692545
-Resene Tax Break    #51808f
-Resene Te Papa Green    #1e433c
-Resene Tea    #c1bab0
-Resene Teak    #b19461
-Resene Teak Wood Finish    #6b2a14
-Resene Teal Blue    #044259
-Resene Temptress    #3b000b
-Resene Tequila    #ffe6c7
-Resene Texas    #f8f99c
-Resene Texas Rose    #ffb555
-Resene Thatch    #b69d98
-Resene Thatch Green    #403d19
-Resene Thistle    #cccaa8
-Resene Thunder    #33292f
-Resene Thunderbird    #c02b18
-Resene Tia Maria    #c1440e
-Resene Tiara    #c3d1d1
-Resene Tiber    #063537
-Resene Tidal    #f1ffad
-Resene Tide    #bfb8b0
-Resene Timber Green    #16322c
-Resene Titan White    #f0eeff
-Resene Toast    #9a6e61
-Resene Tobacco Brown    #715d47
-Resene Tobago    #3e2b23
-Resene Toledo    #3a0020
-Resene Tolopea    #1b0245
-Resene Tom Thumb    #3f583b
-Resene Tonys Pink    #e79f8c
-Resene Topaz    #7c778a
-Resene Torea Bay    #0f2d9e
-Resene Tory Blue    #1450aa
-Resene Tosca    #8d3f3f
-Resene Totem Pole    #991b07
-Resene Touch Wood    #373021
-Resene Tower Grey    #a9bdbf
-Resene Tradewind    #5fb3ac
-Resene Tranquil    #e6ffff
-Resene Travertine    #fffde8
-Resene Tree Poppy    #fc9c1d
-Resene Treehouse    #3b2820
-Resene Trendy Green    #7c881a
-Resene Trendy Pink    #8c6495
-Resene Trinidad    #e64e03
-Resene Tropical Blue    #c3ddf9
-Resene Trout    #4a4e5a
-Resene True V    #8a73d6
-Resene Tuatara    #363534
-Resene Tuft Bush    #ffddcd
-Resene Tulip Tree    #eab33b
-Resene Tumbleweed    #37290e
-Resene Tuna    #353542
-Resene Tundora    #4a4244
-Resene Turbo    #fae600
-Resene Turkish Rose    #b57281
-Resene Turmeric    #cabb48
-Resene Turtle Green    #2a380b
-Resene Tuscany    #bd5e2e
-Resene Tusk    #eef3c3
-Resene Tussock    #c5994b
-Resene Tutu    #fff1f9
-Resene Twilight    #e4cfde
-Resene Twilight Blue    #eefdff
-Resene Twine    #c2955d
-Resene Valencia    #d84437
-Resene Valentino    #350e42
-Resene Valhalla    #2b194f
-Resene Van Cleef    #49170c
-Resene Vanilla    #d1bea8
-Resene Vanilla Ice    #f3d9df
-Resene Varden    #fff6df
-Resene Venetian Red    #72010f
-Resene Venice Blue    #055989
-Resene Venus    #928590
-Resene Verdigris    #5d5e37
-Resene Verdun Green    #495400
-Resene Vesuvius    #b14a0b
-Resene Victoria    #534491
-Resene Vida Loca    #549019
-Resene Viking    #64ccdb
-Resene Vin Rouge    #983d61
-Resene Viola    #cb8fa9
-Resene Violent Violet    #290c5e
-Resene Violet    #240a40
-Resene Viridian Green    #678975
-Resene Vis Vis    #ffefa1
-Resene Vista Blue    #8fd6b4
-Resene Vista White    #fcf8f7
-Resene Volcano    #651a14
-Resene Voodoo    #533455
-Resene Vulcan    #10121d
-Resene Wafer    #decbc6
-Resene Waikawa Grey    #5a6e9c
-Resene Waiouru    #363c0d
-Resene Walnut    #773f1a
-Resene Wan White    #fcfff9
-Resene Wasabi    #788a25
-Resene Water Leaf    #a1e9de
-Resene Watercourse    #056f57
-Resene Waterloo     #7b7c94
-Resene Wattle    #dcd747
-Resene Watusi    #ffddcf
-Resene Wax Flower    #ffc0a8
-Resene We Peep    #f7dbe6
-Resene Wedgewood    #4e7f9e
-Resene Well Read    #b43332
-Resene West Coast    #625119
-Resene West Side    #ff910f
-Resene Westar    #dcd9d2
-Resene Western Red    #8b0723
-Resene Wewak    #f19bab
-Resene Wheatfield    #f3edcf
-Resene Whiskey    #d59a6f
-Resene Whiskey Sour    #db995e
-Resene Whisper    #f7f5fa
-Resene White Ice    #ddf9f1
-Resene White Lilac    #f8f7fc
-Resene White Linen    #f8f0e8
-Resene White Nectar    #fcffe7
-Resene White Pointer    #fef8ff
-Resene White Rock    #eae8d4
-Resene Wild Rice    #ece090
-Resene Wild Sand    #f4f4f4
-Resene Wild Willow    #b9c46a
-Resene William    #3a686c
-Resene Willow Brook    #dfecda
-Resene Willow Grove    #65745d
-Resene Windsor    #3c0878
-Resene Wine Berry    #591d35
-Resene Winter Hazel    #d5d195
-Resene Wisp Pink    #fef4f8
-Resene Wisteria    #9771b5
-Resene Wistful    #a4a6d3
-Resene Witch Haze    #fffc99
-Resene Wood Bark    #261105
-Resene Woodburn    #3c2005
-Resene Woodland    #4d5328
-Resene Woodrush    #302a0f
-Resene Woodsmoke    #0c0d0f
-Resene Woody Bay    #292130
-Resene Woody Brown    #483131
-Resene Xanadu    #738678
-Resene Yellow Metal    #716338
-Resene Yellow Sea    #fea904
-Resene Your Pink    #ffc3c0
-Resene Yukon Gold    #7b6608
-Resene Yuma    #cec291
-Resene Zambezi    #685558
-Resene Zanah    #daecd6
-Resene Zest    #e5841b
-Resene Zeus    #292319
-Resene Ziggurat    #bfdbe2
-Resene Zircon    #f4f8ff
-Resene Zombie    #e4d69b
-Resene Zorba    #a59b91
-Resene Zuccini    #044022
-Resene Zumthor    #edf6ff
-Resene Zydeco    #02402c
+Abbey #4c4f56
+Acadia #1b1404
+Acapulco #7cb0a1
+Acorn #6a5d1b
+Aero Blue #c9ffe5
+Affair #714693
+Afghan Tan #86560a
+Akaroa #d4c4a8
+Alabaster #ffffff
+Albescent White #f5e9d3
+Alert Tan #9b4703
+Allports #0076a3
+Almond Frost #907b71
+Alpine #af8f2c
+Alto #dbdbdb
+Aluminium #a9acb6
+Amazon #3b7a57
+Americano #87756e
+Amethyst Smoke #a397b4
+Amour #f9eaf3
+Amulet #7b9f80
+Anakiwa #9de5ff
+Antique Brass #704a07
+Anzac #e0b646
+Apache #dfbe6f
+Apple #4fa83d
+Apple Blossom #af4d43
+Apple Green #e2f3ec
+Apricot #eb9373
+Apricot White #fffeec
+Aqua #a1dad7
+Aqua Haze #edf5f5
+Aqua Spring #eaf9f5
+Aqua Squeeze #e8f5f2
+Aquamarine #014b43
+Arapawa #110c6c
+Armadillo #433e37
+Arrowtown #948771
+Ash #c6c3b5
+Ash Brown #2e1905
+Asphalt #130a06
+Astra #faeab9
+Astral #327da0
+Astronaut #283a77
+Astronaut Blue #013e62
+Athens Grey #eef0f3
+Aths Special #ecebce
+Atlantis #97cd2d
+Atoll #0a6f75
+Atomic #314459
+Au Chico #97605d
+Aubergine #3b0910
+Australian Mint #f5ffbe
+Avocado #888d65
+Axolotl #4e6649
+Azalea #f7c8da
+Aztec #0d1c19
+Azure #315ba1
+Bahama Blue #026395
+Bahia #a5cb0c
+Baja White #fff8d1
+Bali Hai #859faf
+Baltic Sea #2a2630
+Bamboo #da6304
+Bandicoot #858470
+Banjul #130a06
+Barberry #ded717
+Barley Corn #a68b5b
+Barley White #fff4ce
+Barossa #44012d
+Bastille #292130
+Battleship Grey #828f72
+Bay Leaf #7da98d
+Bay of Many #273a81
+Bazaar #98777b
+Bean #3d0c02
+Beauty Bush #eec1be
+Beeswax #fef2c7
+Bermuda #7dd8c6
+Bermuda Grey #6b8ba2
+Beryl Green #dee5c0
+Bianca #fcfbf3
+Big Stone #162a40
+Bilbao #327c14
+Biloba Flower #b2a1ea
+Birch #373021
+Bird Flower #d4cd16
+Biscay #1b3162
+Bismark #497183
+Bison Hide #c1b7a4
+Bitter #868974
+Bitter Lemon #cae00d
+Bizarre #eededa
+Black Bean #081910
+Black Forest #0b1304
+Black Haze #f6f7f7
+Black Magic #251706
+Black Marlin #3e2c1c
+Black Pearl #041322
+Black Pepper #0e0e18
+Black Rock #0d0332
+Black Rose #67032d
+Black Russian #0a001c
+Black Squeeze #f2fafa
+Black White #fffef6
+Blackberry #4d0135
+Blackcurrant #32293a
+Blackwood #261105
+Blanc #f5e9d3
+Bleach White #fef3d8
+Bleached Cedar #2c2133
+Blossom #dcb4bc
+Blue Bark #041322
+Blue Bayoux #496679
+Blue Bell #220878
+Blue Chalk #f1e9ff
+Blue Charcoal #010d1a
+Blue Chill #0c8990
+Blue Diamond #380474
+Blue Dianne #204852
+Blue Gem #2c0e8c
+Blue Haze #bfbed8
+Blue Lagoon #017987
+Blue Marguerite #7666c6
+Blue Romance #d2f6de
+Blue Smoke #748881
+Blue Stone #016162
+Blue Whale #042e4c
+Blue Zodiac #13264d
+Blumine #18587a
+Blush #b44668
+Bokara Grey #1c1208
+Bombay #afb1b8
+Bon Jour #e5e0e1
+Bondi Blue #02478e
+Bone #e4d1c0
+Bordeaux #5c0120
+Bossanova #4e2a5a
+Boston Blue #3b91b4
+Botticelli #c7dde5
+Bottle Green #093624
+Boulder #7a7a7a
+Bouquet #ae809e
+Bourbon #ba6f1e
+Bracken #4a2a04
+Brandy #dec196
+Brandy Punch #cd8429
+Brandy Rose #bb8983
+Brazil #886221
+Breaker Bay #5da19f
+Bridal Heath #fffaf4
+Bridesmaid #fef0ec
+Bright Grey #3c4151
+Bright Red #b10000
+Bright Sun #fed33c
+Bronco #aba196
+Bronze #3f2109
+Bronze Olive #4e420c
+Bronzetone #4d400f
+Broom #ffec13
+Brown Bramble #592804
+Brown Derby #492615
+Brown Pod #401801
+Bubbles #e7feff
+Buccaneer #622f30
+Bud #a8ae9c
+Buddha Gold #c1a004
+Bulgarian Rose #480607
+Bull Shot #864d1e
+Bunker #0d1117
+Bunting #151f4c
+Burgundy #770f05
+Burnham #002e20
+Burning Sand #d99376
+Burnt Crimson #65000b
+Bush #0d2e1c
+Buttercup #f3ad16
+Buttered Rum #a1750d
+Butterfly Bush #624e9a
+Buttermilk #fff1b5
+Buttery White #fffcea
+Cab Sav #4d0a18
+Cabaret #d94972
+Cabbage Pont #3f4c3a
+Cactus #587156
+Cadillac #b04c6a
+Cafe Royale #6f440c
+Calico #e0c095
+California #fe9d04
+Calypso #31728d
+Camarone #00581a
+Camelot #893456
+Cameo #d9b99b
+Camouflage #3c3910
+Can Can #d591a4
+Canary #f3fb62
+Candlelight #fcd917
+Cannon Black #251706
+Cannon Pink #894367
+Canvas #a8a589
+Cape Cod #3c4443
+Cape Honey #fee5ac
+Cape Palliser #a26645
+Caper #dcedb4
+Capri #062a78
+Caramel #ffddaf
+Cararra #eeeee8
+Cardin Green #01361c
+Cardinal #8c055e
+Careys Pink #d29eaa
+Carissma #ea88a8
+Carla #f3ffd8
+Carnaby Tan #5c2e01
+Carousel Pink #f9e0ed
+Casablanca #f8b853
+Casal #2f6168
+Cascade #8ba9a5
+Cashmere #e6bea5
+Casper #adbed1
+Castro #52001f
+Catalina Blue #062a78
+Catskill White #eef6f7
+Cavern Pink #e3bebe
+Ce Soir #9771b5
+Cedar #3e1c14
+Cedar Wood Finish #711a00
+Celery #b8c25d
+Celeste #d1d2ca
+Cello #1e385b
+Celtic #163222
+Cement #8d7662
+Ceramic #fcfff9
+Chablis #fff4f3
+Chalet Green #516e3d
+Chalky #eed794
+Chambray #354e8c
+Chamois #eddcb1
+Champagne #faeccc
+Chantilly #f8c3df
+Charade #292937
+Chardon #fff3f1
+Chardonnay #ffcd8c
+Charlotte #baeef9
+Charm #d47494
+Chateau Green #40a860
+Chatelle #bdb3c7
+Chathams Blue #175579
+Chelsea Cucumber #83aa5d
+Chelsea Gem #9e5302
+Chenin #dfcd6f
+Cherokee #fcda98
+Cherry Pie #2a0359
+Cherrywood #651a14
+Cherub #f8d9e9
+Chetwode Blue #8581d9
+Chicago #5d5c58
+Chiffon #f1ffc8
+Chilean Fire #f77703
+Chilean Heath #fffde6
+China Ivory #fcffe7
+Chino #cec7a7
+Chinook #a8e3bd
+Chocolate #370202
+Christalle #33036b
+Christi #67a712
+Christine #e7730a
+Chrome White #e8f1d4
+Cigar #773f1a
+Cinder #0e0e18
+Cinderella #fde1dc
+Cinnamon #7b3f00
+Cioccolato #55280c
+Citrine White #faf7d6
+Citron #9ea91f
+Citrus #a1c50a
+Clairvoyant #480656
+Clam Shell #d4b6af
+Claret #7f1734
+Classic Rose #fbcce7
+Clay Creek #8a8360
+Clear Day #e9fffd
+Clementine #e96e00
+Clinker #371d09
+Cloud #c7c4bf
+Cloud Burst #202e54
+Cloudy #aca59f
+Clover #384910
+Cobalt #062a78
+Cocoa Bean #481c1c
+Cocoa Brown #301f1e
+Coconut Cream #f8f7dc
+Cod Grey #0b0b0b
+Coffee #706555
+Coffee Bean #2a140e
+Cognac #9f381d
+Cola #3f2500
+Cold Purple #aba0d9
+Cold Turkey #cebaba
+Colonial White #ffedbc
+Comet #5c5d75
+Como #517c66
+Conch #c9d9d2
+Concord #7c7b7a
+Concrete #f2f2f2
+Confetti #e9d75a
+Congo Brown #593737
+Conifer #acdd4d
+Contessa #c6726b
+Copper Canyon #7e3a15
+Copper Rust #944747
+Coral #c7bca2
+Coral Candy #ffdcd6
+Coral Tree #a86b6b
+Corduroy #606e68
+Coriander #c4d0b0
+Cork #40291d
+Corn #e7bf05
+Corn Field #f8facd
+Corn Harvest #8b6b0b
+Cornflower #ffb0ac
+Corvette #fad3a2
+Cosmic #76395d
+Cosmos #ffd8d9
+Costa Del Sol #615d30
+Cotton Seed #c2bdb6
+County Green #01371a
+Cove Grey #051657
+Cowboy #4d282d
+Crab Apple #a02712
+Crail #b95140
+Cranberry #b6316c
+Crater Brown #462425
+Cream Brulee #ffe5a0
+Cream Can #f5c85c
+Creme De Banane #fffc99
+Creole #1e0f04
+Crete #737829
+Crocodile #736d58
+Crown of Thorns #771f1f
+Crowshead #1c1208
+Cruise #b5ecdf
+Crusoe #004816
+Crusta #fd7b33
+Cuban Tan #2a140e
+Cumin #924321
+Cumulus #fdffd5
+Cupid #fbbeda
+Curious Blue #2596d1
+Cutty Sark #507672
+Cyprus #003e40
+Daintree #012731
+Dairy Cream #f9e4bc
+Daisy Bush #4f2398
+Dallas #6e4b26
+Danube #6093d1
+Dark Ebony #3c2005
+Dark Oak #612718
+Dark Rimu #5f3d26
+Dark Rum #412010
+Dark Slate #394851
+Dark Tan #661010
+Dawn #a6a29a
+Dawn Pink #f3e9e5
+De York #7ac488
+Deco #d2da97
+Deep Blush #e47698
+Deep Bronze #4a3004
+Deep Cove #051040
+Deep Fir #002900
+Deep Koamaru #1b127b
+Deep Oak #412010
+Deep Sea #01826b
+Deep Teal #003532
+Del Rio #b09a95
+Dell #396413
+Delta #a4a49d
+Deluge #7563a8
+Derby #ffeed8
+Desert #ae6020
+Desert Storm #f8f8f7
+Dew #eafffe
+Di Serria #db995e
+Diesel #130000
+Dingley #5d7747
+Disco #871550
+Dixie #e29418
+Dolly #f9ff8b
+Dolphin #646077
+Domino #8e775e
+Don Juan #5d4c51
+Donkey Brown #a69279
+Dorado #6b5755
+Double Colonial White #eee3ad
+Double Pearl Lusta #fcf4d0
+Double Spanish White #e6d7b9
+Dove Grey #6d6c6c
+Downriver #092256
+Downy #6fd0c5
+Driftwood #af8751
+Drover #fdf7ad
+Dune #383533
+Dust Storm #e5ccc9
+Dusty Grey #a8989b
+Dutch White #fff8d1
+Eagle #b6baa4
+Earls Green #c9b93b
+Early Dawn #fff9e6
+East Bay #414c7d
+East Side #ac91ce
+Eastern Blue #1e9ab0
+Ebb #e9e3e3
+Ebony #0c0b1d
+Ebony Clay #26283b
+Echo Blue #afbdd9
+Eclipse #311c17
+Ecru White #f5f3e5
+Ecstasy #fa7814
+Eden #105852
+Edgewater #c8e3d7
+Edward #a2aeab
+Egg Sour #fff4dd
+Egg White #ffefc1
+El Paso #1e1708
+El Salva #8f3e33
+Elephant #123447
+Elf Green #088370
+Elm #1c7c7d
+Embers #a02712
+Eminence #6c3082
+Emperor #514649
+Empress #817377
+Endeavour #0056a7
+Energy Yellow #f8dd5c
+English Holly #022d15
+English Walnut #3e2b23
+Envy #8ba690
+Equator #e1bc64
+Espresso #612718
+Eternity #211a0e
+Eucalyptus #278a5b
+Eunry #cfa39d
+Evening Sea #024e46
+Everglade #1c402e
+Fair Pink #ffefec
+Falcon #7f626d
+Fantasy #faf3f0
+Fedora #796a78
+Feijoa #9fdd8c
+Fern #0a480d
+Fern Frond #657220
+Ferra #704f50
+Festival #fbe96c
+Feta #f0fcea
+Fiery Orange #b35213
+Fiji Green #657220
+Finch #626649
+Finlandia #556d56
+Finn #692d54
+Fiord #405169
+Fire #aa4203
+Fire Bush #e89928
+Firefly #0e2a30
+Flame Pea #da5b38
+Flame Red #c7031e
+Flamenco #ff7d07
+Flamingo #f2552a
+Flax #7b8265
+Flint #6f6a61
+Flirt #a2006d
+Foam #d8fcfa
+Fog #d7d0ff
+Foggy Grey #cbcab6
+Forest Green #182d09
+Forget Me Not #fff1ee
+Fountain Blue #56b4be
+Frangipani #ffdeb3
+French Grey #bdbdc6
+French Lilac #ecc7ee
+French Pass #bdedfd
+Friar Grey #807e79
+Fringy Flower #b1e2c1
+Froly #f57584
+Frost #edf5dd
+Frosted Mint #dbfff8
+Frostee #e4f6e7
+Fruit Salad #4f9d5d
+Fuchsia #7a58c1
+Fuego #bede0d
+Fuel Yellow #eca927
+Fun Blue #1959a8
+Fun Green #016d39
+Fuscous Grey #54534d
+Gable Green #163531
+Gallery #efefef
+Galliano #dcb20c
+Geebung #d18f1b
+Genoa #15736b
+Geraldine #fb8989
+Geyser #d4dfe2
+Ghost #c7c9d5
+Gigas #523c94
+Gimblet #b8b56a
+Gin #e8f2eb
+Gin Fizz #fff9e2
+Givry #f8e4bf
+Glacier #80b3c4
+Glade Green #61845f
+Go Ben #726d4e
+Goblin #3d7d52
+Gold Drop #f18200
+Gold Tips #deba13
+Golden Bell #e28913
+Golden Dream #f0d52d
+Golden Fizz #f5fb3d
+Golden Glow #fde295
+Golden Sand #f0db7d
+Golden Tainoi #ffcc5c
+Gondola #261414
+Gordons Green #0b1107
+Gorse #fff14f
+Gossamer #069b81
+Gossip #d2f8b0
+Gothic #6d92a1
+Governor Bay #2f3cb3
+Grain Brown #e4d5b7
+Grandis #ffd38c
+Granite Green #8d8974
+Granny Apple #d5f6e3
+Granny Smith #84a0a0
+Grape #381a51
+Graphite #251607
+Grass Hopper #7c7631
+Gravel #4a444b
+Green House #24500f
+Green Kelp #25311c
+Green Leaf #436a0d
+Green Mist #cbd3b0
+Green Pea #1d6142
+Green Smoke #a4af6e
+Green Spring #b8c1b1
+Green Vogue #032b52
+Green Waterloo #101405
+Green White #e8ebe0
+Greenstone #003e40
+Grenadier #d54600
+Grey Chateau #a2aab3
+Grey Green #454936
+Grey Nickel #c3c3bd
+Grey Nurse #e7ece6
+Grey Olive #a9a491
+Grey Suit #c1becd
+Guardsman Red #ba0101
+Gulf Blue #051657
+Gulf Stream #80b3ae
+Gull Grey #9dacb7
+Gum Leaf #b6d3bf
+Gumbo #7ca1a6
+Gun Powder #414257
+Gunmetal #020d15
+Gunsmoke #828685
+Gurkha #9a9577
+Hacienda #98811b
+Hairy Heath #6b2a14
+Haiti #1b1035
+Half and Half #fffee1
+Half Baked #85c4cc
+Half Colonial White #fdf6d3
+Half Dutch White #fef7de
+Half Pearl Lusta #fffcea
+Half Spanish White #fef4db
+Hampton #e5d8af
+Harp #e6f2ea
+Harvest Gold #e0b974
+Havana #341515
+Havelock Blue #5590d9
+Hawaiian Tan #9d5616
+Hawkes Blue #d4e2fc
+Heath #541012
+Heather #b7c3d0
+Heathered Grey #b6b095
+Heavy Metal #2b3228
+Hemlock #5e5d3b
+Hemp #907874
+Hibiscus #b6316c
+Highball #908d39
+Highland #6f8e63
+Hillary #aca586
+Himalaya #6a5d1b
+Hint of Green #e6ffe9
+Hint of Grey #fcfff9
+Hint of Red #f9f9f9
+Hint of Yellow #fafde4
+Hippie Blue #589aaf
+Hippie Green #53824b
+Hippie Pink #ae4560
+Hit Grey #a1adb5
+Hit Pink #ffab81
+Hokey Pokey #c8a528
+Hoki #65869f
+Holly #011d13
+Honey Flower #4f1c70
+Honeysuckle #edfc84
+Hopbush #d06da1
+Horizon #5a87a0
+Horses Neck #604913
+Hot Chile #8b0723
+Hot Curry #886221
+Hot Purple #480656
+Hot Toddy #b38007
+Humming Bird #cff9f3
+Hunter Green #161d10
+Hurricane #877c7b
+Husk #b7a458
+Ice Cold #b1f4e7
+Iceberg #daf4f0
+Illusion #f6a4c9
+Indian Tan #4d1e01
+Indochine #c26b03
+Irish Coffee #5f3d26
+Iroko #433120
+Iron #d4d7d9
+Ironbark #411f10
+Ironside Grey #676662
+Ironstone #86483c
+Island Spice #fffcee
+Jacaranda #2e0329
+Jacarta #3a2a6a
+Jacko Bean #2e1905
+Jacksons Purple #20208d
+Jade #427977
+Jaffa #ef863f
+Jagged Ice #c2e8e5
+Jagger #350e57
+Jaguar #080110
+Jambalaya #5b3013
+Janna #f4ebd3
+Japanese Laurel #0a6906
+Japanese Maple #780109
+Japonica #d87c63
+Jarrah #341515
+Java #1fc2c2
+Jazz #780109
+Jelly Bean #297b9a
+Jet Stream #b5d2ce
+Jewel #126b40
+Joanna #f5f3e5
+Jon #3b1f1f
+Jonquil #eeff9a
+Jordy Blue #8ab9f1
+Judge Grey #544333
+Jumbo #7c7b82
+Jungle Green #281e15
+Jungle Mist #b4cfd3
+Juniper #6d9292
+Just Right #eccdb9
+Kabul #5e483e
+Kaitoke Green #004620
+Kangaroo #c6c8bd
+Karaka #1e1609
+Karry #ffead4
+Kashmir Blue #507096
+Kelp #454936
+Kenyan Copper #7c1c05
+Keppel #3ab09e
+Kidnapper #e1ead4
+Kilamanjaro #240c02
+Killarney #3a6a47
+Kimberly #736c9f
+Kingfisher Daisy #3e0480
+Kobi #e79fc4
+Kokoda #6e6d57
+Korma #8f4b0e
+Koromiko #ffbd5f
+Kournikova #ffe772
+Kumera #886221
+La Palma #368716
+La Rioja #b3c110
+Las Palmas #c6e610
+Laser #c8b568
+Laurel #749378
+Lavender #a899e6
+Leather #967059
+Lemon #f4d81c
+Lemon Ginger #ac9e22
+Lemon Grass #9b9e8f
+Licorice #092256
+Lightning Yellow #fcc01e
+Lilac Bush #9874d3
+Lily #c8aabf
+Lily White #e7f8ff
+Lima #76bd17
+Lime #bfc921
+Limeade #6f9d02
+Limed Ash #747d63
+Limed Gum #423921
+Limed Oak #ac8a56
+Limed Spruce #394851
+Limerick #9dc209
+Linen #e6e4d4
+Link Water #d9e4f5
+Lipstick #ab0563
+Lisbon Brown #423921
+Livid Brown #4d282e
+Loafer #eef4de
+Loblolly #bdc9ce
+Lochinvar #2c8c84
+Lochmara #007ec7
+Locust #a8af8e
+Log Cabin #242a1d
+Logan #aaa9cd
+Lola #dfcfdb
+London Hue #bea6c3
+Lonestar #6d0101
+Lotus #863c3c
+Loulou #460b41
+Lucky #af9f1c
+Lucky Point #1a1a68
+Lunar Green #3c493a
+Lusty #991b07
+Luxor Gold #a7882c
+Lynch #697e9a
+Mabel #d9f7ff
+Madang #b7f0be
+Madison #09255d
+Madras #3f3002
+Magnolia #f8f4ff
+Mahogany #4e0606
+Mai Tai #b06608
+Maire #130a06
+Maize #f5d5a0
+Makara #897d6d
+Mako #444954
+Malachite Green #888d65
+Malibu #7dc8f7
+Mallard #233418
+Malta #bdb2a1
+Mamba #8e8190
+Mandalay #ad781b
+Mandy #e25465
+Mandys Pink #f2c3b2
+Manhattan #f5c999
+Mantis #74c365
+Mantle #8b9c90
+Manz #eeef78
+Mardi Gras #350036
+Marigold #b98d28
+Mariner #286acd
+Marlin #2a140e
+Maroon #420303
+Marshland #0b0f08
+Martini #afa09e
+Martinique #363050
+Marzipan #f8db9d
+Masala #403b38
+Mash #40291d
+Matisse #1b659d
+Matrix #b05d54
+Matterhorn #4e3b41
+Maverick #d8c2d5
+McKenzie #af8751
+Melanie #e4c2d5
+Melanzane #300529
+Melrose #c7c1ff
+Meranti #5d1e0f
+Mercury #e5e5e5
+Merino #f6f0e6
+Merlin #413c37
+Merlot #831923
+Metallic Bronze #49371b
+Metallic Copper #71291d
+Meteor #d07d12
+Meteorite #3c1f76
+Mexican Red #a72525
+Mid Grey #5f5f6e
+Midnight #011635
+Midnight Express #000741
+Midnight Moss #041004
+Mikado #2d2510
+Milan #faffa4
+Milano Red #b81104
+Milk Punch #fff6d4
+Milk White #f6f0e6
+Millbrook #594433
+Mimosa #f8fdd3
+Mindaro #e3f988
+Mine Shaft #323232
+Mineral Green #3f5d53
+Ming #36747d
+Minsk #3f307f
+Mint Julep #f1eec1
+Mint Tulip #c4f4eb
+Mirage #161928
+Mischka #d1d2dd
+Mist Grey #c4c4bc
+Mobster #7f7589
+Moccaccino #6e1d14
+Mocha #782d19
+Mojo #c04737
+Mona Lisa #ffa194
+Monarch #8b0723
+Mondo #4a3c30
+Mongoose #b5a27f
+Monsoon #8a8389
+Montana #291e30
+Monte Carlo #83d0c6
+Monza #c7031e
+Moody Blue #7f76d3
+Moon Glow #fcfeda
+Moon Mist #dcddcc
+Moon Raker #d6cef6
+Moon Yellow #fcd917
+Morning Glory #9edee0
+Morocco Brown #441d00
+Mortar #504351
+Mosaic #123447
+Mosque #036a6e
+Mountain Mist #959396
+Muddy Waters #b78e5c
+Muesli #aa8b5b
+Mulberry #5c0536
+Mule Fawn #8c472f
+Mulled Wine #4e4562
+Mustard #74640d
+My Pink #d69188
+My Sin #ffb31f
+Mystic #e2ebed
+Nandor #4b5d52
+Napa #aca494
+Narvik #edf9f1
+Natural #86560a
+Nebula #cbdbd6
+Negroni #ffe2c5
+Nepal #8eabc1
+Neptune #7cb7bb
+Nero #140600
+Neutral Green #aca586
+Nevada #646e75
+New Amber #7b3801
+New Orleans #f3d69d
+New York Pink #d7837f
+Niagara #06a189
+Night Rider #1f120f
+Night Shadz #aa375a
+Nightclub #660045
+Nile Blue #193751
+Nobel #b7b1b1
+Nomad #bab1a2
+Nordic #012731
+Norway #a8bd9f
+Nugget #c59922
+Nutmeg #81422c
+Nutmeg Wood Finish #683600
+Oasis #feefce
+Observatory #02866f
+Ocean Green #41aa78
+Off Green #e6f8f3
+Off Yellow #fef9e3
+Oil #281e15
+Oiled Cedar #7c1c05
+Old Brick #901e1e
+Old Copper #724a2f
+Olive Green #242e16
+Olive Haze #8b8470
+Olivetone #716e10
+Onahau #cdf4ff
+Onion #2f270e
+Opal #a9c6c2
+Opium #8e6f70
+Oracle #377475
+Orange Roughy #c45719
+Orange White #fefced
+Orchid White #fffdf3
+Oregon #9b4703
+Orient #015e85
+Oriental Pink #c69191
+Orinoco #f3fbd4
+Oslo Grey #878d91
+Ottoman #e9f8ed
+Outer Space #051040
+Oxford Blue #384555
+Oxley #779e86
+Oyster Bay #dafaff
+Oyster Pink #e9cecd
+Paarl #a65529
+Pablo #776f61
+Pacifika #778120
+Paco #411f10
+Padua #ade6c4
+Pale Leaf #c0d3b9
+Pale Oyster #988d77
+Pale Prim #fdfeb8
+Pale Rose #ffe1f2
+Pale Sky #6e7783
+Pale Slate #c3bfc1
+Palm Green #09230f
+Palm Leaf #19330e
+Pampas #f4f2ee
+Panache #eaf6ee
+Pancho #edcdab
+Panda #423921
+Paprika #8d0226
+Paradiso #317d82
+Parchment #f1e9d2
+Paris Daisy #fff46e
+Paris M #26056a
+Paris White #cadcd4
+Parsley #134f19
+Patina #639a8f
+Pattens Blue #def5ff
+Paua #260368
+Pavlova #d7c498
+Pea Soup #cfe5d2
+Peach #fff0db
+Peach Schnapps #ffdcd6
+Peanut #782f16
+Pearl Bush #e8e0d5
+Pearl Lusta #fcf4dc
+Peat #716b56
+Pelorous #3eabbf
+Peppermint #e3f5e1
+Perano #a9bef2
+Perfume #d0bef8
+Periglacial Blue #e1e6d6
+Persian Plum #701c1c
+Persian Red #520c17
+Persimmon #ff6b53
+Peru Tan #7f3a02
+Pesto #7c7631
+Petite Orchid #db9690
+Pewter #96a8a1
+Pharlap #a3807b
+Picasso #fff39d
+Pickled Aspen #3f4c3a
+Pickled Bean #6e4826
+Pickled Bluewood #314459
+Picton Blue #45b1e8
+Pigeon Post #afbdd9
+Pine Cone #6d5e54
+Pine Glade #c7cd90
+Pine Tree #171f04
+Pink Flare #e1c0c8
+Pink Lace #ffddf4
+Pink Lady #fff1d8
+Pink Swan #beb5b7
+Piper #c96323
+Pipi #fef4cc
+Pippin #ffe1df
+Pirate Gold #ba7f03
+Pistachio #9dc209
+Pixie Green #c0d8b6
+Pizazz #ff9000
+Pizza #c99415
+Plantation #27504b
+Planter #615d30
+Plum #410056
+Pohutukawa #8f021c
+Polar #e5f9f6
+Polo Blue #8da8cc
+Pompadour #660045
+Porcelain #eff2f3
+Porsche #eaae69
+Port Gore #251f4f
+Portafino #ffffb4
+Portage #8b9fee
+Portica #f9e663
+Pot Pourri #f5e7e2
+Potters Clay #8c5738
+Powder Blue #bcc9c2
+Prairie Sand #9a3820
+Prelude #d0c0e5
+Prim #f0e2ec
+Primrose #edea99
+Promenade #fcffe7
+Provincial Pink #fef5f1
+Prussian Blue #003153
+Pueblo #7d2c14
+Puerto Rico #3fc1aa
+Pumice #c2cac4
+Pumpkin #b1610b
+Punch #dc4333
+Punga #4d3d14
+Putty #e7cd8c
+Quarter Pearl Lusta #fffdf4
+Quarter Spanish White #f7f2e1
+Quicksand #bd978e
+Quill Grey #d6d6d1
+Quincy #623f2d
+Racing Green #0c1911
+Raffia #eadab8
+Rain Forest #778120
+Raincloud #7b7c94
+Rainee #b9c8ac
+Rajah #f7b668
+Rangitoto #2e3222
+Rangoon Green #1c1e13
+Raven #727b89
+Rebel #3c1206
+Red Beech #7b3801
+Red Berry #8e0000
+Red Damask #da6a41
+Red Devil #860111
+Red Oxide #6e0902
+Red Robin #80341f
+Red Stage #d05f04
+Redwood #5d1e0f
+Reef #c9ffa2
+Reef Gold #9f821c
+Regal Blue #013f6a
+Regent Grey #86949f
+Regent St Blue #aad6e6
+Remy #feebf3
+Reno Sand #a86515
+Resolution Blue #002387
+Revolver #2c1632
+Rhino #2e3f62
+Ribbon #660045
+Rice Cake #fffef0
+Rice Flower #eeffe2
+Rich Gold #a85307
+Rio Grande #bbd009
+Riptide #8be6d8
+River Bed #434c59
+Rob Roy #eac674
+Robins Egg Blue #bdc8b3
+Rock #4d3833
+Rock Blue #9eb1cd
+Rock Salt #ffffff
+Rock Spray #ba450c
+Rodeo Dust #c9b29b
+Rolling Stone #747d83
+Roman #de6360
+Roman Coffee #795d4c
+Romance #fffefd
+Romantic #ffd2b7
+Ronchi #ecc54e
+Roof Terracotta #a62f20
+Rope #8e4d1e
+Rose #e7bcb4
+Rose Bud #fbb2a3
+Rose Bud Cherry #800b47
+Rose of Sharon #bf5500
+Rose White #fff6f5
+Rosewood #65000b
+Roti #c6a84b
+Rouge #a23b6c
+Royal Heath #ab3472
+Rum #796989
+Rum Swizzle #f9f8e4
+Russett #755a57
+Rustic Red #480404
+Rusty Nail #86560a
+Saddle #4c3024
+Saddle Brown #583401
+Saffron #f9bf58
+Sage #9ea587
+Sahara #b7a214
+Sail #b8e0f9
+Salem #097f4b
+Salomie #fedb8d
+Salt Box #685e6e
+Saltpan #f1f7f2
+Sambuca #3a2010
+San Felix #0b6207
+San Juan #304b6a
+San Marino #456cac
+Sand Dune #826f65
+Sandal #aa8d6f
+Sandrift #ab917a
+Sandstone #796d62
+Sandwisp #f5e7a2
+Sandy Beach #ffeac8
+Sangria #92000a
+Sanguine Brown #8d3d38
+Santa Fe #b16d52
+Santas Grey #9fa0b1
+Sapling #ded4a4
+Sapphire #2f519e
+Saratoga #555b10
+Sauvignon #fff5f3
+Sazerac #fff4e0
+Scampi #675fa6
+Scandal #cffaf4
+Scarlet Gum #431560
+Scarlett #950015
+Scarpa Flow #585562
+Schist #a9b497
+Schooner #8b847e
+Scooter #2ebfd4
+Scorpion #695f62
+Scotch Mist #fffbdc
+Scrub #2e3222
+Sea Buckthorn #fba129
+Sea Fog #fcfff9
+Sea Green #095859
+Sea Mist #c5dbca
+Sea Nymph #78a39c
+Sea Pink #ed989e
+Seagull #80ccea
+Seance #731e8f
+Seashell #f1f1f1
+Seaweed #1b2f11
+Selago #f0eefd
+Sepia #2b0202
+Serenade #fff4e8
+Shadow Green #9ac2b8
+Shady Lady #aaa5a9
+Shakespeare #4eabd1
+Shalimar #fbffba
+Shark #25272c
+Sherpa Blue #004950
+Sherwood Green #02402c
+Shilo #e8b9b3
+Shingle Fawn #6b4e31
+Ship Cove #788bba
+Ship Grey #3e3a44
+Shiraz #b20931
+Shocking #e292c0
+Shuttle Grey #5f6672
+Siam #646a54
+Sidecar #f3e7bb
+Silk #bdb1a8
+Silver Chalice #acacac
+Silver Sand #bfc1c2
+Silver Tree #66b58f
+Sinbad #9fd7d3
+Siren #7a013a
+Sirocco #718080
+Sisal #d3cbba
+Skeptic #cae6da
+Slugger #412010
+Smalt Blue #51808f
+Smoke Tree #da6304
+Smokey Ash #413c37
+Smoky #605b73
+Snow Drift #f7faf7
+Snow Flurry #e4ffd1
+Snowy Mint #d6ffdb
+Snuff #e2d8ed
+Soapstone #fffbf9
+Soft Amber #d1c6b4
+Soft Peach #f5edef
+Solid Pink #893843
+Solitaire #fef8e2
+Solitude #eaf6ff
+Sorbus #fd7c07
+Sorrell Brown #ceb98f
+Sour Dough #d1bea8
+Soya Bean #6a6051
+Space Shuttle #433120
+Spanish Green #819885
+Spanish White #f4ebd3
+Spectra #2f5a57
+Spice #6a442e
+Spicy Mix #885342
+Spicy Pink #816e71
+Spindle #b6d1ea
+Splash #ffefc1
+Spray #79deec
+Spring Green #578363
+Spring Rain #accbb1
+Spring Sun #f6ffdc
+Spring Wood #f8f6f1
+Sprout #c1d7b0
+Spun Pearl #aaabb7
+Squirrel #8f8176
+St Tropaz #2d569b
+Stack #8a8f8a
+Star Dust #9f9f9c
+Stark White #e5d7bd
+Starship #ecf245
+Steel Grey #262335
+Stiletto #9c3336
+Stinger #8b6b0b
+Stonewall #928573
+Storm Dust #646463
+Storm Grey #717486
+Stratos #000741
+Straw #d4bf8d
+Strikemaster #956387
+Stromboli #325d52
+Studio #714ab2
+Submarine #bac7c9
+Sugar Cane #f9fff6
+Sulu #c1f07c
+Summer Green #96bbab
+Sun #fbac13
+Sundance #c9b35b
+Sundown #ffb1b3
+Sunflower #e4d422
+Sunglo #e16865
+Sunset #dc4333
+Sunshade #ff9e2c
+Supernova #ffc901
+Surf #bbd7c1
+Surf Crest #cfe5d2
+Surfie Green #0c7a79
+Sushi #87ab39
+Suva Grey #888387
+Swamp #001b1c
+Swans Down #dcf0ea
+Sweet Corn #fbea8c
+Sweet Pink #fd9fa2
+Swirl #d3cdc5
+Swiss Coffee #ddd6d5
+Sycamore #908d39
+Tabasco #a02712
+Tacao #edb381
+Tacha #d6c562
+Tahiti Gold #e97c07
+Tahuna Sands #eef0c8
+Tall Poppy #b32d29
+Tallow #a8a589
+Tamarillo #991613
+Tamarind #341515
+Tana #d9dcc1
+Tangaroa #03163c
+Tangerine #e96e00
+Tango #ed7a1c
+Tapa #7b7874
+Tapestry #b05e81
+Tara #e1f6e8
+Tarawera #073a50
+Tasman #cfdccf
+Taupe Grey #b3af95
+Tawny Port #692545
+Tax Break #51808f
+Te Papa Green #1e433c
+Tea #c1bab0
+Teak #b19461
+Teak Wood Finish #6b2a14
+Teal Blue #044259
+Temptress #3b000b
+Tequila #ffe6c7
+Texas #f8f99c
+Texas Rose #ffb555
+Thatch #b69d98
+Thatch Green #403d19
+Thistle #cccaa8
+Thunder #33292f
+Thunderbird #c02b18
+Tia Maria #c1440e
+Tiara #c3d1d1
+Tiber #063537
+Tidal #f1ffad
+Tide #bfb8b0
+Timber Green #16322c
+Titan White #f0eeff
+Toast #9a6e61
+Tobacco Brown #715d47
+Tobago #3e2b23
+Toledo #3a0020
+Tolopea #1b0245
+Tom Thumb #3f583b
+Tonys Pink #e79f8c
+Topaz #7c778a
+Torea Bay #0f2d9e
+Tory Blue #1450aa
+Tosca #8d3f3f
+Totem Pole #991b07
+Touch Wood #373021
+Tower Grey #a9bdbf
+Tradewind #5fb3ac
+Tranquil #e6ffff
+Travertine #fffde8
+Tree Poppy #fc9c1d
+Treehouse #3b2820
+Trendy Green #7c881a
+Trendy Pink #8c6495
+Trinidad #e64e03
+Tropical Blue #c3ddf9
+Trout #4a4e5a
+True V #8a73d6
+Tuatara #363534
+Tuft Bush #ffddcd
+Tulip Tree #eab33b
+Tumbleweed #37290e
+Tuna #353542
+Tundora #4a4244
+Turbo #fae600
+Turkish Rose #b57281
+Turmeric #cabb48
+Turtle Green #2a380b
+Tuscany #bd5e2e
+Tusk #eef3c3
+Tussock #c5994b
+Tutu #fff1f9
+Twilight #e4cfde
+Twilight Blue #eefdff
+Twine #c2955d
+Valencia #d84437
+Valentino #350e42
+Valhalla #2b194f
+Van Cleef #49170c
+Vanilla #d1bea8
+Vanilla Ice #f3d9df
+Varden #fff6df
+Venetian Red #72010f
+Venice Blue #055989
+Venus #928590
+Verdigris #5d5e37
+Verdun Green #495400
+Vesuvius #b14a0b
+Victoria #534491
+Vida Loca #549019
+Viking #64ccdb
+Vin Rouge #983d61
+Viola #cb8fa9
+Violent Violet #290c5e
+Violet #240a40
+Viridian Green #678975
+Vis Vis #ffefa1
+Vista Blue #8fd6b4
+Vista White #fcf8f7
+Volcano #651a14
+Voodoo #533455
+Vulcan #10121d
+Wafer #decbc6
+Waikawa Grey #5a6e9c
+Waiouru #363c0d
+Walnut #773f1a
+Wan White #fcfff9
+Wasabi #788a25
+Water Leaf #a1e9de
+Watercourse #056f57
+Waterloo  #7b7c94
+Wattle #dcd747
+Watusi #ffddcf
+Wax Flower #ffc0a8
+We Peep #f7dbe6
+Wedgewood #4e7f9e
+Well Read #b43332
+West Coast #625119
+West Side #ff910f
+Westar #dcd9d2
+Western Red #8b0723
+Wewak #f19bab
+Wheatfield #f3edcf
+Whiskey #d59a6f
+Whiskey Sour #db995e
+Whisper #f7f5fa
+White Ice #ddf9f1
+White Lilac #f8f7fc
+White Linen #f8f0e8
+White Nectar #fcffe7
+White Pointer #fef8ff
+White Rock #eae8d4
+Wild Rice #ece090
+Wild Sand #f4f4f4
+Wild Willow #b9c46a
+William #3a686c
+Willow Brook #dfecda
+Willow Grove #65745d
+Windsor #3c0878
+Wine Berry #591d35
+Winter Hazel #d5d195
+Wisp Pink #fef4f8
+Wisteria #9771b5
+Wistful #a4a6d3
+Witch Haze #fffc99
+Wood Bark #261105
+Woodburn #3c2005
+Woodland #4d5328
+Woodrush #302a0f
+Woodsmoke #0c0d0f
+Woody Bay #292130
+Woody Brown #483131
+Xanadu #738678
+Yellow Metal #716338
+Yellow Sea #fea904
+Your Pink #ffc3c0
+Yukon Gold #7b6608
+Yuma #cec291
+Zambezi #685558
+Zanah #daecd6
+Zest #e5841b
+Zeus #292319
+Ziggurat #bfdbe2
+Zircon #f4f8ff
+Zombie #e4d69b
+Zorba #a59b91
+Zuccini #044022
+Zumthor #edf6ff
+Zydeco #02402c

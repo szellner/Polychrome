@@ -1,156 +1,156 @@
-Amaranth  #E52B50 pink, red
-Amber  #FFBF00 brown, yellow, orange
-Amethyst  #9966CC violet
-Apricot  #FBCEB1 yellow, orange
-Aqua  #00FFFF cyan
-Aquamarine  #7FFFD4 cyan
-Artichoke  #8F9779 green
-Asparagus  #87A96B green
-Auburn  #A52A2A brown, red
-Aureolin  #FDEE00 yellow
-Avocado  #568203 green
-Azure  #007FFF blue
-Beaver  #9F8170 brown
-Beige  #F5F5DC brown, yellow, white
-Bistre  #3D2B1F brown
-Bittersweet  #FE6F5E orange
-Black  #000000 gray
-Blond  #FAF0BE white
-Blue  #0000FF blue
-Bole  #79443B brown
-Bronze  #CD7F32 brown
-Buff  #F0DC82 brown, yellow
-Burgundy  #800020 brown, red
-Byzantium  #702963 violet
-Cambridge Blue  #A3C1AD blue
-Camel  #C19A6B brown
-Cardinal  #C41E3A red
-Carmine  #960018 pink, red
-Carnelian  #B31B1B red
-Celeste  #B2FFFF blue, cyan
-Cerise  #DE3163 pink, violet, red
-Cerulean  #007BA7 blue, cyan
-Chamoisee  #A0785A brown
-Champagne  #F7E7CE orange
-Charcoal  #36454F gray
-Chestnut  #954535 brown
-Citrine  #E4D00A brown, yellow
-Coffee  #6F4E37 brown, orange
-Copper  #B87333 brown
-Coquelicot  #FF3800 red
-Coral  #FF7F50 orange
-Cordovan  #893F45 brown
-Cornsilk  #FFF8DC white
-Cream  #FFFDD0 yellow, white
-Crimson  #DC143C pink, red
-Cyan  #00FFFF blue, green, cyan
-Cyclamen  #F56FA1 pink
-Denim  #1560BD blue
-Ecru  #C2B280 brown, yellow
-Eggplant  #614051 violet
-Eggshell  #F0EAD6 white
-Emerald  #50C878 green
-Fallow  #C19A6B brown
-Fandango  #B53389 pink, violet
-Fawn  #E5AA70 brown
-Flame  #E25822 orange, red
-Folly  #FF004F pink, red
-Fuchsia  #FF00FF pink, violet, red
-Fulvous  #E48400 brown
-Gamboge  #E49B0F orange
-Glaucous  #6082B6 blue
-Goldenrod  #DAA520 yellow
-Gray  #808080 gray
-Gunmetal  #2a3439 gray
-Harlequin  #3FFF00 green
-Harvest Gold  #DA9100 yellow
-Heliotrope  #DF73FF violet
-Honeydew  #F0FFF0 green, white
-Indigo  #4B0082 blue, violet
-International Klein Blue  #002FA7 blue
-Iris  #5A4FCF blue
-Isabelline  #F4F0EC brown, white
-Ivory  #FFFFF0 white
-Jasmine  #F8DE7E yellow
-Jonquil  #F4CA16 yellow
-Lava  #CF1020 red
-Lilac  #C8A2C8 violet
-Linen  #FAF0E6 white
-Lion  #C19A6B brown, yellow, orange
-Liver  #674C47 brown
-Lust  #E62020 red
-Magenta  #FF00FF pink, violet, red
-Magenta  #CC338B pink, violet, red
-Magnolia  #F8F4FF white
-Mahogany  #C04000 brown, orange, red
-Maize  #FBEC5D yellow
-Majorelle Blue  #6050DC blue
-Malachite  #0BDA51 green
-Mantis  #74C365 green
-Marigold  #EAA221 orange
-Mauve  #E0B0FF pink, violet
-Mint  #3EB489 green, cyan
-Mustard  #FFDB58 yellow
-Ochre  #CC7722 brown
-Olive  #808000 yellow, green
-Orchid  #DA70D6 violet
-Oxford Blue  #002147 blue
-Peach  #FFE5B4 orange, white
-Peach  #FFCBA4 orange, white
-Pearl  #EAE0C8 white
-Periwinkle  #CCCCFF blue, violet
-Persimmon  #EC5800 orange
-Pink  #FFC0CB pink, red
-Pistachio  #93C572 green
-Platinum  #E5E4E2 gray
-Plum  #8E4585 violet
-Portland Orange  #FF5A36 orange
-Puce  #CC8899 pink
-Pumpkin  #FF7518 orange
-Raspberry  #E30B5D pink, red
-Red  #FF0000 red
-Redwood  #A45A52 brown, red
-Rose  #FF007F pink, violet, red
-Rosewood  #65000B red
-Ruby  #E0115F pink, red
-Rufous  #A81C07 brown
-Russet  #80461B brown
-Rust  #B7410E brown, orange, red
-Saffron  #F4C430 yellow
-Salmon  #FA8072 orange
-Sand  #C2B280 brown
-Sapphire  #0F52BA blue
-Scarlet  #FF2400 red
-Scarlet  #FD0E35 red
-Seashell  #FFF5EE white
-Sepia  #704214 brown
-Sienna  #882D17 brown
-Silver  #C0C0C0 gray
-Sinopia  #CB410B brown
-Skobeloff  #007474 cyan
-Snow  #FFFAFA white
-Straw  #E4D96F yellow
-Sunglow  #FFCC33 yellow
-Sunset  #FAD6A5 orange
-Tan  #D2B48C brown
-Tangelo  #F94D00 orange
-Tangerine  #F28500 orange
-Taupe  #483C32 gray, brown
-Teal  #008080 blue, green, cyan
-Tiffany Blue  #0ABAB5 blue, cyan
-Timberwolf  #DBD7D2 gray
-True Blue  #0073CF blue
-Tufts Blue  #417DC1 blue
-Turquoise  #40E0D0 blue, green, cyan
-UCLA Blue  #536895 blue
-Ultramarine  #3F00FF blue
-Umber  #635147 brown
-Vanilla  #F3E5AB yellow, white
-Verdigris  #43B3AE cyan
-Viridian  #40826D blue, green
-Wenge  #645452 brown
-Wheat  #F5DEB3 brown
-White  #FFFFFF white
-Yale Blue  #0F4D92 blue
-Yellow  #FFFF00 yellow
-Zaffre  #0014A8 blue
+Amaranth #E52B50 pink, red
+Amber #FFBF00 brown, yellow, orange
+Amethyst #9966CC violet
+Apricot #FBCEB1 yellow, orange
+Aqua #00FFFF cyan
+Aquamarine #7FFFD4 cyan
+Artichoke #8F9779 green
+Asparagus #87A96B green
+Auburn #A52A2A brown, red
+Aureolin #FDEE00 yellow
+Avocado #568203 green
+Azure #007FFF blue
+Beaver #9F8170 brown
+Beige #F5F5DC brown, yellow, white
+Bistre #3D2B1F brown
+Bittersweet #FE6F5E orange
+Black #000000 gray
+Blond #FAF0BE white
+Blue #0000FF blue
+Bole #79443B brown
+Bronze #CD7F32 brown
+Buff #F0DC82 brown, yellow
+Burgundy #800020 brown, red
+Byzantium #702963 violet
+Cambridge Blue #A3C1AD blue
+Camel #C19A6B brown
+Cardinal #C41E3A red
+Carmine #960018 pink, red
+Carnelian #B31B1B red
+Celeste #B2FFFF blue, cyan
+Cerise #DE3163 pink, violet, red
+Cerulean #007BA7 blue, cyan
+Chamoisee #A0785A brown
+Champagne #F7E7CE orange
+Charcoal #36454F gray
+Chestnut #954535 brown
+Citrine #E4D00A brown, yellow
+Coffee #6F4E37 brown, orange
+Copper #B87333 brown
+Coquelicot #FF3800 red
+Coral #FF7F50 orange
+Cordovan #893F45 brown
+Cornsilk #FFF8DC white
+Cream #FFFDD0 yellow, white
+Crimson #DC143C pink, red
+Cyan #00FFFF blue, green, cyan
+Cyclamen #F56FA1 pink
+Denim #1560BD blue
+Ecru #C2B280 brown, yellow
+Eggplant #614051 violet
+Eggshell #F0EAD6 white
+Emerald #50C878 green
+Fallow #C19A6B brown
+Fandango #B53389 pink, violet
+Fawn #E5AA70 brown
+Flame #E25822 orange, red
+Folly #FF004F pink, red
+Fuchsia #FF00FF pink, violet, red
+Fulvous #E48400 brown
+Gamboge #E49B0F orange
+Glaucous #6082B6 blue
+Goldenrod #DAA520 yellow
+Gray #808080 gray
+Gunmetal #2a3439 gray
+Harlequin #3FFF00 green
+Harvest Gold #DA9100 yellow
+Heliotrope #DF73FF violet
+Honeydew #F0FFF0 green, white
+Indigo #4B0082 blue, violet
+International Klein Blue #002FA7 blue
+Iris #5A4FCF blue
+Isabelline #F4F0EC brown, white
+Ivory #FFFFF0 white
+Jasmine #F8DE7E yellow
+Jonquil #F4CA16 yellow
+Lava #CF1020 red
+Lilac #C8A2C8 violet
+Linen #FAF0E6 white
+Lion #C19A6B brown, yellow, orange
+Liver #674C47 brown
+Lust #E62020 red
+Magenta #FF00FF pink, violet, red
+Magenta #CC338B pink, violet, red
+Magnolia #F8F4FF white
+Mahogany #C04000 brown, orange, red
+Maize #FBEC5D yellow
+Majorelle Blue #6050DC blue
+Malachite #0BDA51 green
+Mantis #74C365 green
+Marigold #EAA221 orange
+Mauve #E0B0FF pink, violet
+Mint #3EB489 green, cyan
+Mustard #FFDB58 yellow
+Ochre #CC7722 brown
+Olive #808000 yellow, green
+Orchid #DA70D6 violet
+Oxford Blue #002147 blue
+Peach #FFE5B4 orange, white
+Peach #FFCBA4 orange, white
+Pearl #EAE0C8 white
+Periwinkle #CCCCFF blue, violet
+Persimmon #EC5800 orange
+Pink #FFC0CB pink, red
+Pistachio #93C572 green
+Platinum #E5E4E2 gray
+Plum #8E4585 violet
+Portland Orange #FF5A36 orange
+Puce #CC8899 pink
+Pumpkin #FF7518 orange
+Raspberry #E30B5D pink, red
+Red #FF0000 red
+Redwood #A45A52 brown, red
+Rose #FF007F pink, violet, red
+Rosewood #65000B red
+Ruby #E0115F pink, red
+Rufous #A81C07 brown
+Russet #80461B brown
+Rust #B7410E brown, orange, red
+Saffron #F4C430 yellow
+Salmon #FA8072 orange
+Sand #C2B280 brown
+Sapphire #0F52BA blue
+Scarlet #FF2400 red
+Scarlet #FD0E35 red
+Seashell #FFF5EE white
+Sepia #704214 brown
+Sienna #882D17 brown
+Silver #C0C0C0 gray
+Sinopia #CB410B brown
+Skobeloff #007474 cyan
+Snow #FFFAFA white
+Straw #E4D96F yellow
+Sunglow #FFCC33 yellow
+Sunset #FAD6A5 orange
+Tan #D2B48C brown
+Tangelo #F94D00 orange
+Tangerine #F28500 orange
+Taupe #483C32 gray, brown
+Teal #008080 blue, green, cyan
+Tiffany Blue #0ABAB5 blue, cyan
+Timberwolf #DBD7D2 gray
+True Blue #0073CF blue
+Tufts Blue #417DC1 blue
+Turquoise #40E0D0 blue, green, cyan
+UCLA Blue #536895 blue
+Ultramarine #3F00FF blue
+Umber #635147 brown
+Vanilla #F3E5AB yellow, white
+Verdigris #43B3AE cyan
+Viridian #40826D blue, green
+Wenge #645452 brown
+Wheat #F5DEB3 brown
+White #FFFFFF white
+Yale Blue #0F4D92 blue
+Yellow #FFFF00 yellow
+Zaffre #0014A8 blue

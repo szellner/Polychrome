@@ -19,9 +19,7 @@ from textwrap import wrap
 
 
 class Polychrome:
-    """Double checking for validity at the top level (suggest) prevents issues with other functions.
-    In the interest of speed, we shouldn't check validity every step of the way (this is done in test_polychrome.py)."""
-
+    """"""
     def __init__(self):
         self.magickMap = Colormap("magick")
         self.xkcdMap = Colormap("xkcd")
@@ -56,15 +54,34 @@ class Polychrome:
         name = mapType + "Map"
         if self.isSupportedMap(mapType):
             return self.__dict__[name]
+    
+    def getMaps(self):
+        """Gets all valid colormaps."""
+        colormaps = []
+        validMaps = list(key[:len(key) - 3] for key in self.__dict__.keys())
+        for mapType in validMaps:
+            colormaps.append(self.getMap(mapType))
+        return colormaps
 
-    def closestColor(self, requested_color, requested_map, compare="euclid", extras=False):
+    def getMaps(self):
+        """Gets all valid colormaps."""
+        colormaps = []
+        validMaps = list(key[:len(key) - 3] for key in self.__dict__.keys())
+        for mapType in validMaps:
+            colormaps.append(self.getMap(mapType))
+        print len(colormaps)
+        return colormaps
+
+    def closestColor(self, requested_color, requested_map, compare="euclid", extras=False, intra=False):
         min_colors = {}
         if compare == "euclid":
             for key, name in requested_map.colors.items():
                 utils.euclid(requested_color, key, name, min_colors)
             closestKey = min(min_colors.keys())
+            if intra:
+                min_colors.pop(closestKey)
+                closestKey = min(min_colors.keys())
             closestName = min_colors[closestKey]
-
         # elif compare == "deltaE":
         #   self.deltaE()
         # Maps with simple extras
@@ -74,6 +91,7 @@ class Polychrome:
      #    # Maps with complex extras
         # elif requested_map in ["inbsiscc_improvedMap"]:
      #            print "IS IMPR"
+
 
     def getSatName(self, requested_color):
         """ The dominant color name over the three fully-saturated faces of the RGB cube. From XKCD results."""
@@ -121,50 +139,50 @@ class Polychrome:
         print
         return suggestions, sortedKeys
 
-    def display(self, requested_color):
-        suggestions, sortedKeys = poly.suggest(requested_color)
-        l = len(sortedKeys) - 1
-        w = l * 1.8
-        suggw = (w / l) * 10
-        fig = plt.figure(figsize=(w, 4))
+    def display(self, requested_colors):
+        for color in requested_colors:
+            suggestions, sortedKeys = poly.suggest(color)
+            l = len(sortedKeys) - 1
+            w = l * 1.8
+            suggw = (w / l) * 10
+            fig = plt.figure(figsize=(w, 4))
 
-        gsfig = gridspec.GridSpec(2, 1)
-        # Gridspec for the required color subplots
-        gsreq = gridspec.GridSpecFromSubplotSpec(
-            2, l, subplot_spec=gsfig[0], height_ratios=[2, 1])
-        reqRGB = utils.validColor(requested_color)
-        scaledReqRGB = list(x / 255.0 for x in reqRGB)
-        # The requested color
-        ax1 = plt.subplot(gsreq[0, :], axisbg=scaledReqRGB)
-        reqInfo = "{0}\n{1}".format(reqRGB, utils.rgb2hex(reqRGB))
-        ax1.text(0.5, -0.4, reqInfo, ha="center", va="center")
-        # Spacing accommodating text
-        ax2 = plt.subplot(gsreq[1, :], frameon=False)
-        axarr = [ax1, ax2]
+            gsfig = gridspec.GridSpec(2, 1)
+            # Gridspec for the required color subplots
+            gsreq = gridspec.GridSpecFromSubplotSpec(
+                2, l, subplot_spec=gsfig[0], height_ratios=[2, 1])
+            reqRGB = utils.validColor(color)
+            scaledReqRGB = list(x / 255.0 for x in reqRGB)
+            # The requested color subplot
+            ax1 = plt.subplot(gsreq[0, :], axisbg=scaledReqRGB)
+            reqInfo = "{0}\n{1}".format(reqRGB, utils.rgb2hex(reqRGB))
+            ax1.text(0.5, -0.4, reqInfo, ha="center", va="center")
+            # Spacing accommodating text
+            ax2 = plt.subplot(gsreq[1, :], frameon=False)
+            axarr = [ax1, ax2]
+            # The suggested colors subplot(s)
+            gssugg = gridspec.GridSpecFromSubplotSpec(
+                2, l, subplot_spec=gsfig[1], height_ratios=[2, 1])
+            for i in range(1, l + 1):
+                suggested_color = suggestions[sortedKeys[i]]
+                scaledSuggRGB = list(x / 255.0 for x in suggested_color[1][0])
+                name = ', '.join(suggested_color[2])
+                wrappedName = '\n'.join(wrap(name, suggw))
+                info = "{0}\n{1}\n{2}\n{3}".format(wrappedName, str(suggested_color[1][0]), suggested_color[1][
+                                                   1], "dist: {0}".format(suggested_color[0]))
+                suggax = plt.subplot(gssugg[0, i - 1], axisbg=scaledSuggRGB)
+                suggax.set_title(sortedKeys[i], fontsize="small")
+                suggax.text(0, -.1, info, fontsize="x-small", va="top")
+                axarr.append(suggax)
+            # More spacing accommodating text
+            ax3 = plt.subplot(gssugg[1, :], frameon=False)
+            axarr.append(ax3)
 
-        # Gridspec for the suggested colors subplots
-        gssugg = gridspec.GridSpecFromSubplotSpec(
-            2, l, subplot_spec=gsfig[1], height_ratios=[2, 1])
-        for i in range(1, l + 1):
-            color = suggestions[sortedKeys[i]]
-            scaledSuggRGB = list(x / 255.0 for x in color[1][0])
-            name = ', '.join(color[2])
-            wrappedName = '\n'.join(wrap(name, suggw))
-            info = "{0}\n{1}\n{2}\n{3}".format(wrappedName, str(color[1][0]), color[1][
-                                               1], "dist: {0}".format(color[0]))
-            suggax = plt.subplot(gssugg[0, i - 1], axisbg=scaledSuggRGB)
-            suggax.set_title(sortedKeys[i], fontsize="small")
-            suggax.text(0, -.1, info, fontsize="x-small", va="top")
-            axarr.append(suggax)
-        # More spacing accommodating text
-        ax3 = plt.subplot(gssugg[1, :], frameon=False)
-        axarr.append(ax3)
-
-        # Make the axes labels and ticks invisible
-        plt.setp([a.get_xaxis() for a in axarr[0:l + 3]], visible=False)
-        plt.setp([a.get_yaxis() for a in axarr[0:l + 3]], visible=False)
-        # Remove whitespace and show
-        plt.tight_layout()
+            # Make the axes labels and ticks invisible
+            plt.setp([a.get_xaxis() for a in axarr[0:l + 3]], visible=False)
+            plt.setp([a.get_yaxis() for a in axarr[0:l + 3]], visible=False)
+            # Remove whitespace and show
+            plt.tight_layout()
         plt.show()
 
     # def test_hsvSort(self,mapType):
@@ -176,10 +194,10 @@ class Polychrome:
 
 if __name__ == "__main__":
 
-    requested_color = (100, 200, 177)
-#     requested_color2="#F75394"
+    requested_color = (20, 200, 107)
+    requested_color2="#F70042"
     poly = Polychrome()
-
+    cols = (requested_color, requested_color2)
 #     # poly.isInMap((205, 200, 177), "wiki")
 #     # poly.suggest(requested_color)
-    poly.display(requested_color)
+    poly.display(cols)

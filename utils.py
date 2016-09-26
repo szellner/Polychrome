@@ -1,11 +1,12 @@
 import re
-import colour
+# import colour
 import colorsys
-import matplotlib as mpl
-mpl.use('TkAgg')
-from matplotlib import pyplot as plt
+import numpy as np
+import cv2
 
-# Math
+# Calculation help
+
+
 def euclid(requested_color, key, name, store):
     """Calculates the Euclidean distance between a requested color and a key color. Records the results in a given list store."""
     r_c, g_c, b_c = key
@@ -14,7 +15,50 @@ def euclid(requested_color, key, name, store):
     bd = (b_c - requested_color[2]) ** 2
     store[(rd + gd + bd), (key, rgb2hex(key))] = name
 
+
+def contrast(rgb):
+    luma = 0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2]
+    if luma < 40:
+        fontcolor = 'white'
+    else:
+        fontcolor = 'black'
+    return fontcolor
+
+
+def centroid_histogram(clt):
+    # grab the number of different clusters and create a histogram
+    # based on the number of pixels assigned to each cluster
+    numLabels = np.arange(0, len(np.unique(clt.labels_)) + 1)
+    (hist, _) = np.histogram(clt.labels_, bins=numLabels)
+
+    # normalize the histogram, such that it sums to one
+    hist = hist.astype("float")
+    hist /= hist.sum()
+    # return the histogram
+    return hist
+
+
+def plot_colors(hist, centroids):
+    # initialize the bar chart representing the relative frequency
+    # of each of the colors
+    bar = np.zeros((500, 1000, 3), dtype="uint8")
+    startX = 0
+    # loop over the percentage of each cluster and the color of
+    # each cluster
+    # print sorted(zip(hist, centroids))[::-1]
+    # for (percent, color) in sorted(zip(hist, centroids))[::-1]:
+    for percent, color in zip(hist, centroids):
+        # plot the relative percentage of each cluster
+        endX = startX + (percent * 1000)
+        col = color.astype("uint8").tolist()
+        cv2.rectangle(bar, (int(startX), 0), (int(endX), 500),col, -1)
+        startX = endX
+    # return the bar chart
+    return bar
+
 # TODO
+
+
 def hsvSort(colors):
     """Sort by HSV values."""
     data = []
@@ -43,6 +87,8 @@ def lumSort():
 # TODO
 
 # Conversion functions
+
+
 def hex2rgb(hexVal):
     """Converts a hex value to an RGB value."""
     try:
@@ -61,7 +107,10 @@ def rgb2hex(rgbVal):
         print "RGB conversion to hex has failed."
 
 # Validity checkers
+
+
 def validColor(val):
+    """Checks if the given value is a valid RGB or hexadecimal color. Returns an RGB value."""
     if validHex(val):
         val = hex2rgb(val)
     try:
@@ -99,4 +148,8 @@ def weight(graph, node0, node1):
         graph[node0][node1]["weight"] += 1
 
 
-
+def getEdgeWeights(graph):
+    ew = {}
+    for edge in graph.edges():
+        ew[edge] = graph[edge[0]][edge[1]]
+    return ew

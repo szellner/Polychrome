@@ -1,0 +1,5 @@
+graph {
+	A [fillcolor=red style=filled]
+	B
+		A -- B
+}

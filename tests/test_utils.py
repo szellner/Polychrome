@@ -1,5 +1,6 @@
 import utils
 import colour
+import networkx as nx
 
 
 class TestPolychromeUtils:
@@ -37,3 +38,29 @@ class TestPolychromeUtils:
     def test_invalidRGB_hex(self):
         """Tests that valid hex values are not valid RGB values."""
         assert utils.validHex("#444ABC") and not utils.validRGB("#444ABC")
+
+    def test_weighted_graph(self):
+        """Tests that the weighting function is adding edges and their weights properly."""
+        G = nx.Graph()
+        utils.weight(G, 0, 1)
+        assert G[0][1]["weight"] == 1
+        utils.weight(G, 4, 5)
+        assert G[0][1]["weight"] == 1 and G[4][5]["weight"] == 1
+        utils.weight(G, 0, 1)
+        assert G[0][1]["weight"] == 2 and G[4][5]["weight"] == 1
+
+    def test_get_edgeweights(self):
+        """Tests that the retrieval function for edge weights is returning the correct dictionary."""
+        G = nx.Graph()
+        utils.weight(G, 0, 1)
+        test = utils.getEdgeWeights(G)
+        check = {(0, 1): {"weight": 1}}
+        assert test == check
+        utils.weight(G, 10, 34)
+        test = utils.getEdgeWeights(G)
+        check = {(0, 1): {"weight": 1}, (10, 34): {"weight": 1}}
+        assert test == check
+        utils.weight(G, 0, 1)
+        test = utils.getEdgeWeights(G)
+        check = {(0, 1): {"weight": 2}, (10, 34): {"weight": 1}}
+        assert test == check

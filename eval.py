@@ -4,9 +4,14 @@ import struct
 import utils
 import networkx as nx
 import matplotlib.pyplot as plt
+from matplotlib import gridspec
 from multiprocessing import Pool
 import itertools
 import webcolors
+import pygraphviz as pgv
+from sklearn.cluster import KMeans
+import argparse
+import cv2
 
 
 class PolychromeEval():
@@ -19,22 +24,90 @@ class PolychromeEval():
         self.nbs_count = 0
         self.nbs_correlate = []
         self.total = 0
+        self.nodecolors = {}
+
+# how closely are two color names related? 
+
+#look at named colors & relate
+
+
+#look at rgb spectrum and use closestcolor 
+    
+
+    def intraMap(self, mapType, graph):
+        test_map = poly.getMap(mapType)
+        for rgb,name in test_map.colors.iteritems():
+            name = ', '.join(name)
+            graph.add_node(name, style='filled',fillcolor=utils.rgb2hex(rgb),fontcolor=utils.contrast(rgb),shape='rectangle')
+            cc = poly.closestColor(rgb, test_map, intra=True)
+            ccname = ', '.join(cc[2])
+            # graph.add_node(ccname, style='filled',fillcolor=cc[1][1],fontcolor=utils.contrast(cc[1][0]),shape='rectangle')
+            graph.add_edge(name,ccname)
+        graph.layout()
+        graph.draw('file.png')
+
+    # def scatter(self, mapType):
+    #     scatterMap = poly.getMap(mapType)
+
+    #     colors = np.random.rand(N)
+    #     area = np.pi * (15 * np.random.rand(N))**2  # 0 to 15 point radiuses
+
+    #     plt.scatter(x, y, s=area, c=colors, alpha=0.5)
+    #     plt.show()
+
+    def kmeans(self):
+        poly = polychrome.Polychrome()
+        colormaps =  poly.getMaps()
+        l = len(colormaps)
+        gs = gridspec.GridSpec(l*2, 1)
+        for n in range(0,l*2,2):
+            ax = plt.subplot(gs[n, :])
+            plt.axis('off')
+            clt = KMeans(n_clusters=10)
+            clt.fit(colormaps[n/2].colors.keys())
+            hist = utils.centroid_histogram(clt)
+            bar = utils.plot_colors(hist, clt.cluster_centers_)
+            ax.set_title(colormaps[n/2].mapType,fontsize="small",)
+            ax.imshow(bar)
+            # plt.tight_layout()
+        plt.show()      
+
 
     def specWebAndMagickEquivalence(self, test_color, graph):
-        magick = poly.closestColor(test_color, "magick")
-        print "MAGICK: ", magick
-        # m = ''.join([x.lower() for x in magick[0].split()])
-        specweb = poly.closestColor(test_color, "specweb")
-        print "SPECWEB: ", specweb
-        mColor = utils.hex2rgb(magick[1])
-        sColor = utils.hex2rgb(specweb[1])
+        magick = poly.closestColor(test_color, poly.getMap("magick"))
+        specweb = poly.closestColor(test_color, poly.getMap("specweb"))
+        resene = poly.closestColor(test_color, poly.getMap("resene"))
 
-        # Add the nodes with their respective rgb triplets as the node color
-        graph.add_node(magick, {"node_color": mColor})
-        graph.add_node(specweb, {"node_color": sColor})
 
-        # Weight the edges appropriately
-        utils.weight(graph, magick, specweb)
+        # mColor = magick[1][0]
+        # sColor = specweb[1][0]
+
+        # # Add the nodes with their respective rgb triplets as the node color
+        # graph.add_node(mColor, {"node_color": mColor})
+        # graph.add_node(sColor, {"node_color": sColor})
+        # self.nodecolors[mColor] = mColor
+        # self.nodecolors[sColor] = sColor
+        # # # Weight the edges appropriately
+        # utils.weight(graph, mColor, sColor)
+        # for m in magick[2]:
+
+
+        # if not graph.has_edge(node0, node1):
+        # graph.add_edge(node0, node1, {"weight": 1})
+        # else:
+        # graph[node0][node1]["weight"] += 1
+        mName = ', '.join(magick[2])
+        sName = ', '.join(specweb[2])
+        rName = ', '.join(resene[2])
+
+        graph.add_node(mName, style='filled',fillcolor=magick[1][1],fontcolor=utils.contrast(magick[1][0]),shape='rectangle')
+        graph.add_node(sName, style='filled',fillcolor=specweb[1][1],fontcolor=utils.contrast(specweb[1][0]),shape='circle')
+        # graph.add_node(rName, style='filled',fillcolor=resene[1][1], fontcolor=utils.contrast(resene[1][0]),shape='rectangle')
+        # graph.add_edge(sName,rName)
+        # graph.add_edge(mName,rName)
+        graph.layout()
+        # graph.draw('file.png',prog='circo')
+        graph.draw('file.png',prog="neato")
 
         # print graph.number_of_nodes()
         # if s == m:
@@ -50,7 +123,7 @@ class PolychromeEval():
         #     # self.swm_correlate.append(((s,specweb[1]),(m,magick[1])))
         # self.total += 1
         # weighthisshit()
-        return ((specweb, sColor), (magick, mColor))
+        return magick, specweb
 
     # def nbsAndImprovedEquivalence(self, test_color):
     #   nbs = self.poly.getNbsIsccName(test_color)
@@ -63,6 +136,22 @@ class PolychromeEval():
     #       if (nbs[0],nbs_improved[0]) not in self.nbs_correlate and (nbs[0], nbs_improved[0]) not in self.nbs_correlate:
     #           self.nbs_correlate.append(((nbs[0],nbs[1]), (nbs_improved[0],nbs_improved[1])))
     #   self.total += 1
+
+    def graphviz(self):
+        H=pgv.AGraph()
+        H.add_node('a', style='filled',fillcolor='#120235')
+        H.layout()
+        H.draw('file.png')
+
+        # g1 = gv.Graph(format='svg')
+
+        # g1.node('A')
+
+        # g1.node('B')
+        # g1.edge('A', 'B')
+        # print(g1.source)
+        # filename = g1.render(filename='img/g1', view=True)
+        # print filename
 
     def sameNameDiffHex(self, test_color_0, test_color_1):
         return test_color_0 != test_color_1
@@ -119,40 +208,26 @@ class PolychromeEval():
 
 if __name__ == "__main__":
     pEval = PolychromeEval()
-    nodeList = []
+    # nodeList = []
     G = nx.Graph()
-    for r in range(1, 15, 10):
-        for g in range(1, 15, 10):
-            for b in range(1, 15, 10):
-                # for r in range(1,256,10):
-                #   for g in range(1,256,10):
-                #       for b in range(1,256,10):
-                rgb = (r, g, b)
-                print rgb
-                nodeList.append(pEval.specWebAndMagickEquivalence(rgb, G))
-        # pEval.nbsAndImprovedEquivalence(rgb)
-    # for nodes in nodeList:
-    #     n0 = nodes[0]
-    #     n1 = nodes[1]
-    #     print n0, n1
-    #     if G.has_edge(n0, n1):
-    #         # print "has edge"
-    #         # print G[n0]
-    #         # print G[n0][n1]
-    #         print G[n0][n1]['weight']
-    #         G[n0][n1]['weight'] += 1
-    #         print G[n0][n1]['weight']
-    #     else:
-    #         G.add_edge(n0, n1, {"weight": 1})
-
-    for n in G.nodes():
-        print n
-    # for edge in G.edges():
-    #   print edge
-        # print edge["weight"]
-    nx.draw(G)
-    plt.show()
-
+    H=pgv.AGraph()
+    # print G.edges
+    # for r in range(240, 256, 5):
+    #     for g in range(240, 256, 5):
+    #         for b in range(240, 256, 5):
+    # #             # for r in range(1,256,10):
+    # #             #   for g in range(1,256,10):
+    # #             #       for b in range(1,256,10):
+    #             rgb = (r, g, b)
+    #             print pEval.specWebAndMagickEquivalence(rgb, H)
+                # nodeList.append(pEval.specWebAndMagickEquivalence(rgb, G))
+    #     # pEval.nbsAndImprovedEquivalence(rgb)
+    # print utils.getEdgeWeights(G)
+    # # print plt.cm.Blues
+    # nx.draw(G, node_color=(0.4, 0.2, 0.7))
+    pEval.kmeans()
+    # plt.show()
+    # pEval.intraMap("resene",H)
     # for item in pEval.nbs_correlate:
     #   print item
     # pEval.weight(pEval.swm_correlate)
